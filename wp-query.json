@@ -1,0 +1,630 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": {
+        "rendered": "Vice-presidente da AMMA Senador Canedo é finalista do Prêmio Espírito Público 2025"
+      },
+      "content": {
+        "rendered": "O vice-presidente da Associação dos Municípios da Microrregião do Alto Rio (AMMA) de Senador Canedo foi selecionado como finalista do Prêmio Espírito Público 2025. Esta é uma conquista significativa para a cidade e demonstra o reconhecimento do trabalho realizado pela administração municipal. O Prêmio Espírito Público é uma das mais importantes premiações do setor público brasileiro, reconhecendo servidores e gestores que se destacam pela excelência, inovação e compromisso com o interesse público."
+      },
+      "date": "2025-09-08",
+      "featured_media": 3,
+      "categories": [
+        1,
+        6,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 2,
+      "title": {
+        "rendered": "Grande final dos Jogos dos Servidores reúne mais de 2 mil pessoas em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A grande final dos Jogos dos Servidores de Senador Canedo reuniu mais de 2 mil pessoas em evento que movimentou a cidade. A competição envolveu diversas modalidades esportivas e contou com a participação de servidores de diferentes secretarias e órgãos municipais. O evento foi marcado pela integração, espírito esportivo e valorização do servidor público."
+      },
+      "date": "2025-08-27",
+      "featured_media": 4,
+      "categories": [
+        7,
+        6,
+        12
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 3,
+      "title": {
+        "rendered": "“Marcas do Tempo”: curta documental revive a história de Senador Canedo. Estreia em 22 de Agosto. Não percam!"
+      },
+      "content": {
+        "rendered": "O curta documental \"Marcas do Tempo\" revive a história de Senador Canedo e estreia no dia 22 de agosto. A produção resgata a memória da cidade através de depoimentos, imagens de arquivo e relatos de moradores antigos. Um projeto cultural importante que valoriza a identidade local e a história do município."
+      },
+      "date": "2025-07-18",
+      "featured_media": 5,
+      "categories": [
+        3,
+        6,
+        20
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 3
+    },
+    {
+      "id": 4,
+      "title": {
+        "rendered": "Instituto Cerrado Pesquisas constata: Prefeito Fernando Pellozo tem mais de 75% de aprovação em Senador Canedo"
+      },
+      "content": {
+        "rendered": "Pesquisa realizada pelo Instituto Cerrado Pesquisas aponta que o prefeito Fernando Pellozo tem mais de 75% de aprovação da população de Senador Canedo. O levantamento avaliou a gestão municipal em diversas áreas como saúde, educação, infraestrutura e serviços públicos. O resultado demonstra a confiança da população no trabalho realizado pela administração atual."
+      },
+      "date": "2025-07-18",
+      "featured_media": 6,
+      "categories": [
+        1,
+        6,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 5,
+      "title": {
+        "rendered": "Homenagem outorgada por Carmelita Gomes do Jornal Imprensa Criativa ao Príncipe André Luís no próximo sábado, dia 12. Confira os detalhes!"
+      },
+      "content": {
+        "rendered": "Carmelita Gomes do Jornal Imprensa Criativa fará uma homenagem ao Príncipe André Luís no próximo sábado, dia 12. O evento promete reunir personalidades da região e será um momento de reconhecimento pelo trabalho desenvolvido. Confira os detalhes da programação e como participar desta homenagem especial."
+      },
+      "date": "2025-07-05",
+      "featured_media": 7,
+      "categories": [
+        3,
+        12,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 3
+    },
+    {
+      "id": 6,
+      "title": {
+        "rendered": "Os moradores menos favorecidos de Senador Canedo são contemplados com 1.500 cobertores da campanha “Aquecendo Vidas”"
+      },
+      "content": {
+        "rendered": "A campanha \"Aquecendo Vidas\" contemplou moradores menos favorecidos de Senador Canedo com a distribuição de 1.500 cobertores. A ação social visa amenizar o sofrimento das famílias em situação de vulnerabilidade durante o período de frio. A campanha contou com o apoio de empresas locais e voluntários que se mobilizaram para arrecadar e distribuir os agasalhos."
+      },
+      "date": "2025-07-05",
+      "featured_media": 8,
+      "categories": [
+        12,
+        5,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 7,
+      "title": {
+        "rendered": "VÍDEO: Vereador Arestides Sales apresenta aos canedenses Lei que vai organizar o sistema de saúde municipal"
+      },
+      "content": {
+        "rendered": "O vereador Arestides Sales apresentou em vídeo aos moradores de Senador Canedo o projeto de lei que visa organizar o sistema de saúde municipal. A proposta inclui melhorias no atendimento, ampliação de serviços e maior transparência na gestão dos recursos da saúde. Assista ao vídeo completo para entender todos os detalhes da proposta."
+      },
+      "date": "2025-05-14",
+      "featured_media": 9,
+      "categories": [
+        4,
+        1,
+        6
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 8,
+      "title": {
+        "rendered": "VÍDEO: Vereador Marcos Lopes fala sobre empreendedorismo"
+      },
+      "content": {
+        "rendered": "O vereador Marcos Lopes concedeu entrevista falando sobre empreendedorismo e as oportunidades para os empreendedores de Senador Canedo. Ele abordou temas como incentivos fiscais, capacitação, acesso a crédito e as políticas públicas de apoio ao pequeno e médio empresário. Um conteúdo valioso para quem quer empreender na cidade."
+      },
+      "date": "2025-05-14",
+      "featured_media": 10,
+      "categories": [
+        14,
+        1,
+        18
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 9,
+      "title": {
+        "rendered": "1º Festival Canedo de Artes Marciais reúne mais de 300 atletas neste sábado. Evento movimentou a cidade com várias modalidades de artes marciais e muito talento"
+      },
+      "content": {
+        "rendered": "O 1º Festival Canedo de Artes Marciais reuniu mais de 300 atletas em evento que movimentou a cidade. A competição contou com várias modalidades de artes marciais, demonstrando o talento e a dedicação dos atletas locais. O festival foi um marco para o esporte na região e promete se tornar um evento anual no calendário da cidade."
+      },
+      "date": "2025-05-14",
+      "featured_media": 11,
+      "categories": [
+        7,
+        6,
+        12
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 10,
+      "title": {
+        "rendered": "Prefeitura de Senador Canedo prepara uma festa de aniversário da cidade celebrada com tradição sertaneja. Não perca!"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo está preparando uma grande festa de aniversário da cidade, celebrada com a tradição sertaneja. O evento promete shows, apresentações culturais, barracas de comida típica e muita animação para toda a família. A programação completa será divulgada em breve. Não perca esta grande celebração!"
+      },
+      "date": "2025-05-13",
+      "featured_media": 12,
+      "categories": [
+        6,
+        3,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 11,
+      "title": {
+        "rendered": "Príncipe André Luís concede entrevista na Podvim TV falando a respeito da morte do Papa Francisco e dos bastidores ocultos da Igreja Católica que você precisa saber: ASSISTA!"
+      },
+      "content": {
+        "rendered": "O Príncipe André Luís concedeu entrevista exclusiva na Podvim TV falando sobre a morte do Papa Francisco e revelando bastidores ocultos da Igreja Católica. A entrevista aborda temas polêmicos e pouco conhecidos do público em geral. Assista ao vídeo completo para conhecer todos os detalhes desta conversa reveladora."
+      },
+      "date": "2025-05-09",
+      "featured_media": 13,
+      "categories": [
+        19,
+        24,
+        3
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 12,
+      "title": {
+        "rendered": "A prefeitura de Senador Canedo informa: O evento \"Mães Atípicas\" foi adiado"
+      },
+      "content": {
+        "rendered": "A prefeitura de Senador Canedo informa que o evento \"Mães Atípicas\" foi adiado. A nova data será divulgada em breve através dos canais oficiais da prefeitura. O evento visa dar visibilidade e apoio às mães de crianças atípicas, promovendo acolhimento, informação e integração."
+      },
+      "date": "2025-05-08",
+      "featured_media": 14,
+      "categories": [
+        5,
+        6,
+        12
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 13,
+      "title": {
+        "rendered": "Senador Canedo recebe novos investimentos em infraestrutura urbana"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo anunciou novos investimentos em infraestrutura urbana que irao beneficiar diversos bairros da cidade. As obras incluem pavimentacao asfaltica, construcao de galerias pluviais, ampliacao da rede de iluminacao publica e revitalizacao de pracas e espacos de lazer. Os recursos sao provenientes de parcerias com o governo federal e estadual, alem de contrapartida do municipio. As obras devem comecar nos proximos meses e gerar centenas de empregos diretos e indiretos."
+      },
+      "date": "2025-06-28",
+      "featured_media": 4,
+      "categories": [
+        13,
+        6
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 14,
+      "title": {
+        "rendered": "Campanha de vacinacao contra a gripe e prorrogada em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Secretaria Municipal de Saude de Senador Canedo prorrogou a campanha de vacinacao contra a gripe ate o final do mes. A medida visa ampliar a cobertura vacinal e proteger a populacao contra os virus influenza mais comuns. As vacinas estao disponiveis em todas as unidades basicas de saude do municipio. Podem se vacinar criancas de 6 meses a 5 anos, idosos acima de 60 anos, gestantes, puerperas, trabalhadores da saude e professores. E necessario apresentar documento de identidade e carteira de vacinacao."
+      },
+      "date": "2025-06-25",
+      "featured_media": 9,
+      "categories": [
+        4,
+        5
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 15,
+      "title": {
+        "rendered": "Alunos da rede municipal de Senador Canedo se destacam em Olimpiada de Matematica"
+      },
+      "content": {
+        "rendered": "Alunos da rede municipal de ensino de Senador Canedo conquistaram medalhas na Olimpiada Brasileira de Matematica das Escolas Publicas (OBMEP). O resultado reflete o trabalho dos professores e o investimento da prefeitura na educacao municipal. Os estudantes premiados foram homenageados em cerimonia realizada no auditorio da Secretaria Municipal de Educacao. A OBMEP e uma realizacao do Instituto de Matematica Pura e Aplicada (IMPA) com apoio da Sociedade Brasileira de Matematica (SBM)."
+      },
+      "date": "2025-06-20",
+      "featured_media": 5,
+      "categories": [
+        21,
+        6
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 16,
+      "title": {
+        "rendered": "Operacao policial prende suspeitos de trafico de drogas em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Policia Civil de Goias, em acao conjunta com a Policia Militar, deflagrou operacao que resultou na prisao de suspeitos de envolvimento com o trafico de drogas em Senador Canedo. Foram cumpridos mandados de busca e apreensao em diversos bairros da cidade. Os suspeitos foram encaminhados a delegacia e estao a disposicao da Justica. A operacao faz parte das acoes de combate ao crime organizado na regiao metropolitana de Goiania."
+      },
+      "date": "2025-06-18",
+      "featured_media": 12,
+      "categories": [
+        11,
+        22
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 17,
+      "title": {
+        "rendered": "Feira de Empreendedorismo reune pequenos negocios em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Feira de Empreendedorismo de Senador Canedo reuniu dezenas de pequenos negocios locais em evento realizado no centro da cidade. O evento contou com exposicao de produtos artesanais, alimentos, servicos e muito mais. A iniciativa faz parte do programa de incentivo ao empreendedorismo local, que oferece capacitacao, consultoria e linhas de credito especiais para pequenos empresarios e microempreendedores individuais (MEIs)."
+      },
+      "date": "2025-06-15",
+      "featured_media": 10,
+      "categories": [
+        14,
+        18
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 18,
+      "title": {
+        "rendered": "Prefeitura realiza mutirao de limpeza e combate a dengue em diversos bairros"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo, por meio da Secretaria Municipal de Saude, realizou um mutirao de limpeza e combate a dengue em diversos bairros da cidade. A acao incluiu visitas domiciliares, eliminacao de criadouros do mosquito Aedes aegypti, aplicacao de inseticida e orientacao a populacao sobre medidas preventivas. A iniciativa visa reduzir os indices de infestacao e prevenir surtos da doenca no municipio."
+      },
+      "date": "2025-06-12",
+      "featured_media": 8,
+      "categories": [
+        4,
+        5,
+        8
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 19,
+      "title": {
+        "rendered": "Camara Municipal aprova projeto de lei de protecao aos animais"
+      },
+      "content": {
+        "rendered": "A Camara Municipal de Senador Canedo aprovou por unanimidade o projeto de lei que institui a Politica Municipal de Protecao aos Animais. A nova lei estabelece diretrizes para o controle populacional de caes e gatos, combate aos maus-tratos, promocao da adocao responsavel e campanhas educativas. O projeto teve origem em iniciativa popular com apoio de organizacoes nao-governamentais de protecao animal."
+      },
+      "date": "2025-06-10",
+      "featured_media": 6,
+      "categories": [
+        1,
+        8
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 20,
+      "title": {
+        "rendered": "Senador Canedo registra aumento no turismo rural"
+      },
+      "content": {
+        "rendered": "Senador Canedo tem registrado um aumento significativo no turismo rural nos ultimos meses. Propriedades rurais da regiao abriram as portas para visitantes oferecendo experiencias como colheita de frutas, ordenha de vacas, passeios a cavalo, trilhas ecologicas e gastronomia tipica. O crescimento do setor tem gerado renda complementar para os produtores rurais e aquecido a economia local."
+      },
+      "date": "2025-06-08",
+      "featured_media": 11,
+      "categories": [
+        15,
+        18
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 21,
+      "title": {
+        "rendered": "Atletas de Senador Canedo conquistam medalhas em competicao estadual"
+      },
+      "content": {
+        "rendered": "Atletas de Senador Canedo conquistaram medalhas em importante competicao estadual realizada em Goiania. Os atletas representaram a cidade em modalidades como atletismo, natacao, judo e futebol. O desempenho dos atletas canedenses reflete os investimentos da prefeitura no esporte e o trabalho dos professores e treinadores locais."
+      },
+      "date": "2025-06-05",
+      "featured_media": 4,
+      "categories": [
+        7
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 22,
+      "title": {
+        "rendered": "Oficina de capacitacao profissional oferece cursos gratuitos em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo, em parceria com o SENAI e SENAC, esta oferecendo cursos gratuitos de capacitacao profissional para a populacao. As vagas sao para cursos nas areas de construcao civil, informatica, gastronomia, administracao e beleza. Os cursos tem carga horaria variada e os participantes recebem certificado ao final. As inscricoes podem ser feitas na Secretaria Municipal de Desenvolvimento Economico."
+      },
+      "date": "2025-06-03",
+      "featured_media": 10,
+      "categories": [
+        14,
+        21
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 23,
+      "title": {
+        "rendered": "Programa de coleta seletiva e ampliado em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo ampliou o programa de coleta seletiva para mais bairros da cidade. O programa visa reduzir a quantidade de residuos enviados ao aterro sanitario, promover a reciclagem e gerar renda para catadores de materiais reciclaveis. A populacao deve separar os residuos secos (papel, plastico, vidro e metal) dos organicos e seguir o calendario de coleta divulgado pela prefeitura."
+      },
+      "date": "2025-06-01",
+      "featured_media": 3,
+      "categories": [
+        8,
+        5
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 24,
+      "title": {
+        "rendered": "Hospital Municipal de Senador Canedo recebe novos equipamentos"
+      },
+      "content": {
+        "rendered": "O Hospital Municipal de Senador Canedo recebeu novos equipamentos de ultima geracao para ampliar a capacidade de atendimento a populacao. Foram adquiridos novos leitos de UTI, aparelhos de raio-x digital, ultrassom, ventiladores pulmonares e monitores cardiacos. Os investimentos fazem parte do plano de modernizacao da saude publica municipal."
+      },
+      "date": "2025-05-28",
+      "featured_media": 9,
+      "categories": [
+        4,
+        6
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 25,
+      "title": {
+        "rendered": "Prefeitura de Senador Canedo entrega novas moradias populares"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo, em parceria com o programa Minha Casa Minha Vida, entregou novas unidades habitacionais para familias de baixa renda. O empreendimento conta com infraestrutura completa, incluindo rede de agua, esgoto, energia eletrica, pavimentacao e areas de lazer. As familias foram selecionadas atraves de cadastro realizado pela Secretaria Municipal de Assistencia Social."
+      },
+      "date": "2025-05-25",
+      "featured_media": 8,
+      "categories": [
+        12,
+        13
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 26,
+      "title": {
+        "rendered": "Artistas locais expoem obras em galeria cultural de Senador Canedo"
+      },
+      "content": {
+        "rendered": "Artistas locais de Senador Canedo estao expondo suas obras na galeria cultural do municipio. A exposicao reune pinturas, esculturas, fotografias e artesanato que retratam a cultura, a historia e o cotidiano da cidade. A visitacao e gratuita e aberta ao publico de segunda a sexta-feira. A iniciativa da Secretaria Municipal de Cultura visa valorizar os talentos locais e democratizar o acesso a arte."
+      },
+      "date": "2025-05-22",
+      "featured_media": 5,
+      "categories": [
+        3
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 27,
+      "title": {
+        "rendered": "Meio Ambiente: projeto de reflorestamento e iniciado em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Secretaria Municipal de Meio Ambiente de Senador Canedo iniciou um projeto de reflorestamento de areas degradadas no municipio. O projeto preve o plantio de mudas nativas do Cerrado em areas de preservacao permanente e reservas legais. A acao conta com a participacao de voluntarios, escolas e organizacoes nao-governamentais. O objetivo e recuperar a vegetacao nativa, proteger nascentes e promover a educacao ambiental."
+      },
+      "date": "2025-05-20",
+      "featured_media": 6,
+      "categories": [
+        8,
+        21
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 28,
+      "title": {
+        "rendered": "Confira o resultado da enquete: Qual a melhor praca de Senador Canedo?"
+      },
+      "content": {
+        "rendered": "A enquete realizada pelo Blog Tiranossaurus Rex perguntou aos leitores: qual a melhor praca de Senador Canedo? Apos uma semana de votacao, o resultado ja esta disponivel. A praca mais votada recebera uma materia especial contando sua historia e importancia para a cidade. Agradecemos a participacao de todos os leitores e seguidores. Fiquem ligados para as proximas enquetes."
+      },
+      "date": "2025-05-18",
+      "featured_media": 11,
+      "categories": [
+        16,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 29,
+      "title": {
+        "rendered": "Guia de servicos: Onde encontrar atendimento medico em Senador Canedo"
+      },
+      "content": {
+        "rendered": "O Blog Tiranossaurus Rex preparou um guia completo com os enderecos e contatos das unidades de saude de Senador Canedo. O guia inclui informacoes sobre hospitais, postos de saude, UPAs, clinicas especializadas e farmacias populares. O objetivo e facilitar o acesso da populacao aos servicos de saude disponiveis no municipio. Salve este guia e compartilhe com quem precisa."
+      },
+      "date": "2025-05-16",
+      "featured_media": 9,
+      "categories": [
+        4,
+        5
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 30,
+      "title": {
+        "rendered": "Economia local: Feira do Produtor Rural acontece todo sabado em Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Feira do Produtor Rural de Senador Canedo acontece todo sabado na praca central da cidade. Os produtores rurais oferecem frutas, verduras, legumes, queijos, doces caseiros, artesanato e muito mais. A feira e uma otima opcao para quem busca alimentos frescos e de qualidade, alem de valorizar o trabalho dos pequenos produtores rurais da regiao."
+      },
+      "date": "2025-05-12",
+      "featured_media": 12,
+      "categories": [
+        14,
+        18,
+        15
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 31,
+      "title": {
+        "rendered": "Dia do Desafio: Senador Canedo promove atividades fisicas para a populacao"
+      },
+      "content": {
+        "rendered": "Senador Canedo participou do Dia do Desafio, evento mundial que incentiva a pratica de atividades fisicas e esportes. A Prefeitura promoveu diversas atividades ao longo do dia, incluindo caminhada, corrida, alongamento, danca, futebol e volei. O evento contou com a participacao de centenas de pessoas e foi realizado em parceria com academias e profissionais de educacao fisica locais."
+      },
+      "date": "2025-05-10",
+      "featured_media": 7,
+      "categories": [
+        7,
+        4
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 32,
+      "title": {
+        "rendered": "Novo semaforo e instalado em cruzamento movimentado de Senador Canedo"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo instalou novo semaforo em um dos cruzamentos mais movimentados da cidade. A medida visa melhorar a seguranca no transito e reduzir o risco de acidentes. O equipamento conta com temporizacao inteligente que se adapta ao fluxo de veiculos em cada horario. Moradores aprovaram a iniciativa e pedem mais melhorias na sinalizacao de transito da cidade."
+      },
+      "date": "2025-05-07",
+      "featured_media": 3,
+      "categories": [
+        13,
+        22
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 33,
+      "title": {
+        "rendered": "Coral Municipal de Senador Canedo se apresenta em festival regional"
+      },
+      "content": {
+        "rendered": "O Coral Municipal de Senador Canedo participou de festival regional de corais realizado na cidade vizinha. O grupo, formado por moradores da cidade, apresentou um repertorio variado que incluiu musicas populares, eruditas e religiosas. O coral e mantido pela Secretaria Municipal de Cultura e oferece aulas gratuitas de canto para a comunidade."
+      },
+      "date": "2025-05-05",
+      "featured_media": 5,
+      "categories": [
+        3
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    },
+    {
+      "id": 34,
+      "title": {
+        "rendered": "Guia explica como emitir a nova Carteira de Identidade Nacional em Senador Canedo"
+      },
+      "content": {
+        "rendered": "O Blog Tiranossaurus Rex preparou um guia explicando como emitir a nova Carteira de Identidade Nacional (CIN) em Senador Canedo. O novo documento unifica o numero do RG com o CPF e oferece maior seguranca contra fraudes. O guia traz informacoes sobre os documentos necessarios, locais de atendimento, prazos e valores. A emissao da primeira via e gratuita."
+      },
+      "date": "2025-05-03",
+      "featured_media": 7,
+      "categories": [
+        5,
+        24
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 35,
+      "title": {
+        "rendered": "Programa de regularizacao fundiaria beneficia familias em Senador Canedo"
+      },
+      "content": {
+        "rendered": "O programa de regularizacao fundiaria da Prefeitura de Senador Canedo tem beneficiado centenas de familias que aguardavam ha anos pela escritura de seus imoveis. O programa, realizado em parceria com o governo do estado, oferece assistencia juridica e social gratuita as familias de baixa renda. A regularizacao fundiaria garante seguranca juridica e acesso a melhorias nos imoveis."
+      },
+      "date": "2025-05-01",
+      "featured_media": 6,
+      "categories": [
+        12,
+        13,
+        6
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 2
+    },
+    {
+      "id": 36,
+      "title": {
+        "rendered": "Prefeitura abre inscricoes para curso de libras gratuito"
+      },
+      "content": {
+        "rendered": "A Prefeitura de Senador Canedo abriu inscricoes para curso gratuito de Libras (Lingua Brasileira de Sinais). O curso e voltado para servidores municipais, profissionais da educacao, saude e comunidade em geral. O objetivo e promover a inclusao social e melhorar o atendimento as pessoas surdas no municipio. As aulas serao ministradas por profissionais habilitados e com certificacao."
+      },
+      "date": "2025-04-28",
+      "featured_media": 10,
+      "categories": [
+        21,
+        12
+      ],
+      "author": "Tiranossaurus Rex",
+      "reading_time": 1
+    }
+  ],
+  "total_pages": 3,
+  "page": 1
+}

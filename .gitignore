@@ -1,0 +1,19 @@
+# OS files
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# PHP
+php_server.log
+start_server.ps1
+restart.bat
+
+# Helper scripts
+_expand_posts.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~

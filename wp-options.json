@@ -1,0 +1,15 @@
+{
+    "blogname": "Tiranossaurus Rex",
+    "blogdescription": "BLOG DE ATUALIDADES - Social media influencer",
+    "blog_url": "https://trexhacker.wixsite.com/tiranossaurusrex",
+    "home_url": "https://trexhacker.wixsite.com/tiranossaurusrex",
+    "email": "contato@tiranossaurusrex.com",
+    "posts_per_page": 10,
+    "show_on_front": "posts",
+    "page_for_privacy_policy": 0,
+    "default_post_format": "standard",
+    "default_category": 1,
+    "large_size_w": 1024,
+    "large_size_h": 1024,
+    "uploads_use_id_for_filename": false
+}
