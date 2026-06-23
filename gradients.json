@@ -1,0 +1,338 @@
+[
+  {
+    "name": "laranja-cheguei",
+    "start": "#FF4500",
+    "end": "#FFBF00",
+    "direction": "135deg"
+  },
+  {
+    "name": "verde-florescente",
+    "start": "#39FF14",
+    "end": "#32CD32",
+    "direction": "135deg"
+  },
+  {
+    "name": "rosa-shock",
+    "start": "#FC0FC0",
+    "end": "#FF00FF",
+    "direction": "135deg"
+  },
+  {
+    "name": "electric-cyan",
+    "start": "#00FFFF",
+    "end": "#0000CD",
+    "direction": "135deg"
+  },
+  {
+    "name": "solar-flare",
+    "start": "#FF6B35",
+    "end": "#F7931E",
+    "direction": "135deg"
+  },
+  {
+    "name": "ocean-depth",
+    "start": "#006994",
+    "end": "#009688",
+    "direction": "135deg"
+  },
+  {
+    "name": "royal-purple",
+    "start": "#6A11CB",
+    "end": "#2575FC",
+    "direction": "135deg"
+  },
+  {
+    "name": "sunset-blaze",
+    "start": "#FF0099",
+    "end": "#493240",
+    "direction": "135deg"
+  },
+  {
+    "name": "electric-violet",
+    "start": "#8E2DE2",
+    "end": "#4A00E0",
+    "direction": "135deg"
+  },
+  {
+    "name": "fire-ice",
+    "start": "#FF0080",
+    "end": "#FF8C00",
+    "direction": "135deg"
+  },
+  {
+    "name": "neptune",
+    "start": "#1E9600",
+    "end": "#FFF200",
+    "direction": "135deg"
+  },
+  {
+    "name": "venus",
+    "start": "#FF66B2",
+    "end": "#9B59B6",
+    "direction": "135deg"
+  },
+  {
+    "name": "mars",
+    "start": "#FF2400",
+    "end": "#E1B12C",
+    "direction": "135deg"
+  },
+  {
+    "name": "jupiter",
+    "start": "#F9D423",
+    "end": "#FF4E50",
+    "direction": "135deg"
+  },
+  {
+    "name": "saturn",
+    "start": "#2C3E50",
+    "end": "#FD746C",
+    "direction": "135deg"
+  },
+  {
+    "name": "aurora",
+    "start": "#A8E6CF",
+    "end": "#FF9B71",
+    "direction": "135deg"
+  },
+  {
+    "name": "tropical",
+    "start": "#00C9FF",
+    "end": "#92FE9D",
+    "direction": "135deg"
+  },
+  {
+    "name": "galaxy",
+    "start": "#0F0C29",
+    "end": "#302B63",
+    "direction": "135deg"
+  },
+  {
+    "name": "ocean",
+    "start": "#56CCF2",
+    "end": "#2F80ED",
+    "direction": "135deg"
+  },
+  {
+    "name": "forest",
+    "start": "#2AF598",
+    "end": "#009EFD",
+    "direction": "135deg"
+  },
+  {
+    "name": "lava",
+    "start": "#FF5F6D",
+    "end": "#FFC371",
+    "direction": "135deg"
+  },
+  {
+    "name": "ice",
+    "start": "#E0C3FC",
+    "end": "#8EC5FC",
+    "direction": "135deg"
+  },
+  {
+    "name": "desert",
+    "start": "#D65DB1",
+    "end": "#FF6F91",
+    "direction": "135deg"
+  },
+  {
+    "name": "candy",
+    "start": "#F7971E",
+    "end": "#FFD200",
+    "direction": "135deg"
+  },
+  {
+    "name": "monochrome",
+    "start": "#373B44",
+    "end": "#4286F4",
+    "direction": "135deg"
+  },
+  {
+    "name": "citrus",
+    "start": "#FAD961",
+    "end": "#F76B1C",
+    "direction": "135deg"
+  },
+  {
+    "name": "berry",
+    "start": "#FC5E4B",
+    "end": "#0B8793",
+    "direction": "135deg"
+  },
+  {
+    "name": "mint",
+    "start": "#A1C4FD",
+    "end": "#C2E9FB",
+    "direction": "135deg"
+  },
+  {
+    "name": "coral",
+    "start": "#FAD0C4",
+    "end": "#FF9A9E",
+    "direction": "135deg"
+  },
+  {
+    "name": "teal",
+    "start": "#11998e",
+    "end": "#38ef7d",
+    "direction": "135deg"
+  },
+  {
+    "name": "sunset",
+    "start": "#FF9A9E",
+    "end": "#FAD0C4",
+    "direction": "135deg"
+  },
+  {
+    "name": "midnight",
+    "start": "#23074d",
+    "end": "#cc5333",
+    "direction": "135deg"
+  },
+  {
+    "name": "spring",
+    "start": "#a8edea",
+    "end": "#fed6e3",
+    "direction": "135deg"
+  },
+  {
+    "name": "autumn",
+    "start": "#D4915A",
+    "end": "#8B3A3A",
+    "direction": "135deg"
+  },
+  {
+    "name": "winter",
+    "start": "#2c3e50",
+    "end": "#4ca1af",
+    "direction": "135deg"
+  },
+  {
+    "name": "summer",
+    "start": "#FDDB92",
+    "end": "#D1FDFF",
+    "direction": "135deg"
+  },
+  {
+    "name": "cherry",
+    "start": "#DC143C",
+    "end": "#FFB6C1",
+    "direction": "135deg"
+  },
+  {
+    "name": "lime",
+    "start": "#a8ff78",
+    "end": "#78ffd6",
+    "direction": "135deg"
+  },
+  {
+    "name": "violet",
+    "start": "#7B2FBE",
+    "end": "#9D4EDD",
+    "direction": "135deg"
+  },
+  {
+    "name": "peach",
+    "start": "#FFDAB9",
+    "end": "#FF7F7F",
+    "direction": "135deg"
+  },
+  {
+    "name": "blush",
+    "start": "#ffecd2",
+    "end": "#fcb69f",
+    "direction": "135deg"
+  },
+  {
+    "name": "mauve",
+    "start": "#7b4397",
+    "end": "#dc2430",
+    "direction": "135deg"
+  },
+  {
+    "name": "olive",
+    "start": "#8e9eab",
+    "end": "#eef2f3",
+    "direction": "135deg"
+  },
+  {
+    "name": "maroon",
+    "start": "#b92b27",
+    "end": "#1565c0",
+    "direction": "135deg"
+  },
+  {
+    "name": "navy",
+    "start": "#000428",
+    "end": "#004e92",
+    "direction": "135deg"
+  },
+  {
+    "name": "emerald",
+    "start": "#00b09b",
+    "end": "#96c93d",
+    "direction": "135deg"
+  },
+  {
+    "name": "sapphire",
+    "start": "#1e3c72",
+    "end": "#2a5298",
+    "direction": "135deg"
+  },
+  {
+    "name": "ruby",
+    "start": "#ff416c",
+    "end": "#ff4b2b",
+    "direction": "135deg"
+  },
+  {
+    "name": "amber",
+    "start": "#ff9966",
+    "end": "#ff5e62",
+    "direction": "135deg"
+  },
+  {
+    "name": "indigo",
+    "start": "#4b6cb7",
+    "end": "#182848",
+    "direction": "135deg"
+  },
+  {
+    "name": "scarlet",
+    "start": "#ff0844",
+    "end": "#ffb199",
+    "direction": "135deg"
+  },
+  {
+    "name": "bronze",
+    "start": "#CD7F32",
+    "end": "#8B4513",
+    "direction": "135deg"
+  },
+  {
+    "name": "copper",
+    "start": "#d64c33",
+    "end": "#ee8c07",
+    "direction": "135deg"
+  },
+  {
+    "name": "silver",
+    "start": "#606c88",
+    "end": "#3f4c6b",
+    "direction": "135deg"
+  },
+  {
+    "name": "gold",
+    "start": "#d4ac0d",
+    "end": "#d4ac0d",
+    "direction": "135deg"
+  },
+  {
+    "name": "platinum",
+    "start": "#e0e0e0",
+    "end": "#ffffff",
+    "direction": "135deg"
+  }
+]

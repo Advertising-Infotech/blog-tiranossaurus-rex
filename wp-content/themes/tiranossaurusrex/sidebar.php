@@ -15,7 +15,7 @@ $sidebar = json_decode(file_get_contents($sidebar_file), true);
 
     <div class="widget">
         <h3 class="widget-title">Redes Sociais</h3>
-        <div class="social-links">
+        <div class="footer-social" style="justify-content:flex-start;">
             <a href="<?php echo $sidebar['facebook_url']; ?>" target="_blank" rel="noopener" title="Facebook">
                 <img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png" alt="Facebook">
             </a>
@@ -29,7 +29,7 @@ $sidebar = json_decode(file_get_contents($sidebar_file), true);
     </div>
 
     <div class="widget">
-        <h3 class="widget-title">Buscar</h3>
+        <h3 class="widget-title">Busca</h3>
         <?php get_search_form(); ?>
     </div>
 </aside>

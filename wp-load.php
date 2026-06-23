@@ -132,12 +132,15 @@ function have_posts() {
     if (file_exists($query_file)) {
         $query = json_decode(file_get_contents($query_file), true);
         if (!empty($query['posts'])) {
-            global $wp_query_posts, $wp_current_post;
+            global $wp_query_posts, $wp_current_post, $wp_total_posts, $wp_total_pages, $wp_current_page;
             if (!isset($wp_query_posts)) {
                 $wp_query_posts = $query['posts'];
                 $wp_current_post = 0;
+                $wp_total_posts = count($wp_query_posts);
+                $wp_total_pages = $query['total_pages'] ?? 1;
+                $wp_current_page = $query['page'] ?? 1;
             }
-            return $wp_current_post < count($wp_query_posts);
+            return $wp_current_post < $wp_total_posts;
         }
     }
     return false;
