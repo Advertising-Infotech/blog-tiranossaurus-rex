@@ -4,6 +4,17 @@ if (!file_exists($sidebar_file)) return;
 $sidebar = json_decode(file_get_contents($sidebar_file), true);
 ?>
 <aside id="sidebar" class="widget-area">
+    <!-- Espaço publicitário quadrado -->
+    <div class="sidebar-ad-square">
+        <span class="ad-label">Publicidade</span>
+        <div class="ad-content">
+            <div class="ad-placeholder-text">
+                Anuncie Aqui<br>
+                <small style="font-size:0.55rem;opacity:0.5;">quadrado</small>
+            </div>
+        </div>
+    </div>
+
     <div class="widget">
         <h3 class="widget-title">Categorias</h3>
         <ul class="categories-list">

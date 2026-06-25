@@ -1,1 +1,2884 @@
-{"attachments": [{"id": 1, "source_url": "wp-content/themes/tiranossaurusrex/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg", "title": "Banner para o Blog Tiranossaurus Rex"}, {"id": 2, "source_url": "wp-content/themes/tiranossaurusrex/images/Publicidade_cabeçalho.gif", "title": "Publicidade_cabeçalho.gif"}, {"id": 3, "source_url": "wp-content/themes/tiranossaurusrex/images/vice-presidente-da-AMMA-Senador-Canedo-é-finalista-do-Prêmio-Espírito-Público-2025.jpg", "title": "Vice-presidente da AMMA Senador Canedo é finalista do Prêmio Espírito Público 2025"}, {"id": 4, "source_url": "wp-content/themes/tiranossaurusrex/images/Grande_final_dos_Jogos_dos_Servidores.jpg", "title": "Grande final dos Jogos dos Servidores"}, {"id": 5, "source_url": "wp-content/themes/tiranossaurusrex/images/Marcas_do_Tempo_curta_documental.jpg", "title": "Marcas do Tempo: curta documental"}, {"id": 6, "source_url": "wp-content/themes/tiranossaurusrex/images/Instituto_Cerrado_Pesquisas_Pellozo.jpg", "title": "Instituto Cerrado Pesquisas - Prefeito Pellozo"}, {"id": 7, "source_url": "wp-content/themes/tiranossaurusrex/images/Homenagem_Carmelita_Gomes_Principe_Andre_Luis.jpg", "title": "Homenagem Carmelita Gomes ao Príncipe André Luís"}, {"id": 8, "source_url": "wp-content/themes/tiranossaurusrex/images/Campanha_Aquecendo_Vidas_cobertores.jpg", "title": "Campanha Aquecendo Vidas - 1500 cobertores"}, {"id": 9, "source_url": "wp-content/themes/tiranossaurusrex/images/Vereador_Arestides_Sales_saude.jpg", "title": "Vereador Arestides Sales - Saúde"}, {"id": 10, "source_url": "wp-content/themes/tiranossaurusrex/images/Vereador_Marcos_Lopes_empreendedorismo.jpg", "title": "Vereador Marcos Lopes - Empreendedorismo"}, {"id": 11, "source_url": "wp-content/themes/tiranossaurusrex/images/Festival_Canedo_Artes_Marciais.jpg", "title": "1º Festival Canedo de Artes Marciais"}, {"id": 12, "source_url": "wp-content/themes/tiranossaurusrex/images/Aniversario_Senador_Canedo_sertaneja.jpg", "title": "Aniversário de Senador Canedo - Tradição Sertaneja"}, {"id": 13, "source_url": "wp-content/themes/tiranossaurusrex/images/Principe_Andre_Luis_Podvim_TV_Papa_Francisco.jpg", "title": "Príncipe André Luís na Podvim TV - Papa Francisco"}, {"id": 14, "source_url": "wp-content/themes/tiranossaurusrex/images/Evento_Maes_Atipicas_adiado.jpg", "title": "Evento Mães Atípicas Adiado"}, {"id": 15, "source_url": "wp-content/themes/tiranossaurusrex/images/Facebook_Capa_14_de_julho_de_2018.jpg", "title": "Facebook Capa 14 de julho de 2018"}, {"id": 16, "source_url": "wp-content/themes/tiranossaurusrex/images/facebook-icon.png", "title": "Facebook Icon"}, {"id": 17, "source_url": "wp-content/themes/tiranossaurusrex/images/instagram-icon.png", "title": "Instagram Icon"}, {"id": 18, "source_url": "wp-content/themes/tiranossaurusrex/images/twitter-icon.png", "title": "Twitter Icon"}, {"id": 19, "source_url": "wp-content/themes/tiranossaurusrex/images/googleplus-icon.png", "title": "Google+ Icon"}]}
+{
+  "attachments": [
+    {
+      "id": 1,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg",
+      "title": "Banner para o Blog Tiranossaurus Rex"
+    },
+    {
+      "id": 2,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Publicidade_cabeçalho.gif",
+      "title": "Publicidade_cabeçalho.gif"
+    },
+    {
+      "id": 3,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vice-presidente-da-AMMA-Senador-Canedo-é-finalista-do-Prêmio-Espírito-Público-2025.jpg",
+      "title": "Vice-presidente da AMMA Senador Canedo é finalista do Prêmio Espírito Público 2025"
+    },
+    {
+      "id": 4,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Grande_final_dos_Jogos_dos_Servidores.jpg",
+      "title": "Grande final dos Jogos dos Servidores"
+    },
+    {
+      "id": 5,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Marcas_do_Tempo_curta_documental.jpg",
+      "title": "Marcas do Tempo: curta documental"
+    },
+    {
+      "id": 6,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Instituto_Cerrado_Pesquisas_Pellozo.jpg",
+      "title": "Instituto Cerrado Pesquisas - Prefeito Pellozo"
+    },
+    {
+      "id": 7,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Homenagem_Carmelita_Gomes_Principe_Andre_Luis.jpg",
+      "title": "Homenagem Carmelita Gomes ao Príncipe André Luís"
+    },
+    {
+      "id": 8,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Campanha_Aquecendo_Vidas_cobertores.jpg",
+      "title": "Campanha Aquecendo Vidas - 1500 cobertores"
+    },
+    {
+      "id": 9,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Vereador_Arestides_Sales_saude.jpg",
+      "title": "Vereador Arestides Sales - Saúde"
+    },
+    {
+      "id": 10,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Vereador_Marcos_Lopes_empreendedorismo.jpg",
+      "title": "Vereador Marcos Lopes - Empreendedorismo"
+    },
+    {
+      "id": 11,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Festival_Canedo_Artes_Marciais.jpg",
+      "title": "1º Festival Canedo de Artes Marciais"
+    },
+    {
+      "id": 12,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Aniversario_Senador_Canedo_sertaneja.jpg",
+      "title": "Aniversário de Senador Canedo - Tradição Sertaneja"
+    },
+    {
+      "id": 13,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Principe_Andre_Luis_Podvim_TV_Papa_Francisco.jpg",
+      "title": "Príncipe André Luís na Podvim TV - Papa Francisco"
+    },
+    {
+      "id": 14,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Evento_Maes_Atipicas_adiado.jpg",
+      "title": "Evento Mães Atípicas Adiado"
+    },
+    {
+      "id": 15,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/Facebook_Capa_14_de_julho_de_2018.jpg",
+      "title": "Facebook Capa 14 de julho de 2018"
+    },
+    {
+      "id": 16,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/facebook-icon.png",
+      "title": "Facebook Icon"
+    },
+    {
+      "id": 17,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/instagram-icon.png",
+      "title": "Instagram Icon"
+    },
+    {
+      "id": 18,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/twitter-icon.png",
+      "title": "Twitter Icon"
+    },
+    {
+      "id": 19,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/googleplus-icon.png",
+      "title": "Google+ Icon"
+    },
+    {
+      "id": 20,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-vereador-arestides-sales-apresenta-aos-canedenses-7aff73_f.jpg",
+      "title": "VÍDEO: Vereador Arestides Sales apresenta aos canedenses Lei que vai organizar o sistema de saúde municipal."
+    },
+    {
+      "id": 21,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-apresenta-a-frota-de-60-novos-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo apresenta a frota de 60 novos veículos que reforçarão a prestação de serviços públicos para a nossa cidade."
+    },
+    {
+      "id": 22,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/em-senador-canedo-os-idosos-estão-aprendendo-informátic-7aff73_f.jpg",
+      "title": "Em Senador Canedo os idosos estão aprendendo informática e o mundo digital: Foi realizada a formatura da nova turma de idosos capacitados para os desafios do mundo digital."
+    },
+    {
+      "id": 23,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-amiga-do-meio-ambiente-amanhã-a-prefeitura-r-7aff73_f.jpg",
+      "title": "Prefeitura amiga do Meio Ambiente: Amanhã a prefeitura realiza distribuição de mudas de árvores frutíferas gratuitamente. Plante uma árvore frutífera no seu quintal."
+    },
+    {
+      "id": 24,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-agora-é-uma-cidade-mundial-príncipe-andr-7aff73_f.jpg",
+      "title": "Senador Canedo agora é uma cidade mundial: Príncipe André Luís é convidado por Carmelita Gomes a ser um líder inspirador no World Creativity Day da ONU, que será sediado aqui na cidade em abril."
+    },
+    {
+      "id": 25,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-prefeitura-de-senador-canedo-informa-o-evento-mães-at-7aff73_f.jpg",
+      "title": "A prefeitura de Senador Canedo informa: O evento \"Mães Atípicas\" foi adiado."
+    },
+    {
+      "id": 26,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/lições-para-lula-que-gosta-de-aumentar-impostos-o-homem-7aff73_f.jpg",
+      "title": "Lições para Lula, que gosta de aumentar impostos: O homem mais rico da Europa quer levar seus investimentos para os Estados Unidos por causa do aumento de impostos na França."
+    },
+    {
+      "id": 27,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/víodeo-marconi-perillo-acusa-ronaldo-caiado-de-ser-sequ-7aff73_f.jpg",
+      "title": "(VÍODEO): Marconi Perillo acusa Ronaldo Caiado de ser sequestrador e assassino. Assista!"
+    },
+    {
+      "id": 28,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/na-índia-o-prefeito-fernando-pellozo-marca-a-presença-c-7aff73_f.jpg",
+      "title": "Na Índia, o prefeito Fernando Pellozo marca a presença canedense no maior evento de energia do mundo."
+    },
+    {
+      "id": 29,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-vereador-marcos-lopes-fala-sobre-empreendedorismo-7aff73_f.jpg",
+      "title": "VÍDEO: Vereador Marcos Lopes fala sobre empreendedorismo."
+    },
+    {
+      "id": 30,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/1º-festival-canedo-de-artes-marciais-reúne-mais-de-300--7aff73_f.jpg",
+      "title": "1º Festival Canedo de Artes Marciais reúne mais de 300 atletas neste sábado. Evento movimentou a cidade com várias modalidades de artes marciais e muito talento."
+    },
+    {
+      "id": 31,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-zumbi-dos-palmares-também-era-dono-de-escravos-a--7aff73_f.jpg",
+      "title": "(VÍDEO): Zumbi dos Palmares também era dono de escravos. A verdadeira história da escravidão. Negros africanos e brasileiros também escravizavam e comercializavam outros negros de tribos rivais."
+    },
+    {
+      "id": 32,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-mutirão-contra-a-dengue-vai-começar-amanhã-na-região--7aff73_f.jpg",
+      "title": "O mutirão contra a dengue vai começar amanhã na região do Jardim das Oliveiras. Seja consciente. Ajude seus vizinhos. Participe!"
+    },
+    {
+      "id": 33,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-bill-gates-se-une-a-donald-trump-para-vacinar-con-7aff73_f.jpg",
+      "title": "(VÍDEO) Bill Gates se une a Donald Trump para \"vacinar\" contra HIV, ou seja, ENVENENAR mais pessoas do que já fez na época do COVID. Não se deixe envenenar com os venenos mortais da BigPharma."
+    },
+    {
+      "id": 34,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-acompanha-pessoalmente-a-sele-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo acompanha pessoalmente a seleção de crianças autistas que serão encaminhadas à clínica especializada Teia."
+    },
+    {
+      "id": 35,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-em-parceria-com-o-cotec-ministra-cursos-de-c-7aff73_f.jpg",
+      "title": "Prefeitura, em parceria com o COTEC, ministra cursos de capacitação para costura, beleza e confeitaria: Profissionalize-se."
+    },
+    {
+      "id": 36,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-donald-trump-corta-financiamento-de-ongs-que-infl-7aff73_f.jpg",
+      "title": "VÍDEO: Donald Trump corta financiamento de ONGs que influenciaram o TSE e o STF a promover a CENSURA nas eleições de 2022 que proibiam postagens mostrando que Lula é ladrão condenado em 3 instâncias."
+    },
+    {
+      "id": 37,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-ipva-e-iptu-você-compra-uma-propriedade-e-paga-po-7aff73_f.jpg",
+      "title": "VÍDEO: IPVA e IPTU. Você compra uma propriedade e paga por ela, mas ela não é sua. O governo só te rouba todo mês. Políticos e funcionários públicos são parasitas do seu dinheiro. ASSISTA!"
+    },
+    {
+      "id": 38,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/novo-centro-de-especialidades-médicas-e-reabilitação-ab-7aff73_f.jpg",
+      "title": "Novo Centro de Especialidades Médicas e Reabilitação, abandonado há 12 anos, foi retomado pelo prefeito Fernando Pellozo e está em fase de acabamento."
+    },
+    {
+      "id": 39,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-conheça-a-mitologia-suméria-dos-deuses-anunnaki-q-7aff73_f.jpg",
+      "title": "VÍDEO: Conheça a mitologia Suméria dos deuses Anunnaki que inspirou e deu origem à Bíblia."
+    },
+    {
+      "id": 40,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/imperdível-vendo-a-chácara-das-bênçãos-com-1000m²-em-ca-7aff73_f.jpg",
+      "title": "IMPERDÍVEL: Vendo a Chácara das Bênçãos com 1.000m² em Caldazinha por apenas 60 mil reais."
+    },
+    {
+      "id": 41,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ministério-público-e-poder-judiciário-criminosos-94-dos-7aff73_f.jpg",
+      "title": "Ministério Público e Poder Judiciário CRIMINOSOS: 94% dos magistrados brasileiros prevaricam ao receber acima dos 44 mil do teto constitucional e agora têm \"direito\" a \"férias\" de até 6 meses por ano."
+    },
+    {
+      "id": 42,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/imposto-é-roubo-fuja-do-pix-e-do-drex-negocie-sempre-em-7aff73_f.jpg",
+      "title": "Imposto é roubo! Fuja do PIX e do DREX: Negocie sempre em dinheiro vivo sem nunca depositar nos bancos ou então aprenda a comprar BitCoins de forma anônima sem precisar declarar ao governo o seu suor"
+    },
+    {
+      "id": 43,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-proporciona-atendimento-de-sa-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo proporciona atendimento de saúde domiciliar multidisciplinar aos pacientes canedenses que necessitam de tratamento especial"
+    },
+    {
+      "id": 44,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-pellozo-vai-à-índia-a-convite-de-caiado-para-t-7aff73_f.jpg",
+      "title": "Prefeito Pellozo vai à Índia, a convite de Caiado, para trazer mais empresas e mais empregos para Senador Canedo"
+    },
+    {
+      "id": 45,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/guarda-municipal-de-senador-canedo-prende-suspeitos-de--7aff73_f.jpg",
+      "title": "Guarda Municipal de Senador Canedo prende suspeitos de estelionato"
+    },
+    {
+      "id": 46,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/deputada-federal-adriana-accorsi-vem-a-senador-canedo-d-7aff73_f.jpg",
+      "title": "Deputada Federal Adriana Accorsi vem a Senador Canedo discutir cultura. Compareça."
+    },
+    {
+      "id": 47,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/assista-na-íntegra-o-discurso-de-posse-do-prefeito-fern-7aff73_f.jpg",
+      "title": "Assista na íntegra o discurso de posse do prefeito Fernando Pellozo."
+    },
+    {
+      "id": 48,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fernando-pellozo-vai-à-índia-trazer-do-país-asiático-in-7aff73_f.jpg",
+      "title": "Fernando Pellozo vai à Índia trazer do país asiático indústrias e empregos para Senador Canedo."
+    },
+    {
+      "id": 49,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vende-se-linda-tv-samsung-43-polegadas-smart-hdmi-usb-e-7aff73_f.jpg",
+      "title": "Vende-se linda TV Samsung 43 polegadas Smart HDMI, USB e Wi-Fi R$ 1.500,00"
+    },
+    {
+      "id": 50,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-intensifica-as-atividades-em--7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo intensifica as atividades em defesa da moradia popular com ações municipais e parcerias estaduais e federais."
+    },
+    {
+      "id": 51,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/encontro-estadual-do-psd-mulher-será-realizado-em-senad-7aff73_f.jpg",
+      "title": "Encontro estadual do PSD Mulher será realizado em Senador Canedo e promete fortalecer a participação feminina na política"
+    },
+    {
+      "id": 52,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-garante-apoio-aos-produtores--7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo garante apoio aos produtores rurais de Senador Canedo"
+    },
+    {
+      "id": 53,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-faz-mudanças-no-comando-senad-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo faz mudanças no comando: Senador Canedo busca impulsionar desenvolvimento urbano e saneamento"
+    },
+    {
+      "id": 54,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vídeo-assista-às-próximas-etapas-mundiais-após-a-próxim-7aff73_f.jpg",
+      "title": "(VÍDEO): Assista às próximas etapas mundiais após a próxima grande crise financeira e sanitária mundial, em direção à terceira guerra mundial. Prepare-se enquanto há tempo. O mundo vai capotar!"
+    },
+    {
+      "id": 55,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-promove-pedal-da-mulher-fa-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo promove Pedal da Mulher: faça sua inscrição"
+    },
+    {
+      "id": 56,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-intensifica-esforços-contra-a-dengue-7aff73_f.jpg",
+      "title": "Senador Canedo intensifica esforços contra a dengue"
+    },
+    {
+      "id": 57,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-apresenta-à-população-os-novo-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo apresenta à população os novos secretários municipais de governo: Assista!"
+    },
+    {
+      "id": 58,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-tem-quase-1000-oportunidades-de-emprego--7aff73_f.jpg",
+      "title": "Senador Canedo tem quase 1000 oportunidades de emprego nesta semana"
+    },
+    {
+      "id": 59,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-implanta-novos-exames-para-prevenir-a-tu-7aff73_f.jpg",
+      "title": "Senador Canedo implanta novos exames para prevenir a tuberculose"
+    },
+    {
+      "id": 60,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/primeira-dama-de-senador-canedo-busca-fortalecer-apoio--7aff73_f.jpg",
+      "title": "Primeira-Dama de Senador Canedo busca fortalecer apoio às mulheres em visitas a Brasília"
+    },
+    {
+      "id": 61,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-celebra-o-dia-da-árvore-com-doação-de-ma-7aff73_f.jpg",
+      "title": "Senador Canedo celebra o dia da árvore com doação de mais de 2 mil mudas nativas"
+    },
+    {
+      "id": 62,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-realiza-cerimônia-para-maior-entrega-de--7aff73_f.jpg",
+      "title": "Senador Canedo realiza cerimônia para maior entrega de materiais de karatê de Goiás"
+    },
+    {
+      "id": 63,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-é-incluída-em-convênio-que-permite-40-de-7aff73_f.jpg",
+      "title": "Senador Canedo é incluída em convênio que permite 40% de desconto em multas"
+    },
+    {
+      "id": 64,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-promove-mutirão-de-atualização-do-cadast-7aff73_f.jpg",
+      "title": "Senador Canedo promove Mutirão de Atualização do Cadastro Único e Bolsa Família"
+    },
+    {
+      "id": 65,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-dia-d-de-vacinação-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza Dia D de Vacinação Antirrábica"
+    },
+    {
+      "id": 66,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/nova-unidade-da-farmácia-popular-de-senador-canedo-é-in-7aff73_f.jpg",
+      "title": "Nova unidade da Farmácia Popular de Senador Canedo é inaugurada nesta sexta-feira, 14"
+    },
+    {
+      "id": 67,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/canedense-produtora-e-atriz-convida-para-a-estreia-do-s-7aff73_f.jpg",
+      "title": "Canedense produtora e atriz convida para a estreia do seu 5º filme: VIAGEM MACABRA"
+    },
+    {
+      "id": 68,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-inicia-cadastro-para-entrega-de-novas-es-7aff73_f.jpg",
+      "title": "Senador Canedo inicia cadastro para entrega de novas escrituras"
+    },
+    {
+      "id": 69,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/entrevista-alessandro-rodrigues-senador-canedo-estima-p-7aff73_f.jpg",
+      "title": "Entrevista Alessandro Rodrigues: \"Senador Canedo estima perda de R$45 milhões com redução do ICMS\""
+    },
+    {
+      "id": 70,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-entrega-benefícios-ao-povo-e--7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo entrega benefícios ao povo e realiza a 2ª edição do programa Canedo Social"
+    },
+    {
+      "id": 71,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/cras-de-senador-canedo-promove-colônia-de-férias-7aff73_f.jpg",
+      "title": "CRAS de Senador Canedo promove colônia de férias"
+    },
+    {
+      "id": 72,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-prorroga-para-agosto-prazo-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo prorroga para agosto prazo de pagamento à vista do IPTU/ITU 2023"
+    },
+    {
+      "id": 73,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-de-senador-canedo-apresenta-recome-7aff73_f.jpg",
+      "title": "Câmara de Vereadores de Senador Canedo apresenta recomendações e dicas para as férias da criançada"
+    },
+    {
+      "id": 74,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-promove-animadas-festas-juninas-nas-unid-7aff73_f.jpg",
+      "title": "Senador Canedo promove animadas festas Juninas nas unidades de ensino"
+    },
+    {
+      "id": 75,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-competição-interna-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza Competição Interna de Natação"
+    },
+    {
+      "id": 76,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/13º-concurso-de-música-premia-talentos-em-diversas-cate-7aff73_f.jpg",
+      "title": "13º Concurso de Música premia talentos em diversas categorias em Senador Canedo"
+    },
+    {
+      "id": 77,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/12ª-conferência-regional-da-criança-e-do-adolescente-é--7aff73_f.jpg",
+      "title": "12ª Conferência Regional da Criança e do Adolescente é realizada em Senador Canedo"
+    },
+    {
+      "id": 78,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-terceira-edição-do-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza terceira edição do \"Adote Um Amiguinho\""
+    },
+    {
+      "id": 79,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/primeira-etapa-do-círculo-de-quadrilhas-juninas-do-esta-7aff73_f.jpg",
+      "title": "Primeira etapa do Círculo de Quadrilhas Juninas do Estado de Goiás termina com grande público"
+    },
+    {
+      "id": 80,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/depois-de-10-anos-campo-do-buchudo-recebe-final-do-camp-7aff73_f.jpg",
+      "title": "Depois de 10 anos Campo do Buchudo recebe final do Campeonato no Jardim das Oliveiras"
+    },
+    {
+      "id": 81,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vem-aí-o-mega-workshop-da-femicro-em-parceria-com-o-col-7aff73_f.jpg",
+      "title": "Vem aí o Mega Workshop da FEMICRO em parceria com  o Coletivo Mulheres que Semeiam o Futuro."
+    },
+    {
+      "id": 82,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-pellozo-vai-até-brasília-tentar-recuperar-a-ar-7aff73_f.jpg",
+      "title": "Prefeito Pellozo vai até Brasília tentar recuperar a arrecadação que Lula subtraiu de Senador Canedo"
+    },
+    {
+      "id": 83,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-evento-em-comemora-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza evento em comemoração ao Dia das Crianças"
+    },
+    {
+      "id": 84,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pellozo-recebe-grupo-de-professores-e-avança-no-planeja-7aff73_f.jpg",
+      "title": "Pellozo recebe grupo de professores e avança no planejamento do plano de carreira dos servidores"
+    },
+    {
+      "id": 85,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-investe-mais-de-2-milhões-de-reais-em-il-7aff73_f.jpg",
+      "title": "Senador Canedo investe mais de 2 milhões de reais em iluminação de LED da rodovia GO 403 até Goiânia"
+    },
+    {
+      "id": 86,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-combate-o-desemprego-ofertand-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo combate o desemprego ofertando mais de mil vagas de emprego só essa semana"
+    },
+    {
+      "id": 87,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/15º-circuito-de-quadrilhas-juninas-reúne-mais-de-3-mil--7aff73_f.jpg",
+      "title": "15º Circuito de Quadrilhas Juninas reúne mais de 3 mil pessoas em Senador Canedo"
+    },
+    {
+      "id": 88,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/termina-nesta-quarta-prazo-para-inscrição-em-concurso-d-7aff73_f.jpg",
+      "title": "Termina nesta quarta prazo para inscrição em Concurso de Música de Senador Canedo"
+    },
+    {
+      "id": 89,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moção-de-aplausos-ao-jornal-imprensa-criativa-na-câmara-7aff73_f.jpg",
+      "title": "Moção de aplausos ao Jornal Imprensa Criativa na  Câmara de Vereadores da Cidade de Goiás"
+    },
+    {
+      "id": 90,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-combate-desemprego-e-ofere-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo combate desemprego e oferece só essa semana quase mil vagas de emprego"
+    },
+    {
+      "id": 91,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-realiza-corrida-de-rua-em-homenagem-ao-a-7aff73_f.jpg",
+      "title": "Senador Canedo realiza corrida de rua em homenagem ao aniversário da cidade"
+    },
+    {
+      "id": 92,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-divulga-selecionados-para--7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo divulga selecionados para casamento comunitário"
+    },
+    {
+      "id": 93,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/não-fique-desempregado-a-prefeitura-disponibiliza-cente-7aff73_f.jpg",
+      "title": "Não fique desempregado: A Prefeitura disponibiliza centenas de vagas de emprego toda semana. Confira"
+    },
+    {
+      "id": 94,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-recebe-mais-de-7-mil-lâmpadas-de-led-ins-7aff73_f.jpg",
+      "title": "Senador Canedo recebe mais de 7 mil lâmpadas de LED instaladas por toda a cidade"
+    },
+    {
+      "id": 95,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-entrega-uniformes-para-est-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo entrega uniformes para estudantes da região Jardim das Oliveiras"
+    },
+    {
+      "id": 96,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-municipal-de-senador-canedo-faz-balanço-positivo-7aff73_f.jpg",
+      "title": "Câmara Municipal de Senador Canedo faz balanço positivo das atividades legislativas dessa semana"
+    },
+    {
+      "id": 97,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-recebe-matrículas-para-aul-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo recebe matrículas para aulas gratuitas de violão, teatro e rítmo"
+    },
+    {
+      "id": 98,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-prefeitura-promove-campanha-de-adoção-de-pets-vacinad-7aff73_f.jpg",
+      "title": "A Prefeitura promove campanha de adoção de Pets vacinados e vermifugados. Adote seu bichinho amanhã!"
+    },
+    {
+      "id": 99,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carmelita-gomes-do-stúdio-criativa-entrevista-na-alô-tv-7aff73_f.jpg",
+      "title": "Carmelita Gomes do Stúdio Criativa entrevista na Alô TV representantes da luta pela igualdade racial"
+    },
+    {
+      "id": 100,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/encontro-discute-parceria-entre-defesa-civil-e-ifg-em-s-7aff73_f.jpg",
+      "title": "Encontro discute parceria entre Defesa Civil e IFG em Senador Canedo"
+    },
+    {
+      "id": 101,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-abre-edital-para-cessão-comercial-de-qui-7aff73_f.jpg",
+      "title": "Senador Canedo abre edital para cessão comercial de quiosques em praças públicas da cidade"
+    },
+    {
+      "id": 102,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/primeira-dama-de-senador-canedo-participa-do-lançamento-7aff73_f.jpg",
+      "title": "Primeira-dama de Senador Canedo participa do lançamento de Frente Parlamentar em Brasília"
+    },
+    {
+      "id": 103,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/dia-d-de-vacinação-em-senador-canedo-atende-mais-de-6-m-7aff73_f.jpg",
+      "title": "Dia D de Vacinação em Senador Canedo atende mais de 6 mil pessoas"
+    },
+    {
+      "id": 104,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/defesa-civil-promove-orientação-em-escolas-de-senador-c-7aff73_f.jpg",
+      "title": "Defesa Civil promove orientação em escolas de Senador Canedo"
+    },
+    {
+      "id": 105,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-promove-curso-para-candidatos-a-conselhe-7aff73_f.jpg",
+      "title": "Senador Canedo promove curso para candidatos a conselheiro tutelar"
+    },
+    {
+      "id": 106,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/contribuinte-de-senador-canedo-tem-até-dia-30-para-paga-7aff73_f.jpg",
+      "title": "Contribuinte de Senador Canedo tem até dia 30 para pagar ITU e IPTU com 20% de desconto"
+    },
+    {
+      "id": 107,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-comemora-dia-do-líder-comunitário-7aff73_f.jpg",
+      "title": "Senador Canedo comemora Dia do Líder Comunitário"
+    },
+    {
+      "id": 108,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/reunião-pública-com-artistas-canedenses-para-orientaçõe-7aff73_f.jpg",
+      "title": "Reunião pública com artistas canedenses para orientações sobre os recursos do Ministério da Cultura"
+    },
+    {
+      "id": 109,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-abre-vagas-para-iniciação--7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo abre vagas para iniciação esportiva"
+    },
+    {
+      "id": 110,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-realiza-primeira-edição-do-open-canedo-de-ar-7aff73_f.jpg",
+      "title": "Prefeitura realiza primeira edição do Open Canedo de Artes Marciais"
+    },
+    {
+      "id": 111,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-abre-inscrições-para-13º-c-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo abre inscrições para 13º concurso de música com premiaçōes até R$ 2 mil"
+    },
+    {
+      "id": 112,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-oferta-curso-gratuito-para-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo oferta curso gratuito para mulheres atendidas pelo Creas"
+    },
+    {
+      "id": 113,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/stúdio-criativa-com-carmelita-gomes-entrevista-na-alô-t-7aff73_f.jpg",
+      "title": "Stúdio Criativa, com Carmelita Gomes entrevista na Alô TV a atriz e diretora Luzia Mello"
+    },
+    {
+      "id": 114,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vários-órgãos-mantém-plantão-no-feriado-em-senador-cane-7aff73_f.jpg",
+      "title": "Vários órgãos mantém plantão no feriado em Senador Canedo"
+    },
+    {
+      "id": 115,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-convoca-artistas-e-entidad-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo convoca artistas e entidades para cadastramento"
+    },
+    {
+      "id": 116,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-realiza-ação-para-remover-lixo-acumulado-em--7aff73_f.jpg",
+      "title": "Prefeitura realiza ação para remover lixo acumulado em residência de Senador Canedo"
+    },
+    {
+      "id": 117,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/stúdio-criativa-com-carmelita-gomes-entrevista-na-alô-t-7aff73_f.jpg",
+      "title": "Stúdio Criativa, com Carmelita Gomes entrevista na Alô TV a gerente municipal de políticas femininas"
+    },
+    {
+      "id": 118,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-realiza-abertura-do-campeonat-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo realiza abertura do campeonato de futebol de várzea em Senador Canedo"
+    },
+    {
+      "id": 119,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-vai-leiloar-veículos-apree-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo vai leiloar veículos apreendidos"
+    },
+    {
+      "id": 120,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carmelita-gomes-do-stúdio-criativa-entrevista-na-alô-tv-7aff73_f.jpg",
+      "title": "Carmelita Gomes do Stúdio Criativa entrevista na Alô TV o gestor cultural Milton Gonçalves Jr"
+    },
+    {
+      "id": 121,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-define-zoneamento-do-município-em-revisã-7aff73_f.jpg",
+      "title": "Senador Canedo define zoneamento do município em revisão do Plano Diretor"
+    },
+    {
+      "id": 122,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/sal-100-saudável-feito-com-ervas-naturais-que-não-aumen-7aff73_f.jpg",
+      "title": "Sal 100% saudável, feito com ervas naturais que não aumentam a pressão arterial"
+    },
+    {
+      "id": 123,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conselho-tutelar-de-senador-canedo-abre-inscrições-para-7aff73_f.jpg",
+      "title": "Conselho Tutelar de Senador Canedo abre inscrições para novos conselheiros"
+    },
+    {
+      "id": 124,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-lança-ação-para-realizar-1-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo lança ação para realizar 1.000 cirurgias eletivas"
+    },
+    {
+      "id": 125,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/compareça-e-aproveite-a-feira-criativa-na-praça-criativ-7aff73_f.jpg",
+      "title": "Compareça e aproveite a Feira Criativa na Praça Criativa Central, todos os sábados das 16h as 23h"
+    },
+    {
+      "id": 126,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atleta-de-senador-canedo-com-paralisia-cerebral-supera--7aff73_f.jpg",
+      "title": "Atleta de Senador Canedo com paralisia cerebral supera limites com natação"
+    },
+    {
+      "id": 127,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moradora-de-senador-canedo-fala-sobre-a-felicidade-de-r-7aff73_f.jpg",
+      "title": "Moradora de Senador Canedo fala sobre a felicidade de receber a sua escritura doada pela prefeitura"
+    },
+    {
+      "id": 128,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-investe-em-led-para-trazer-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo investe em LED para trazer mais economia e segurança para a cidade"
+    },
+    {
+      "id": 129,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/neste-sábado-na-praça-criativa-central-tem-curta-canedi-7aff73_f.jpg",
+      "title": "Neste sábado, na Praça Criativa Central, tem Curta Canedinho, festival de filmes infantis às 18h"
+    },
+    {
+      "id": 130,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/central-de-monitoramento-de-senador-canedo-auxilia-no-c-7aff73_f.jpg",
+      "title": "Central de monitoramento de Senador Canedo auxilia no combate a crime federal"
+    },
+    {
+      "id": 131,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/mais-de-400-vagas-de-emprego-estão-sendo-oferecidas-em--7aff73_f.jpg",
+      "title": "Mais de 400 vagas de emprego estão sendo oferecidas em Senador Canedo, nesta semana"
+    },
+    {
+      "id": 132,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-recebe-cursos-que-auxiliam-na-geração-de-7aff73_f.jpg",
+      "title": "Senador Canedo recebe cursos que auxiliam na geração de renda para os pequenos produtores"
+    },
+    {
+      "id": 133,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-divulga-calendário-e-desco-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo divulga calendário e descontos do IPTU 2023"
+    },
+    {
+      "id": 134,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-promove-dia-d-de-vacinação-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo promove Dia D de vacinação contra a influenza"
+    },
+    {
+      "id": 135,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/10ª-pedal-da-fé-em-senador-canedo-está-com-inscrições-a-7aff73_f.jpg",
+      "title": "10ª Pedal da Fé em Senador Canedo está com inscrições abertas"
+    },
+    {
+      "id": 136,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-cadastramento-para-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza cadastramento para entrega de escrituras na Vila Galvão"
+    },
+    {
+      "id": 137,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-municipal-de-vereadores-de-senador-canedo-consci-7aff73_f.jpg",
+      "title": "Câmara Municipal de Vereadores de Senador Canedo conscientiza os canedenses da importância da água"
+    },
+    {
+      "id": 138,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atleta-canedense-portadora-de-síndrome-de-down-é-campeã-7aff73_f.jpg",
+      "title": "Atleta canedense, portadora de Síndrome de Down, é campeã nacional de Karatê"
+    },
+    {
+      "id": 139,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/acompanhe-as-sessões-legislativas-da-câmara-municipal-d-7aff73_f.jpg",
+      "title": "Acompanhe as sessões legislativas da Câmara Municipal de Senador Canedo pessoalmente ou na internet"
+    },
+    {
+      "id": 140,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-abre-inscrições-para-casam-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo abre inscrições para casamento coletivo gratuito"
+    },
+    {
+      "id": 141,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/7-conferência-de-saúde-de-senador-canedo-reúne-público--7aff73_f.jpg",
+      "title": "7* Conferência de Saúde de Senador Canedo reúne público para discutir melhorias na área"
+    },
+    {
+      "id": 142,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/não-fique-desempregado-prefeitura-de-senador-canedo-ofe-7aff73_f.jpg",
+      "title": "Não fique desempregado: Prefeitura de Senador Canedo oferece 500 vagas de emprego só nesta semana"
+    },
+    {
+      "id": 143,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/avança-canedo-prefeito-pellozo-leva-serviços-sociais-à--7aff73_f.jpg",
+      "title": "Avança Canedo: Prefeito Pellozo leva serviços sociais à região da Vila Galvão neste final de semana"
+    },
+    {
+      "id": 144,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fernando-pellozo-entrega-mais-de-100-títulos-de-imóveis-7aff73_f.jpg",
+      "title": "Fernando Pellozo entrega mais de 100 títulos de imóveis neste sábado"
+    },
+    {
+      "id": 145,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-dá-suporte-ao-processo-seletivo-da-friboi-pa-7aff73_f.jpg",
+      "title": "Prefeitura dá suporte ao processo seletivo da Friboi para a contratação de deficientes físicos"
+    },
+    {
+      "id": 146,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fernando-pellozo-entrega-títulos-de-propriedades-para-m-7aff73_f.jpg",
+      "title": "Fernando Pellozo entrega títulos de propriedades para moradores do Residencial Flor do Ipê"
+    },
+    {
+      "id": 147,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-apreende-cavalos-soltos-em-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo apreende cavalos soltos em vias públicas da cidade"
+    },
+    {
+      "id": 148,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-oferta-mais-de-400-vagas-d-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo oferta mais de 400 vagas de emprego nesta semana"
+    },
+    {
+      "id": 149,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/com-mais-de-140-exames-realizados-prefeitura-de-senador-7aff73_f.jpg",
+      "title": "Com mais de 140 exames realizados, Prefeitura de Senador Canedo promove mutirão na cidade"
+    },
+    {
+      "id": 150,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/responsabilidade-fiscal-o-principal-motivo-pelo-qual-os-7aff73_f.jpg",
+      "title": "Responsabilidade fiscal, o principal motivo pelo qual os governos caem"
+    },
+    {
+      "id": 151,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atleta-canedense-que-é-tricampeão-mundial-volta-da-euro-7aff73_f.jpg",
+      "title": "Atleta canedense que é tricampeão mundial, volta da Europa com um título inédito para Goiás"
+    },
+    {
+      "id": 152,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/presidente-da-câmara-municipal-de-senador-canedo-carpeg-7aff73_f.jpg",
+      "title": "Presidente da Câmara Municipal de Senador Canedo, Carpegiane Silvestre afirma: \"Não vou renunciar!\""
+    },
+    {
+      "id": 153,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-oferece-mais-de-500-vagas--7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo oferece mais de 500 vagas de emprego para esta semana"
+    },
+    {
+      "id": 154,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-e-primeira-dama-simone-assis--7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo e Primeira Dama Simone Assis dão entrevista à Alô TV sobre o Avança Canedo"
+    },
+    {
+      "id": 155,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moradores-do-bairro-nova-morada-em-senador-canedo-ganha-7aff73_f.jpg",
+      "title": "Moradores do bairro Nova Morada em Senador Canedo ganham praça novinha"
+    },
+    {
+      "id": 156,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-encerra-1ª-edição-do-avanç-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo encerra 1ª edição do Avança Canedo com mais de 15 mil atendimentos"
+    },
+    {
+      "id": 157,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/aluno-da-iniciação-esportiva-de-senador-canedo-se-torna-7aff73_f.jpg",
+      "title": "Aluno da iniciação esportiva de Senador Canedo se torna atleta profissional"
+    },
+    {
+      "id": 158,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/oficina-em-senador-canedo-traz-informações-e-receitas-s-7aff73_f.jpg",
+      "title": "Oficina em Senador Canedo traz informações e receitas saudáveis produzidas com hortaliças"
+    },
+    {
+      "id": 159,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-inaugura-cartório-dentro-d-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo inaugura cartório dentro da Maternidade Municipal Aristina Cândida"
+    },
+    {
+      "id": 160,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-leva-mutirão-com-mais-de-1-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo leva mutirão com mais de 100 serviços para região do Jd. das Oliveiras"
+    },
+    {
+      "id": 161,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-eliel-josé-trabalha-de-forma-concreta-e-real-p-7aff73_f.jpg",
+      "title": "Vereador Eliel José trabalha de forma concreta e real pelo desenvolvimento de Senador Canedo"
+    },
+    {
+      "id": 162,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-oferta-mais-de-700-vagas-de-emprego-na-s-7aff73_f.jpg",
+      "title": "Senador Canedo oferta mais de 700 vagas de emprego na SEMTRAE"
+    },
+    {
+      "id": 163,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/parceria-entre-público-e-privado-reforça-ações-realizad-7aff73_f.jpg",
+      "title": "Parceria entre público e privado reforça ações realizadas na educação de Senador Canedo"
+    },
+    {
+      "id": 164,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-é-o-1º-município-goiano-a-criar-uma-coor-7aff73_f.jpg",
+      "title": "Senador Canedo é o 1º município goiano a criar uma coordenadoria de acessibilidade e inclusão"
+    },
+    {
+      "id": 165,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-inicia-o-ano-escolar-ofere-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo inicia o ano escolar oferecendo mais 5 mil vagas para os novos alunos"
+    },
+    {
+      "id": 166,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-investe-em-mobilidade-com-implantação-de-7aff73_f.jpg",
+      "title": "Senador Canedo investe em mobilidade com implantação de ciclofaixas em pontos estratégicos da cidade"
+    },
+    {
+      "id": 167,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-a-entrega-de-mais--7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza a entrega de mais 18 mil kits escolares para alunos canedenses"
+    },
+    {
+      "id": 168,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-lança-programa-de-patrulha-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo lança programa de patrulhamento da Guarda Civil Municipal"
+    },
+    {
+      "id": 169,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fernando-pellozo-investe-em-mais-transparência-e-adere--7aff73_f.jpg",
+      "title": "Fernando Pellozo investe em mais transparência e adere ao Diário Municipal de Goiás"
+    },
+    {
+      "id": 170,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-dá-posse-a-novos-servidore-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo dá posse a novos servidores aprovados em concurso público"
+    },
+    {
+      "id": 171,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-retoma-visitas-às-comunidades-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo retoma visitas às comunidades para atender demandas da população"
+    },
+    {
+      "id": 172,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-oferta-mais-de-800-vagas-d-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo oferta mais de 800 vagas de emprego nesta semana"
+    },
+    {
+      "id": 173,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saúde-de-senador-canedo-recebe-apoio-estadual-para-a-ap-7aff73_f.jpg",
+      "title": "Saúde de Senador Canedo recebe apoio Estadual para a aplicação de medicamento em bebês prematuros"
+    },
+    {
+      "id": 174,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-abre-matrículas-para-aulas-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo abre matrículas para aulas gratuitas em oito modalidades esportivas"
+    },
+    {
+      "id": 175,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-inicia-reforma-completa-da-praça-criativa-ce-7aff73_f.jpg",
+      "title": "Prefeitura inicia reforma completa da Praça Criativa Central de Senador Canedo"
+    },
+    {
+      "id": 176,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/emprego-mais-de-mil-vagas-são-ofertadas-pela-prefeitura-7aff73_f.jpg",
+      "title": "Emprego: Mais de mil vagas são ofertadas pela Prefeitura esta semana na SEMTRAE da Praça Criativa"
+    },
+    {
+      "id": 177,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/faça-seus-preparativos-para-a-maior-crise-financeira-da-7aff73_f.jpg",
+      "title": "Faça seus preparativos para a maior crise financeira da história da humanidade"
+    },
+    {
+      "id": 178,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/compareça-à-feira-criativa-neste-sábado-a-partir-das-16-7aff73_f.jpg",
+      "title": "Compareça à Feira Criativa neste sábado a partir das 16h na Praça Criativa Central de Senador Canedo"
+    },
+    {
+      "id": 179,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/rede-municipal-de-ensino-canedense-têm-alunos-medalhist-7aff73_f.jpg",
+      "title": "Rede municipal de ensino canedense têm alunos medalhistas na 17ª Olimpíada Brasileira de Matemática"
+    },
+    {
+      "id": 180,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/empresas-brasileiras-têm-prejuízo-de-546-bilhões-com-as-7aff73_f.jpg",
+      "title": "Empresas brasileiras têm prejuízo de 546 bilhões com as incertezas da equipe econômica de Lula"
+    },
+    {
+      "id": 181,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/flipper-zero-dispositivo-hacker-que-abre-seu-carro-seu--7aff73_f.jpg",
+      "title": "Flipper Zero: Dispositivo hacker que abre seu carro, seu portão, seu cofre, tudo que for eletrônico"
+    },
+    {
+      "id": 182,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-investe-através-da-sanesc-mais-de-20-milhões-7aff73_f.jpg",
+      "title": "Prefeitura investe, através da SANESC, mais de 20 milhões de reais em água e esgoto no ano de 2022"
+    },
+    {
+      "id": 183,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-equipa-unidades-básicas-de-saúde-do-municípi-7aff73_f.jpg",
+      "title": "Prefeitura equipa Unidades Básicas de Saúde do município com novos computadores e  informatização"
+    },
+    {
+      "id": 184,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atleta-de-senador-canedo-é-destaque-no-estado-de-goiás--7aff73_f.jpg",
+      "title": "Atleta de Senador Canedo é destaque no estado de Goiás e no Brasil"
+    },
+    {
+      "id": 185,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/não-deixe-mais-ela-triste-vasodilatador-natural-para-er-7aff73_f.jpg",
+      "title": "Não deixe mais ela triste: Vasodilatador natural para ereção de homens melhor do que viagra"
+    },
+    {
+      "id": 186,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/em-véspera-de-natal-prefeito-pellozo-entrega-mais-de-14-7aff73_f.jpg",
+      "title": "Em véspera de natal, prefeito Pellozo entrega mais de 14 mil brinquedos para crianças canedenses"
+    },
+    {
+      "id": 187,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-oferta-atendimento-psicológico-para-pessoas--7aff73_f.jpg",
+      "title": "Prefeitura oferta atendimento psicológico para pessoas que buscam recolocação no mercado de trabalho"
+    },
+    {
+      "id": 188,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/aprenda-como-armazenar-alimentos-não-perecíveis-por-até-7aff73_f.jpg",
+      "title": "Aprenda como armazenar alimentos não perecíveis por até 30 anos. Você vai precisar"
+    },
+    {
+      "id": 189,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prazo-de-renovação-de-matrículas-para-alunos-da-iniciaç-7aff73_f.jpg",
+      "title": "Prazo de renovação de matrículas para alunos da iniciação esportiva municipal termina sexta-feira"
+    },
+    {
+      "id": 190,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-povo-pediu-e-a-prefeitura-atendeu-diz-pellozo-sobre-n-7aff73_f.jpg",
+      "title": "“O povo pediu e a prefeitura atendeu”, diz Pellozo sobre novo sistema de embarque do Eixo Anhanguera"
+    },
+    {
+      "id": 191,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-fica-em-2º-lugar-em-ética-e-transparênci-7aff73_f.jpg",
+      "title": "Senador Canedo fica em 2º lugar em ética e transparência de gestão entre municípios de Goiás"
+    },
+    {
+      "id": 192,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/israel-cumpre-profecias-e-se-torna-uma-das-maiores-potê-7aff73_f.jpg",
+      "title": "Israel cumpre profecias e se torna uma das maiores potências agrícolas mundiais no meio do deserto"
+    },
+    {
+      "id": 193,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/residencial-terra-bela-em-senador-canedo-recebe-as-prim-7aff73_f.jpg",
+      "title": "Residencial Terra Bela, em Senador Canedo recebe as primeiras sinalizações de trânsito"
+    },
+    {
+      "id": 194,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/new-world-order-official-announcement-7aff73_f.jpg",
+      "title": "New World Order official announcement"
+    },
+    {
+      "id": 195,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-apresenta-as-atrações-do-mês--7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo apresenta as atrações do mês de dezembro na programação \"Natal Luzes\""
+    },
+    {
+      "id": 196,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ditadura-alexandre-de-moraes-comete-crime-contra-o-art--7aff73_f.jpg",
+      "title": "Ditadura: Alexandre de Moraes comete crime contra o Art. 220 da CF ao censurar mais 2 deputados"
+    },
+    {
+      "id": 197,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prepare-se-a-próxima-pandemia-mundial-será-um-vírus-dig-7aff73_f.jpg",
+      "title": "Prepare-se: a próxima pandemia mundial será um vírus digital e o seu dinheiro de papel desaparecerá"
+    },
+    {
+      "id": 198,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/sedução-larissa-alencar-ensina-como-fazer-uma-mulher-fi-7aff73_f.jpg",
+      "title": "Sedução: Larissa Alencar ensina como fazer uma mulher ficar viciada em você"
+    },
+    {
+      "id": 199,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/inteligência-artificial-é-contratada-para-ser-ceo-de-um-7aff73_f.jpg",
+      "title": "Inteligência Artificial é contratada para ser CEO de uma empresa de games: Robôs chefes de humanos"
+    },
+    {
+      "id": 200,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/interconexão-global-de-energia-da-nova-ordem-mundial-qu-7aff73_f.jpg",
+      "title": "Interconexão global de energia da Nova Ordem Mundial que vai te fazer passar fome: Guarde alimentos!"
+    },
+    {
+      "id": 201,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pet-stop-ação-de-cuidado-animal-chega-na-região-da-vila-7aff73_f.jpg",
+      "title": "Pet Stop, ação de cuidado animal, chega na Região da Vila Galvão neste fim de semana"
+    },
+    {
+      "id": 202,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fernando-pellozo-sanciona-lei-que-proíbe-a-contratação--7aff73_f.jpg",
+      "title": "Fernando Pellozo sanciona lei que proíbe a contratação de empresas condenadas por trabalho escravo"
+    },
+    {
+      "id": 203,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moradores-do-residencial-terra-bela-em-senador-canedo-c-7aff73_f.jpg",
+      "title": "Moradores do Residencial Terra Bela, em Senador Canedo, comemoram nova linha do transporte coletivo"
+    },
+    {
+      "id": 204,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/só-não-melhora-de-vida-quem-não-quer-graduação-em-bacha-7aff73_f.jpg",
+      "title": "Só não melhora de vida quem não quer: Graduação em bacharelado Federal totalmente gratuita"
+    },
+    {
+      "id": 205,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/não-gaste-no-natal-armazene-alimentos-urgente-a-china-s-7aff73_f.jpg",
+      "title": "Não gaste no Natal, armazene alimentos, urgente! A China socialista vai destruir a economia mundial"
+    },
+    {
+      "id": 206,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-de-senador-canedo-inaugura-mais-uma-linha-do-t-7aff73_f.jpg",
+      "title": "Prefeito de Senador Canedo, inaugura mais uma linha do transporte coletivo na cidade"
+    },
+    {
+      "id": 207,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/alexandre-de-moraes-comete-crime-contra-art-220-da-cons-7aff73_f.jpg",
+      "title": "Alexandre de Moraes comete crime contra Art. 220 da Constituição ao censurar: Senado discute o tema"
+    },
+    {
+      "id": 208,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-realiza-seminário-celebrando-os-21-dias-de-a-7aff73_f.jpg",
+      "title": "Prefeitura realiza seminário celebrando os 21 dias de ativismo contra a violência às  mulheres"
+    },
+    {
+      "id": 209,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/evento-esportivo-desafio-brutus-movimenta-senador-caned-7aff73_f.jpg",
+      "title": "Evento esportivo Desafio Brutus movimenta Senador Canedo no último final de semana"
+    },
+    {
+      "id": 210,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vai-comprar-um-sítio-ou-chácara-veja-10-dicas-para-você-7aff73_f.jpg",
+      "title": "Vai comprar um sítio ou chácara? Veja 10 dicas para você não entrar em uma roubada!"
+    },
+    {
+      "id": 211,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/suíça-goleia-o-brasil-por-7-x-0-na-economia-e-qualidade-7aff73_f.jpg",
+      "title": "Suíça goleia o Brasil por 7 X 0 na economia e qualidade e vida: Veja porquê eles são tão superiores"
+    },
+    {
+      "id": 212,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/explicação-técnica-para-5974-das-urnas-eletrônicas-sere-7aff73_f.jpg",
+      "title": "Explicação técnica para 59,74% das urnas eletrônicas serem inválidas e as eleições serem uma fraude"
+    },
+    {
+      "id": 213,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-promove-o-combate-ao-câncer-de-pró-7aff73_f.jpg",
+      "title": "Câmara de Vereadores promove o combate ao câncer de próstata. Veja mitos e verdades sobre o tema"
+    },
+    {
+      "id": 214,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-participa-de-caminhada-no-dia-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo participa de caminhada no Dia Nacional de Combate a Dengue"
+    },
+    {
+      "id": 215,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/homenagens-e-muita-emoção-marcaram-a-noite-de-formatura-7aff73_f.jpg",
+      "title": "Homenagens e muita emoção, marcaram a noite de formatura da 1º Turma do Programa Guarda Mirim"
+    },
+    {
+      "id": 216,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/os-gastos-de-lula-do-dinheiro-brasileiro-em-27-países-n-7aff73_f.jpg",
+      "title": "Os gastos de Lula do dinheiro brasileiro em 27 países na África e a relação com o socialismo chinês"
+    },
+    {
+      "id": 217,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-define-expediente-durante--7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo define expediente durante os jogos do Brasil na Copa do Mundo 2022"
+    },
+    {
+      "id": 218,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-discute-as-mudanças-no-trânsito-em-7aff73_f.jpg",
+      "title": "Câmara de Vereadores discute as mudanças no trânsito em Audiência Pública"
+    },
+    {
+      "id": 219,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-inicia-reforma-completa-de-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo inicia reforma completa de Praça Criativa"
+    },
+    {
+      "id": 220,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-jornalista-canedense-paulina-reis-promove-a-campanha--7aff73_f.jpg",
+      "title": "A jornalista canedense Paulina Reis promove a campanha Natal sem Fome. Veja como contribuir"
+    },
+    {
+      "id": 221,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/como-tratar-diabetes-sem-remédios-7aff73_f.jpg",
+      "title": "Como tratar diabetes sem remédios?"
+    },
+    {
+      "id": 222,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atleta-canedense-integrante-da-seleção-brasileira-su-20-7aff73_f.jpg",
+      "title": "Atleta canedense, integrante da Seleção Brasileira Su-20, é homenageado na Câmara de Vereadores"
+    },
+    {
+      "id": 223,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/descubra-quem-foram-as-filhas-de-adão-e-eva-os-nomes-e--7aff73_f.jpg",
+      "title": "Descubra quem foram as filhas de Adão e Eva, os nomes e as histórias delas"
+    },
+    {
+      "id": 224,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saúde-de-senador-canedo-expande-atendimentos-de-especia-7aff73_f.jpg",
+      "title": "Saúde de Senador Canedo expande atendimentos de especialidades para outras regiões da cidade"
+    },
+    {
+      "id": 225,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-municipal-homenageia-advogados-da-oab-que-presta-7aff73_f.jpg",
+      "title": "Câmara Municipal homenageia advogados da OAB que prestam serviços jurídicos gratuitos aos pobres"
+    },
+    {
+      "id": 226,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-os-fundos-de-investimento-imobiliário-que-chega-7aff73_f.jpg",
+      "title": "Conheça os fundos de investimento imobiliário que chegam a render o dobro de um aluguel de imóvel"
+    },
+    {
+      "id": 227,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/projeto-de-lei-institui-política-de-valorização-da-vida-7aff73_f.jpg",
+      "title": "Projeto de Lei institui Política de Valorização da Vida e Combate ao Suicídio"
+    },
+    {
+      "id": 228,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-oferta-mais-de-mil-vagas-d-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo oferta mais de mil vagas durante Semana do Emprego"
+    },
+    {
+      "id": 229,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/hacker-americano-de-19-anos-derruba-a-internet-da-coréi-7aff73_f.jpg",
+      "title": "Hacker americano de 19 anos derruba a internet da Coréia do Norte que tem 1,5 milhão de militares"
+    },
+    {
+      "id": 230,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/desembargador-aposentado-pede-a-prisão-de-alexandre-de--7aff73_f.jpg",
+      "title": "Desembargador aposentado pede a prisão de Alexandre de Moraes por praticar o crime de censura"
+    },
+    {
+      "id": 231,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-conclui-duplicação-de-impo-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo conclui duplicação de importante trecho industrial da cidade"
+    },
+    {
+      "id": 232,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-que-acontece-de-ruim-quando-o-governo-interfere-nos-p-7aff73_f.jpg",
+      "title": "O que acontece de ruim quando o governo interfere nos preços das mercadorias? Assista"
+    },
+    {
+      "id": 233,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/escola-de-governo-de-senador-canedo-oferta-curso-de-lib-7aff73_f.jpg",
+      "title": "Escola de Governo de Senador Canedo oferta curso de Libras para servidores municipais"
+    },
+    {
+      "id": 234,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/projeto-saúde-sem-peso-movimenta-a-população-em-senador-7aff73_f.jpg",
+      "title": "Projeto “Saúde sem Peso” movimenta a população em Senador Canedo"
+    },
+    {
+      "id": 235,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/entre-muitas-promessas-negativas-lula-promete-que-se-el-7aff73_f.jpg",
+      "title": "Entre muitas promessas negativas, Lula promete que, se eleito, vai censurar os meios de comunicação"
+    },
+    {
+      "id": 236,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/tiranossaurus-rex-declara-apoio-à-francisco-mil-28001-p-7aff73_f.jpg",
+      "title": "Tiranossaurus Rex declara apoio à Francisco Mil 28.001 para Deputado Estadual"
+    },
+    {
+      "id": 237,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carpegiane-silvestre-5155-promete-trazer-um-hospital-pa-7aff73_f.jpg",
+      "title": "Carpegiane Silvestre 5155 promete trazer um Hospital para Senador Canedo quando for Deputado Federal"
+    },
+    {
+      "id": 238,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-convida-você-para-audiência-públic-7aff73_f.jpg",
+      "title": "Câmara de Vereadores convida você para audiência pública sobre alterações no trânsito, quarta às 19h"
+    },
+    {
+      "id": 239,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vírus-da-covid-criado-pela-universidade-de-boston-têm-o-7aff73_f.jpg",
+      "title": "Vírus da Covid criado pela Universidade de Boston têm o poder de matar 80% dos infectados"
+    },
+    {
+      "id": 240,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/só-não-estuda-quem-não-quer-cursos-online-gratuitos-par-7aff73_f.jpg",
+      "title": "Só não estuda quem não quer: Cursos online gratuitos para quem quer merecer um salário melhor"
+    },
+    {
+      "id": 241,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/como-investigar-políticos-usando-métodos-de-invasão-hac-7aff73_f.jpg",
+      "title": "Como investigar políticos usando métodos de invasão hacker legalizados?"
+    },
+    {
+      "id": 242,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-entrega-carteira-interesta-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo entrega carteira interestadual para idosos"
+    },
+    {
+      "id": 243,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/lula-confessa-que-não-sabe-como-gerar-empregos-assista--7aff73_f.jpg",
+      "title": "Lula confessa que não sabe como gerar empregos: Assista ao vídeo!"
+    },
+    {
+      "id": 244,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/tiago-laranjinha-o-garotão-explosão-declara-o-seu-voto--7aff73_f.jpg",
+      "title": "Tiago Laranjinha, o garotão explosão, declara o seu voto a Carpegiane Silvestre 5155 para Federal"
+    },
+    {
+      "id": 245,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/juiz-eleitoral-avisa-à-população-sobre-as-punições-para-7aff73_f.jpg",
+      "title": "Juiz Eleitoral avisa à população sobre as punições para quem descumprir a Lei Seca nas eleições"
+    },
+    {
+      "id": 246,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carpegiane-silvestre-5155-exorta-canedenses-a-votar-em--7aff73_f.jpg",
+      "title": "Carpegiane Silvestre 5155 exorta canedenses a votar em um canedense legítimo para Deputado Federal"
+    },
+    {
+      "id": 247,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-grande-mentira-do-aquecimento-global-e-os-créditos-de-7aff73_f.jpg",
+      "title": "A grande mentira do aquecimento global e os créditos de carbono implantada pela Nova Ordem Mundial"
+    },
+    {
+      "id": 248,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/francisco-mil-28001-fala-a-respeito-do-seu-propósito-e--7aff73_f.jpg",
+      "title": "Francisco Mil 28.001 fala a respeito do seu propósito e pede seu voto para Deputado Estadual"
+    },
+    {
+      "id": 249,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-falência-financeira-da-china-já-é-uma-realidade-enten-7aff73_f.jpg",
+      "title": "A falência financeira da China já é uma realidade! Entenda como a China vai acabar com o mundo todo"
+    },
+    {
+      "id": 250,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/candidato-a-deputado-estadual-francisco-mil-28001-é-um--7aff73_f.jpg",
+      "title": "Candidato a Deputado Estadual Francisco Mil 28.001 é um novo ânimo para a política goiana"
+    },
+    {
+      "id": 251,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/6º-festival-de-cinema-curta-canedo-disponibiliza-oficin-7aff73_f.jpg",
+      "title": "6º Festival de Cinema Curta Canedo disponibiliza Oficina de Atuação para Cinema: Inscrições abertas"
+    },
+    {
+      "id": 252,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/edição-da-rua-do-lazer-movimentou-senador-canedo-neste--7aff73_f.jpg",
+      "title": "Edição da Rua do Lazer movimentou Senador Canedo neste fim de semana"
+    },
+    {
+      "id": 253,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/6º-festival-de-cinema-curta-canedo-abre-inscrições-para-7aff73_f.jpg",
+      "title": "6º Festival de Cinema Curta Canedo abre inscrições para a Oficina de Fotografia Digital em Celulares"
+    },
+    {
+      "id": 254,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/semana-nacional-de-trânsito-de-senador-canedo-traz-camp-7aff73_f.jpg",
+      "title": "Semana Nacional de Trânsito de Senador Canedo traz campanha combatendo o excesso de velocidade"
+    },
+    {
+      "id": 255,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-entrega-escrituras-na-praça-criativa-da--7aff73_f.jpg",
+      "title": "Senador Canedo entrega escrituras na Praça Criativa da região da Galvão no dia 22 às 9h da manhã"
+    },
+    {
+      "id": 256,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/estadual-francisco-mil-número-28001-traz-uma-mensagem-t-7aff73_f.jpg",
+      "title": "Estadual Francisco Mil, número 28.001, traz uma mensagem transformadora para o bem do povo goiano"
+    },
+    {
+      "id": 257,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/veja-qual-é-o-grupo-que-poderá-solicitar-e-ter-renovaçã-7aff73_f.jpg",
+      "title": "Veja qual é o grupo que poderá solicitar e ter renovação gratuita da CNH"
+    },
+    {
+      "id": 258,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/universidade-federal-de-são-carlos-abre-inscrições-em-8-7aff73_f.jpg",
+      "title": "Universidade Federal de São Carlos abre inscrições em 85 cursos virtuais gratuitos com certificado"
+    },
+    {
+      "id": 259,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pra-quem-ainda-não-assistiu-veja-a-entrevista-de-carpeg-7aff73_f.jpg",
+      "title": "Pra quem ainda não assistiu veja a entrevista de Carpegiane Silvestre 5155 com Leno Silva na Alô TV"
+    },
+    {
+      "id": 260,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-realiza-homenagem-ao-dia-nacional-dos-su-7aff73_f.jpg",
+      "title": "Senador Canedo realiza homenagem ao Dia Nacional dos Surdos"
+    },
+    {
+      "id": 261,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-reinaugura-central-de-cuidados-da-zoonos-7aff73_f.jpg",
+      "title": "Senador Canedo reinaugura central de cuidados da Zoonose"
+    },
+    {
+      "id": 262,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prestigie-o-anime-se-o-festival-nacional-de-animes-e-cu-7aff73_f.jpg",
+      "title": "Prestigie o \"Anime-se\", o festival nacional de animes e cultura geek de Jundiaí - SP"
+    },
+    {
+      "id": 263,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/veja-as-3-formas-de-eleger-francisco-mil-28001-para-a-a-7aff73_f.jpg",
+      "title": "Veja as 3 formas de eleger Francisco Mil 28.001 para a Assembleia Legislativa de Goiás"
+    },
+    {
+      "id": 264,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-começa-a-utilizar-o-aplica-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo começa a utilizar o aplicativo Portal do Aluno"
+    },
+    {
+      "id": 265,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carpegiane-silvestre-candidato-a-deputado-federal-em-en-7aff73_f.jpg",
+      "title": "Carpegiane Silvestre, candidato a Deputado Federal em entrevista hoje 19h30 com Leno Silva na Alô TV"
+    },
+    {
+      "id": 266,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-prorroga-campanha-de-vacinação-contra-po-7aff73_f.jpg",
+      "title": "Senador Canedo prorroga Campanha de Vacinação contra Poliomielite e Multivacinação"
+    },
+    {
+      "id": 267,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/francisco-mil-avança-em-sua-candidatura-ruma-à-assemble-7aff73_f.jpg",
+      "title": "Francisco Mil avança em sua candidatura ruma à Assembleia Legislativa com o número 28.001"
+    },
+    {
+      "id": 268,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/primeiro-canedense-nasce-após-reabertura-da-maternidade-7aff73_f.jpg",
+      "title": "Primeiro canedense nasce após reabertura da Maternidade"
+    },
+    {
+      "id": 269,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/aprenda-12-mil-palavras-no-idioma-inglês-em-10-minutos--7aff73_f.jpg",
+      "title": "Aprenda 12 mil palavras no idioma inglês em 10 minutos com essa simples técnica: ASSISTA"
+    },
+    {
+      "id": 270,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/economize-água-os-reservatórios-estão-diminuindo-sem-ch-7aff73_f.jpg",
+      "title": "Economize água! Os reservatórios estão diminuindo sem chuvas. A Prefeitura de Senador Canedo alerta."
+    },
+    {
+      "id": 271,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-lança-refis-2022-com-desco-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo lança Refis 2022 com descontos de até 100%"
+    },
+    {
+      "id": 272,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-alerta-economize-água-para-evitar-a-volta-do-7aff73_f.jpg",
+      "title": "Prefeitura alerta: Economize água para evitar a volta do racionamento. Chame o caminhão-pipa público"
+    },
+    {
+      "id": 273,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/reunião-decide-a-criação-de-plano-de-contingência-para--7aff73_f.jpg",
+      "title": "Reunião decide a criação de Plano de Contingência para gestão de riscos"
+    },
+    {
+      "id": 274,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atendendo-pedido-da-comunidade-senador-canedo-inaugura--7aff73_f.jpg",
+      "title": "Atendendo pedido da comunidade, Senador Canedo inaugura linha de ônibus no Flor do Ipê"
+    },
+    {
+      "id": 275,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-reinaugura-a-maternidade-a-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo reinaugura a Maternidade Aristina Cândido com padrão de primeiro mundo"
+    },
+    {
+      "id": 276,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/projeto-de-revitalização-viária-de-senador-canedo-avanç-7aff73_f.jpg",
+      "title": "Projeto de revitalização viária de Senador Canedo avança e conta com bairro totalmente recapeado"
+    },
+    {
+      "id": 277,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-lança-o-aplicativo-canedo--7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo lança o aplicativo Canedo Denúncia mais uma ferramenta para a segurança"
+    },
+    {
+      "id": 278,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-promove-palestra-sobre-con-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo promove palestra sobre conscientização no trânsito para servidores"
+    },
+    {
+      "id": 279,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/francisco-mil-inaugura-seu-comitê-para-a-campanha-de-de-7aff73_f.jpg",
+      "title": "Francisco Mil inaugura seu comitê para a campanha de Deputado Estadual rumo à Assembleia Legislativa"
+    },
+    {
+      "id": 280,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-inicia-reuniões-comunitári-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo inicia Reuniões Comunitária para ouvir população sobre o Plano Diretor"
+    },
+    {
+      "id": 281,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/veja-a-incrível-história-das-mulheres-piratas-que-tocar-7aff73_f.jpg",
+      "title": "Veja a incrível história das mulheres piratas que tocaram o terror nos oceanos de séculos passados"
+    },
+    {
+      "id": 282,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moradores-do-jd-das-oliveiras-e-matinha-ajudem-a-elabor-7aff73_f.jpg",
+      "title": "Moradores do Jd. das Oliveiras e Matinha, ajudem a elaborar o Plano Diretor, no próximo dia 29"
+    },
+    {
+      "id": 283,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/assista-à-impressionante-carreata-de-carpegiane-silvest-7aff73_f.jpg",
+      "title": "Assista à impressionante carreata de Carpegiane Silvestre 5155 na campanha a Deputado Federal"
+    },
+    {
+      "id": 284,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/lula-oferece-dinheiro-para-a-sua-ex-mulher-abortar-a-pr-7aff73_f.jpg",
+      "title": "Lula oferece dinheiro para a sua ex-mulher abortar a própria filha dele: Assista o depoimento da mãe"
+    },
+    {
+      "id": 285,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/celismar-lima-apresenta-requerimento-que-valoriza-atlet-7aff73_f.jpg",
+      "title": "Celismar Lima apresenta requerimento que valoriza atletas paralímpicos"
+    },
+    {
+      "id": 286,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-recebe-projeto-que-promete-ensinar-programaç-7aff73_f.jpg",
+      "title": "Prefeitura recebe projeto que promete ensinar programação gráfica (games) a alunos da rede municipal"
+    },
+    {
+      "id": 287,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-conclui-reforma-de-campo-d-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo conclui reforma de campo de futebol no Jardim das Oliveiras"
+    },
+    {
+      "id": 288,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/jaepel-papéis-traz-direto-da-onu-o-caminhão-conhecendo--7aff73_f.jpg",
+      "title": "Jaepel Papéis traz direto da ONU o \"Caminhão Conhecendo os Objetivos do Desenvolvimento Sustentável\""
+    },
+    {
+      "id": 289,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carpegiane-segue-costurando-diálogo-com-forças-política-7aff73_f.jpg",
+      "title": "Carpegiane segue costurando diálogo com forças políticas pelo estado de Goiás"
+    },
+    {
+      "id": 290,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-francisco-mil-o-locutor-oficial-do-governador-r-7aff73_f.jpg",
+      "title": "Conheça Francisco Mil, o locutor oficial do governador Ronaldo Caiado"
+    },
+    {
+      "id": 291,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-ação-social-para-f-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza ação social para famílias do Aracy Amaral"
+    },
+    {
+      "id": 292,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/universidade-de-harvard-oferece-curso-de-ciência-da-com-7aff73_f.jpg",
+      "title": "Universidade de Harvard oferece curso de Ciência da Computação traduzido e gratuito"
+    },
+    {
+      "id": 293,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/audiência-apresenta-propostas-para-reforma-previdenciár-7aff73_f.jpg",
+      "title": "Audiência apresenta propostas para Reforma Previdenciária Municipal de Senador Canedo"
+    },
+    {
+      "id": 294,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/assista-o-principe-andré-luís-em-live-soberba-de-7-hora-7aff73_f.jpg",
+      "title": "Assista o Principe André Luís em live soberba de 7 horas sobre a geopolítica oculta mundial"
+    },
+    {
+      "id": 295,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/atletas-de-senador-canedo-conquistam-ouro-e-prata-nas-p-7aff73_f.jpg",
+      "title": "Atletas de Senador Canedo conquistam ouro e prata nas Paralimpíadas Escolares 2022"
+    },
+    {
+      "id": 296,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-promove-palestra-sobre-compliance-e-étic-7aff73_f.jpg",
+      "title": "Senador Canedo promove palestra sobre Compliance e Ética"
+    },
+    {
+      "id": 297,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/dra-maria-gadelha-alerta-em-audiência-no-congresso-naci-7aff73_f.jpg",
+      "title": "Dra. Maria Gadelha alerta, em audiência no Congresso Nacional, sobre perigos de vacinas da Covid"
+    },
+    {
+      "id": 298,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-lança-o-primeiro-centro-de-vacinação-mun-7aff73_f.jpg",
+      "title": "Senador Canedo lança o primeiro Centro de Vacinação Municipal"
+    },
+    {
+      "id": 299,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-eliel-josé-faz-denúncia-no-ministério-público--7aff73_f.jpg",
+      "title": "Vereador Eliel José faz denúncia no Ministério Público de escola em más condições de funcionamento"
+    },
+    {
+      "id": 300,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moradores-de-bairro-em-senador-canedo-ganham-sua-primei-7aff73_f.jpg",
+      "title": "Moradores de bairro em Senador Canedo ganham sua primeira praça completa"
+    },
+    {
+      "id": 301,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/deputado-da-união-europeia-denuncia-lula-e-pt-por-parti-7aff73_f.jpg",
+      "title": "Deputado da União Europeia denuncia Lula e PT por participação ativa em narcotráfico internacional"
+    },
+    {
+      "id": 302,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-diney-apresenta-aos-canedenses-o-aplicativo-ca-7aff73_f.jpg",
+      "title": "Vereador Diney apresenta aos canedenses o aplicativo \"Canedo Denúncia\" conectado à GCM e à SMT"
+    },
+    {
+      "id": 303,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-reinaugura-conselho-tutela-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo reinaugura Conselho Tutelar do Jardim das Oliveiras"
+    },
+    {
+      "id": 304,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-diney-explica-quem-têm-direito-à-isenção-do-ip-7aff73_f.jpg",
+      "title": "Vereador Diney explica quem têm direito à isenção do IPTU 2022: Confira"
+    },
+    {
+      "id": 305,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/principal-avenida-de-senador-canedo-passa-por-revitaliz-7aff73_f.jpg",
+      "title": "Principal avenida de Senador Canedo passa por revitalização melhorando a mobilidade dos moradores"
+    },
+    {
+      "id": 306,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-comemora-um-ano-do-recurso-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo comemora um ano do recurso Reviva Educação"
+    },
+    {
+      "id": 307,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/onu-traz-ao-brasil-o-caminhão-conhecendo-os-ods-em-parc-7aff73_f.jpg",
+      "title": "ONU traz ao Brasil o caminhão \"Conhecendo os ODS\" em parceria com a Jaepel em Senador Canedo"
+    },
+    {
+      "id": 308,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-recuperando-vias-públicas-já-possui-mais-7aff73_f.jpg",
+      "title": "Senador Canedo, recuperando vias públicas, já possui mais de 700.000 m² de ruas revitalizadas"
+    },
+    {
+      "id": 309,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/por-que-o-descobrimento-do-brasil-é-deturpado-7aff73_f.jpg",
+      "title": "Por que o descobrimento do Brasil é deturpado?"
+    },
+    {
+      "id": 310,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vítima-da-sociedade-é-o-trabalhador-honesto-que-foi-pre-7aff73_f.jpg",
+      "title": "Vítima da sociedade é o trabalhador honesto que foi prejudicado por um bandido"
+    },
+    {
+      "id": 311,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/confira-as-atrações-da-feira-empreendedora-e-cultural-d-7aff73_f.jpg",
+      "title": "Confira as atrações da Feira Empreendedora e Cultural do dia 7: \"Mulheres que semeiam o futuro\""
+    },
+    {
+      "id": 312,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-recebe-mais-de-1-milhão-de-reais-em-emen-7aff73_f.jpg",
+      "title": "Senador Canedo recebe mais de 1 milhão de reais em emendas para a Secretaria de Saúde"
+    },
+    {
+      "id": 313,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/após-2-anos-de-namoro-lésbicas-desconfiam-que-podem-ser-7aff73_f.jpg",
+      "title": "Após 2 anos de namoro, lésbicas desconfiam que podem ser irmãs"
+    },
+    {
+      "id": 314,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-a-história-das-mortes-ligadas-ao-triplex-do-lul-7aff73_f.jpg",
+      "title": "Conheça a história das mortes ligadas ao Triplex do Lula"
+    },
+    {
+      "id": 315,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-adota-medidas-preventivas-contra-alagame-7aff73_f.jpg",
+      "title": "Senador Canedo adota medidas preventivas contra alagamentos e inundações durante o período de chuvas"
+    },
+    {
+      "id": 316,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-finaliza-etapa-prévia-da-revisão-do-plan-7aff73_f.jpg",
+      "title": "Senador Canedo finaliza etapa prévia da revisão do Plano Diretor"
+    },
+    {
+      "id": 317,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/milícias-digitais-criminosas-em-favor-de-lula-nas-redes-7aff73_f.jpg",
+      "title": "Milícias digitais criminosas em favor de Lula nas redes sociais com contratos ilegais com agências"
+    },
+    {
+      "id": 318,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carpegiane-silvestre-e-gustavo-mendanha-conversam-com-a-7aff73_f.jpg",
+      "title": "Carpegiane Silvestre e Gustavo Mendanha conversam com as pessoas no comércio canedense"
+    },
+    {
+      "id": 319,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/orgulho-canedense-casal-do-município-é-premiados-em-fes-7aff73_f.jpg",
+      "title": "Orgulho canedense: Casal do município é premiados em Festival de Cinema na cidade de Goiás: ASSISTA"
+    },
+    {
+      "id": 320,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-já-soma-cerca-de-20-praças-revitalizadas-7aff73_f.jpg",
+      "title": "Senador Canedo já soma cerca de 20 praças revitalizadas desde o fim de 2021"
+    },
+    {
+      "id": 321,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/príncipe-andré-luís-tiranossaurus-rex-dá-entrevista-ao--7aff73_f.jpg",
+      "title": "Príncipe André Luís Tiranossaurus Rex dá entrevista AO VIVO, amanhã 17/8 às 16h no Podvim Podcast"
+    },
+    {
+      "id": 322,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-entrega-mais-um-cmei-total-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo entrega mais um CMEI totalmente reformado"
+    },
+    {
+      "id": 323,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/lula-defende-sequestradores-que-cometem-crime-hediondo--7aff73_f.jpg",
+      "title": "Lula defende sequestradores que cometem crime hediondo. Bandido defende bandido! ASSISTA"
+    },
+    {
+      "id": 324,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-parabeniza-o-vereador-wesley-pelo--7aff73_f.jpg",
+      "title": "Câmara de Vereadores parabeniza o vereador Wesley pelo seu aniversário"
+    },
+    {
+      "id": 325,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-ediney-convida-os-canedenses-para-a-rua-do-laz-7aff73_f.jpg",
+      "title": "Vereador Ediney convida os canedenses para a Rua do Lazer amanhã na Praça Criativa da Galvão 8:00h"
+    },
+    {
+      "id": 326,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-realiza-mais-uma-entrega-d-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo realiza mais uma entrega de Chromebooks para professores da Educação"
+    },
+    {
+      "id": 327,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-ediney-convida-os-canedenses-para-a-rua-de-laz-7aff73_f.jpg",
+      "title": "Vereador Ediney convida os canedenses para a Rua de Lazer. Traga a família. Participe!"
+    },
+    {
+      "id": 328,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-chip-da-besta-de-apocalipse-13-na-mão-direita-já-cheg-7aff73_f.jpg",
+      "title": "O chip da Besta de Apocalipse 13 na mão direita já chegou: Hora de vender a alma ao Diabo ou a Deus!"
+    },
+    {
+      "id": 329,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/segunda-edição-do-aluguel-social-e-entrega-de-escritura-7aff73_f.jpg",
+      "title": "Segunda edição do aluguel social e entrega de escrituras aconteceu hoje em Senador Canedo"
+    },
+    {
+      "id": 330,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/cut-confessa-em-vídeo-crime-de-milícia-digital-contrato-7aff73_f.jpg",
+      "title": "CUT confessa em vídeo, crime de milícia digital, contrato de disparo automático de WhatsApp do Lula"
+    },
+    {
+      "id": 331,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-faz-doação-de-alimentos-arrecadados-no-c-7aff73_f.jpg",
+      "title": "Senador Canedo faz doação de alimentos arrecadados no Canedo Fest Show"
+    },
+    {
+      "id": 332,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/em-2023-o-mundo-viverá-a-maior-crise-econômica-da-histó-7aff73_f.jpg",
+      "title": "Em 2023 o mundo viverá a maior crise econômica da história. Maior do que 1929. Entenda os motivos."
+    },
+    {
+      "id": 333,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-concede-títulos-honoríficos-de-cid-7aff73_f.jpg",
+      "title": "Câmara de Vereadores concede títulos honoríficos de cidadania a ilustres personalidades canedenses"
+    },
+    {
+      "id": 334,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/maiara-e-maraísa-fazem-um-impressionante-e-fantástico-e-7aff73_f.jpg",
+      "title": "Maiara e Maraísa fazem um impressionante e fantástico espetáculo no Canedo Fest Show"
+    },
+    {
+      "id": 335,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-oferece-à-população-o-maio-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo oferece à população o maior, melhor e mais seguro festival da história"
+    },
+    {
+      "id": 336,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-e-câmara-de-vereadores-trabalham-juntas-para-7aff73_f.jpg",
+      "title": "Prefeitura e Câmara de vereadores trabalham juntas para revisar Plano Diretor Democrático municipal"
+    },
+    {
+      "id": 337,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/sessão-legislativa-da-câmara-de-vereadores-amanhã-às-8h-7aff73_f.jpg",
+      "title": "Sessão legislativa da Câmara de Vereadores amanhã às 8h da manhã: Participe!"
+    },
+    {
+      "id": 338,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/eventos-na-câmara-de-vereadores-mobilizam-a-comunidade--7aff73_f.jpg",
+      "title": "Eventos na Câmara de Vereadores mobilizam a comunidade e segmentos organizados"
+    },
+    {
+      "id": 339,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/jornalista-pedro-jordan-recebe-hoje-às-16h-no-seu-progr-7aff73_f.jpg",
+      "title": "Jornalista Pedro Jordan recebe hoje às 16h no seu programa 100 Papas o Príncipe André Luís: ASSISTA"
+    },
+    {
+      "id": 340,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/escola-municipal-doutor-josé-carneiro-é-reinaugurada-em-7aff73_f.jpg",
+      "title": "Escola Municipal Doutor José Carneiro é reinaugurada em Senador Canedo"
+    },
+    {
+      "id": 341,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-maior-e-melhor-festival-da-história-canedense-é-encer-7aff73_f.jpg",
+      "title": "O maior e melhor festival da história canedense é encerrado com chave de ouro com show do Raça Negra"
+    },
+    {
+      "id": 342,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-fará-revisão-no-plano-dire-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo fará revisão no Plano Diretor aprovado em 2020, amanhã às 14h na Câmara"
+    },
+    {
+      "id": 343,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-municipal-alerta-maio-laranja-contra-o-abuso-e-e-7aff73_f.jpg",
+      "title": "Câmara Municipal alerta: Maio Laranja contra o abuso e exploração sexual de crianças e adolescentes"
+    },
+    {
+      "id": 344,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saiba-como-a-inflação-da-gasolina-mundial-por-causa-da--7aff73_f.jpg",
+      "title": "Saiba como a inflação da gasolina mundial, por causa da guerra da Russia, prova que Lula é mentiroso"
+    },
+    {
+      "id": 345,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/webinário-promovido-pela-prefeitura-de-senador-canedo-d-7aff73_f.jpg",
+      "title": "Webinário promovido pela Prefeitura de Senador Canedo discute abolição da escravatura*"
+    },
+    {
+      "id": 346,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/cuidado-como-saber-se-tem-alguém-te-espionando-pela-câm-7aff73_f.jpg",
+      "title": "Cuidado: Como saber se tem alguém te espionando pela câmera do seu celular"
+    },
+    {
+      "id": 347,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-desculpa-da-nova-ordem-mundial-para-futuros-lockdowns-7aff73_f.jpg",
+      "title": "A desculpa da Nova Ordem Mundial para futuros Lockdowns: a farsa das mudanças climáticas: ASSISTA"
+    },
+    {
+      "id": 348,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/evento-vazio-lula-não-consegue-reunir-mil-pessoas-em-mi-7aff73_f.jpg",
+      "title": "EVENTO VAZIO! Lula não consegue reunir mil pessoas em Minas Gerais. As pesquisas mentem: VEJA VÍDEO"
+    },
+    {
+      "id": 349,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saiba-por-que-você-está-muito-mais-seguro-longe-dos-gov-7aff73_f.jpg",
+      "title": "Saiba por que você está muito mais seguro, longe dos governos, navegando na Deep Web e na Dark Web"
+    },
+    {
+      "id": 350,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/noite-de-rodeio-é-abrilhantada-por-um-lindo-show-de-isr-7aff73_f.jpg",
+      "title": "Noite de rodeio é abrilhantada por um lindo show de Israel e Rodolfo no Canedo Fest Show"
+    },
+    {
+      "id": 351,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/acompanhe-as-atividades-parlamentares-do-vereador-carpe-7aff73_f.jpg",
+      "title": "Acompanhe as atividades parlamentares do vereador Carpegiane Silvestre no Instagram"
+    },
+    {
+      "id": 352,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/hipocrisia-desarmamentista-segurança-de-lula-faz-sua-es-7aff73_f.jpg",
+      "title": "Hipocrisia desarmamentista: segurança de Lula faz sua escolta usando sub-metralhadora UMP-45 alemã"
+    },
+    {
+      "id": 353,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/inscrições-abertas-ministério-da-educação-mec-está-ofer-7aff73_f.jpg",
+      "title": "Inscrições abertas: Ministério da Educação( MEC) está oferecendo bolsas de R$ 900 para estudantes"
+    },
+    {
+      "id": 354,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/artistas-brasileiros-ligados-aos-illuminati-criam-ong-n-7aff73_f.jpg",
+      "title": "Artistas brasileiros ligados aos illuminati, criam ONG nos EUA para falar mal do Brasil no exterior"
+    },
+    {
+      "id": 355,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-fernando-pellozo-convida-famílias-canedenses-a-7aff73_f.jpg",
+      "title": "Prefeito Fernando Pellozo convida famílias canedenses ao Canedo Fest Show garantindo segurança"
+    },
+    {
+      "id": 356,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/operação-conjunta-das-forças-de-segurança-de-senador-ca-7aff73_f.jpg",
+      "title": "Operação conjunta das forças de segurança de Senador Canedo deflagra laboratório de maconha"
+    },
+    {
+      "id": 357,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-realizou-mais-de-80-mil-visitas-para-com-7aff73_f.jpg",
+      "title": "Senador Canedo realizou mais de 80 mil visitas para combater a dengue"
+    },
+    {
+      "id": 358,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-inaugura-terceira-praça-cr-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo inaugura terceira Praça Criativa no município"
+    },
+    {
+      "id": 359,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/as-pesquisas-mentem-a-grande-mídia-mente-lula-não-têm-a-7aff73_f.jpg",
+      "title": "As pesquisas mentem! A grande mídia mente! Lula não têm apoio popular, manifestações provam isso!"
+    },
+    {
+      "id": 360,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-promove-a-solenidade-de-ab-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo promove a Solenidade de Abertura do Movimento Maio Amarelo"
+    },
+    {
+      "id": 361,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/entenda-a-explicação-técnica-sobre-como-funcionam-as-en-7aff73_f.jpg",
+      "title": "Entenda a explicação técnica sobre como funcionam as energias eletromagnéticas da magia negra"
+    },
+    {
+      "id": 362,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-prefeitura-de-senador-canedo-convida-você-para-celebr-7aff73_f.jpg",
+      "title": "A Prefeitura de Senador Canedo convida você para celebrar a assinatura do aumento no sistema de água"
+    },
+    {
+      "id": 363,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/segundo-o-cdc-dos-eua-as-vacinas-mrna-covid-são-49-veze-7aff73_f.jpg",
+      "title": "Segundo o CDC dos EUA, as vacinas mRNA Covid são 49 vezes mais mortais do que vacinas da gripe comum"
+    },
+    {
+      "id": 364,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/guarde-comida-os-illuminati-estão-incendiando-galpões-d-7aff73_f.jpg",
+      "title": "Guarde comida: Os illuminati estão incendiando galpões de comida no mundo todo. O preço vai subir!"
+    },
+    {
+      "id": 365,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-prefeitura-de-senador-canedo-convoca-beneficiários-de-7aff73_f.jpg",
+      "title": "A prefeitura de Senador Canedo convoca beneficiários de programas sociais a fazer o recadastramento"
+    },
+    {
+      "id": 366,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-é-destaque-no-ranking-de-transparência-d-7aff73_f.jpg",
+      "title": "Senador Canedo é destaque no ranking de transparência do TCM-GO"
+    },
+    {
+      "id": 367,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-o-novo-recurso-whatsapp-veja-como-serão-os-grup-7aff73_f.jpg",
+      "title": "Conheça o novo recurso WhatsApp: Veja como serão os grupos para milhares de usuários"
+    },
+    {
+      "id": 368,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-diney-convida-a-todos-para-a-iniciação-esporti-7aff73_f.jpg",
+      "title": "Vereador Diney convida a todos para a iniciação esportiva da Secretaria de Esporte na Vila Galvão"
+    },
+    {
+      "id": 369,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-recebe-doação-de-mudas-de-espécies-do-ce-7aff73_f.jpg",
+      "title": "Senador Canedo recebe doação de mudas de espécies do Cerrado para recompor área degradada na cidade"
+    },
+    {
+      "id": 370,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/assista-aqui-à-campanha-de-conscientização-para-o-trâns-7aff73_f.jpg",
+      "title": "Assista aqui à campanha de conscientização para o trânsito da SMT promovida pela Prefeitura: CONFIRA"
+    },
+    {
+      "id": 371,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-câmara-de-vereadores-convida-você-a-participar-da-ses-7aff73_f.jpg",
+      "title": "A Câmara de Vereadores convida você a participar da sessão de amanhã, ou pessoalmente ou online"
+    },
+    {
+      "id": 372,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/príncipe-andré-luís-tiranossaurus-rex-concede-entrevist-7aff73_f.jpg",
+      "title": "Príncipe André Luís Tiranossaurus Rex concede entrevista bombástica sobre a Nova Ordem Mundial"
+    },
+    {
+      "id": 373,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/mãe-monstra-mata-filha-de-11-anos-ao-saber-que-a-menina-7aff73_f.jpg",
+      "title": "Mãe monstra mata filha de 11 anos ao saber que a menina tinha mantido relação sexual..."
+    },
+    {
+      "id": 374,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/secretaria-de-educação-de-senador-canedo-intensifica-aç-7aff73_f.jpg",
+      "title": "Secretaria de Educação de Senador Canedo intensifica ações para retorno presencial em toda rede"
+    },
+    {
+      "id": 375,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-convoca-os-aprovados-no-co-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo convoca os aprovados no Concurso Público da Guarda Civil Municipal"
+    },
+    {
+      "id": 376,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/maçonaria-em-1871-deu-detalhes-sobre-três-guerras-mundi-7aff73_f.jpg",
+      "title": "Maçonaria em 1871 deu detalhes sobre três guerras mundiais. Duas já se cumpriram. Mas e a Terceira?"
+    },
+    {
+      "id": 377,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/nigéria-usou-ivermectina-e-teve-3-mil-mortes-por-covid--7aff73_f.jpg",
+      "title": "Nigéria usou ivermectina e teve 3 mil mortes por Covid apesar de ter uma população igual a do Brasil"
+    },
+    {
+      "id": 378,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-prefeitura-de-senador-canedo-ensina-como-fazer-suas-c-7aff73_f.jpg",
+      "title": "A Prefeitura de Senador Canedo ensina como fazer suas calçadas para melhorar a mobilidade urbana"
+    },
+    {
+      "id": 379,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-reinaugura-centro-municipa-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo reinaugura Centro Municipal de Educação Infantil Dom Fernando"
+    },
+    {
+      "id": 380,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/assista-e-veja-as-últimas-ações-da-câmara-de-vereadores-7aff73_f.jpg",
+      "title": "Assista e veja as últimas ações da Câmara de Vereadores realizadas na semana passada"
+    },
+    {
+      "id": 381,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-que-a-maçonaria-pensa-sobre-jesus-cristo-assista-7aff73_f.jpg",
+      "title": "O que a Maçonaria pensa sobre Jesus Cristo? ASSISTA"
+    },
+    {
+      "id": 382,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/no-evento-páscoa-encantada-senador-canedo-promove-feira-7aff73_f.jpg",
+      "title": "No evento Páscoa Encantada, Senador Canedo promove feira gastronômica na Praça Criativa Central"
+    },
+    {
+      "id": 383,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/dr-alain-dutra-ensina-quem-se-envenenou-com-vacinas-da--7aff73_f.jpg",
+      "title": "Dr. Alain Dutra ensina quem se envenenou com \"vacinas\" da Covid a se desintoxicar com ervas naturais"
+    },
+    {
+      "id": 384,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/acredite-você-vai-precisar-aprenda-a-armazenar-corretam-7aff73_f.jpg",
+      "title": "Acredite, você vai precisar: aprenda a armazenar corretamente macarrão por mais de 20 anos! ASSISTA"
+    },
+    {
+      "id": 385,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-câmara-de-vereadores-está-mais-próxima-de-você-no-seu-7aff73_f.jpg",
+      "title": "A Câmara de Vereadores está mais próxima de você, no seu computador, na palma da sua mão! Participe"
+    },
+    {
+      "id": 386,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/esquerda-mundial-em-ação-laptop-do-filho-de-joe-biden-m-7aff73_f.jpg",
+      "title": "Esquerda mundial em ação: Laptop do filho de Joe Biden mostra pedofilia da elite política americana"
+    },
+    {
+      "id": 387,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/doutor-alain-dutra-explica-o-estrago-que-as-vacinas-exp-7aff73_f.jpg",
+      "title": "Doutor Alain Dutra explica o estrago que as \"vacinas\" experimentais da Covid fazem no corpo: ASSISTA"
+    },
+    {
+      "id": 388,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/política-imbecil-de-lockdowns-da-china-está-falindo-fáb-7aff73_f.jpg",
+      "title": "Política imbecil de Lockdowns da China está falindo fábricas e matando seu povo de fome: ASSISTA"
+    },
+    {
+      "id": 389,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/veja-aqui-a-história-de-vida-do-vereador-robson-henriqu-7aff73_f.jpg",
+      "title": "Veja aqui a história de vida do vereador Robson Henrique"
+    },
+    {
+      "id": 390,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/15-tenistas-vacinados-e-ex-saudáveis-não-conseguiram-te-7aff73_f.jpg",
+      "title": "15 tenistas vacinados e ex-saudáveis não conseguiram terminar o Miami Open por efeitos colaterais"
+    },
+    {
+      "id": 391,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-inicia-24-campanha-de-vacinação-contra-a-7aff73_f.jpg",
+      "title": "Senador Canedo inicia 24° campanha de vacinação contra a influenza e o sarampo"
+    },
+    {
+      "id": 392,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/patente-da-prizer-para-controlar-remotamente-via-intern-7aff73_f.jpg",
+      "title": "Patente da Prizer para controlar remotamente via internet 5G pessoas infectadas com as vacinas mRNA"
+    },
+    {
+      "id": 393,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/chip-666-na-mão-direita-ligado-à-vacina-para-comprar-e--7aff73_f.jpg",
+      "title": "Chip 666 na mão direita ligado à vacina para comprar e vender acaba de se tornar realidade: ASSISTA"
+    },
+    {
+      "id": 394,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-as-deusas-mães-nas-civilizações-pagãs-do-passad-7aff73_f.jpg",
+      "title": "Conheça as deusas mães nas civilizações pagãs do passado até se tornarem a Virgem Maria Católica"
+    },
+    {
+      "id": 395,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/campos-de-concentração-de-covid-na-china-nunca-foi-por--7aff73_f.jpg",
+      "title": "Campos de Concentração de Covid na China: nunca foi por saúde pública, sempre foi por controle total"
+    },
+    {
+      "id": 396,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/homem-que-financiou-a-criação-do-covid-19-em-laboratóri-7aff73_f.jpg",
+      "title": "Homem que financiou a criação do Covid-19 em laboratório está prestes a ir a julgamento nos EUA"
+    },
+    {
+      "id": 397,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/quem-é-o-vereador-dr-leonardo-assunção-7aff73_f.jpg",
+      "title": "Quem é o vereador Dr. Leonardo Assunção?"
+    },
+    {
+      "id": 398,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/lula-convoca-militantes-inflamados-do-pt-para-oprimir-d-7aff73_f.jpg",
+      "title": "Lula convoca militantes inflamados do PT para oprimir deputados e suas famílias em suas residências"
+    },
+    {
+      "id": 399,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-eliel-josé-grava-vídeo-cobrando-da-prefeitura--7aff73_f.jpg",
+      "title": "Vereador Eliel José grava vídeo cobrando da prefeitura abertura de escolas que ainda estão fechadas"
+    },
+    {
+      "id": 400,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/professor-de-esquerda-ensina-como-erotizar-e-estimular--7aff73_f.jpg",
+      "title": "Professor de esquerda ensina como erotizar e \"estimular\" crianças a sentir desejo pelos seus mestres"
+    },
+    {
+      "id": 401,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/urgente-armazene-alimentos-alemanha-enfrenta-escassez-d-7aff73_f.jpg",
+      "title": "URGENTE: Armazene alimentos! Alemanha enfrenta escassez de alimentos nos supermercados: ASSISTA"
+    },
+    {
+      "id": 402,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-a-história-de-vida-do-vereador-celismar-lima-7aff73_f.jpg",
+      "title": "Conheça a história de vida do vereador Celismar Lima"
+    },
+    {
+      "id": 403,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-dá-suporte-aos-direitos-da-criança-7aff73_f.jpg",
+      "title": "Câmara de Vereadores dá suporte aos Direitos da Criança e Adolescentes ao Conselho do Idoso"
+    },
+    {
+      "id": 404,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/covid-pra-quem-não-vai-se-vacinar-lista-de-médicos-que--7aff73_f.jpg",
+      "title": "COVID: Pra quem não vai se \"vacinar\"; lista de médicos que fazem tratamento precoce e emitem laudos"
+    },
+    {
+      "id": 405,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-distribui-500-pares-de-luvas-de-karatê-d-7aff73_f.jpg",
+      "title": "Senador Canedo distribui 500 pares de luvas de karatê do projeto estadual Construindo Campeões"
+    },
+    {
+      "id": 406,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-regulariza-pendências-com-credores-e-se--7aff73_f.jpg",
+      "title": "Senador Canedo regulariza pendências com credores e se habilita para receber 20 milhões em emendas"
+    },
+    {
+      "id": 407,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/envolvimento-das-elites-políticas-dos-eua-nos-laboraóri-7aff73_f.jpg",
+      "title": "Envolvimento das elites políticas dos EUA nos laboraórios de armas biológicas militares na Ucrânia"
+    },
+    {
+      "id": 408,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/jovem-é-morta-a-tiros-por-não-aceitar-pedido-de-namoro--7aff73_f.jpg",
+      "title": "Jovem é morta a tiros por não aceitar pedido de namoro em Terezópolis de Goiás: ASSISTA"
+    },
+    {
+      "id": 409,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-realiza-primeira-conferência-sobre-saúde-7aff73_f.jpg",
+      "title": "Senador Canedo realiza primeira conferência sobre saúde mental"
+    },
+    {
+      "id": 410,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/cidade-na-suíça-adota-o-bitcoin-como-moeda-oficial-assi-7aff73_f.jpg",
+      "title": "Cidade na Suíça adota o BitCoin como moeda oficial: ASSISTA"
+    },
+    {
+      "id": 411,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-demônio-avança-joe-biden-aprova-castrações-pra-menino-7aff73_f.jpg",
+      "title": "O demônio avança: Joe Biden aprova castrações pra meninos crianças que se identificarem como meninas"
+    },
+    {
+      "id": 412,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-a-biografia-da-vereadora-welma-lira-vice-presid-7aff73_f.jpg",
+      "title": "Conheça a biografia da vereadora Welma Lira, vice-presidente da Câmara de Vereadores"
+    },
+    {
+      "id": 413,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/cras-vila-galvão-é-reinaugurado-com-estrutura-acessível-7aff73_f.jpg",
+      "title": "CRAS Vila Galvão é reinaugurado com estrutura acessível e reforçará atendimento aos Canedenses"
+    },
+    {
+      "id": 414,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saúde-entra-em-pauta-nos-debates-da-câmara-de-vereadore-7aff73_f.jpg",
+      "title": "Saúde entra em pauta nos debates da Câmara de Vereadores de Senador Canedo"
+    },
+    {
+      "id": 415,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-de-senador-canedo-está-a-favor-dos-7aff73_f.jpg",
+      "title": "Câmara de Vereadores de Senador Canedo está a favor dos servidores da educação canedense"
+    },
+    {
+      "id": 416,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-professor-victor-pellozo-assume-secretar-7aff73_f.jpg",
+      "title": "Senador Canedo: Professor Victor Pellozo assume Secretaria Municipal de Educação e Cultura"
+    },
+    {
+      "id": 417,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/history-channel-revela-10-artefatos-arqueológicos-impos-7aff73_f.jpg",
+      "title": "History Channel revela 10 artefatos arqueológicos impossíveis de ter orígem humana: ASSISTA"
+    },
+    {
+      "id": 418,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/enfermeira-diz-às-redes-de-tv-que-médicos-estavam-matan-7aff73_f.jpg",
+      "title": "Enfermeira diz às redes de TV que médicos estavam matando ao reduzir oxigênio no respirador: ASSISTA"
+    },
+    {
+      "id": 419,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/por-qual-motivo-os-mortos-por-covid-não-tiveram-autópsi-7aff73_f.jpg",
+      "title": "Por qual motivo os mortos por COVID não tiveram autópsia nem velório durante a FRAUDEMIA?"
+    },
+    {
+      "id": 420,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-inova-e-abre-processo-seletivo-para-carg-7aff73_f.jpg",
+      "title": "Senador Canedo inova e abre processo seletivo para cargos comissionados por mérito e competência"
+    },
+    {
+      "id": 421,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-a-trajetória-política-do-vereador-anderson-gaúc-7aff73_f.jpg",
+      "title": "Conheça a trajetória política do vereador Anderson Gaúcho"
+    },
+    {
+      "id": 422,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/documentário-revela-o-grupo-feminista-femen-da-ucrânia--7aff73_f.jpg",
+      "title": "Documentário revela: o grupo feminista Femen da Ucrânia é comandado por... um homem!"
+    },
+    {
+      "id": 423,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-dá-início-ao-programa-guarda-civil-mirim-7aff73_f.jpg",
+      "title": "Senador Canedo dá início ao Programa Guarda Civil Mirim com aula inaugural"
+    },
+    {
+      "id": 424,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-estende-linhas-de-ônibus-p-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo estende linhas de ônibus para atender bairros afastados"
+    },
+    {
+      "id": 425,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-disponibiliza-retirada-de-leite-para-rec-7aff73_f.jpg",
+      "title": "Senador Canedo disponibiliza retirada de leite para recém-nascidos de mães portadoras de HIV e HTLV"
+    },
+    {
+      "id": 426,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-retoma-atendimentos-aeromédicos-para-pac-7aff73_f.jpg",
+      "title": "Senador Canedo retoma atendimentos aeromédicos para pacientes em caso grave"
+    },
+    {
+      "id": 427,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-terceira-sessão-de-março-é-realiza-7aff73_f.jpg",
+      "title": "Câmara de Vereadores: terceira sessão de março é realizada em clima de muitos debates"
+    },
+    {
+      "id": 428,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/direitos-iguais-feministas-da-ucrânia-fogem-do-país-e-d-7aff73_f.jpg",
+      "title": "Direitos iguais? Feministas da Ucrânia fogem do país e deixam a guerra somente aos homens: ASSISTA"
+    },
+    {
+      "id": 429,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/presidente-da-câmara-carpegiane-silvestre-pede-reforma--7aff73_f.jpg",
+      "title": "Presidente da Câmara, Carpegiane Silvestre, pede reforma e modernização da Cultura e da Biblioteca"
+    },
+    {
+      "id": 430,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-convida-os-moradores-para-a-aula-inaugural-d-7aff73_f.jpg",
+      "title": "Prefeitura convida os moradores para a aula inaugural do Projeto Guarda Mirim na sede da GCM em 7/3"
+    },
+    {
+      "id": 431,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/em-relatório-oficial-reino-unido-atesta-que-os-totalmen-7aff73_f.jpg",
+      "title": "Em relatório oficial Reino Unido atesta que os totalmente vacinados são 9 em cada 10 mortos de COVID"
+    },
+    {
+      "id": 432,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ecohealth-alliance-realizou-experimentos-arriscados-sob-7aff73_f.jpg",
+      "title": "Ecohealth Alliance realizou experimentos arriscados sobre o vírus Mers da China/EUA..."
+    },
+    {
+      "id": 433,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/laboratório-de-vacinas-moderna-já-tinha-patenteado-part-7aff73_f.jpg",
+      "title": "Laboratório de \"vacinas\" MODERNA já tinha patenteado partes da proteína Spike do Vírus COVID em 2016"
+    },
+    {
+      "id": 434,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/bacias-hidrográficas-de-senador-canedo-são-tema-de-arti-7aff73_f.jpg",
+      "title": "Bacias hidrográficas de Senador Canedo são tema de artigo científico"
+    },
+    {
+      "id": 435,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/confira-o-que-abre-e-fecha-em-goiânia-no-feriado-de-car-7aff73_f.jpg",
+      "title": "Confira o que abre e fecha em Goiânia no feriado de Carnaval"
+    },
+    {
+      "id": 436,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/bolsonaro-sepulta-a-máfia-de-cartórios-e-detrans-transf-7aff73_f.jpg",
+      "title": "Bolsonaro sepulta a máfia de cartórios e Detrans; transfira veículos direto do comprador ao vendedor"
+    },
+    {
+      "id": 437,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-apresenta-os-primeiros-jov-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo apresenta os primeiros jovens atendidos pelo projeto Aprendiz do Futuro"
+    },
+    {
+      "id": 438,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-eliel-josé-apresenta-pl-da-semana--7aff73_f.jpg",
+      "title": "Câmara de Vereadores: Eliel José apresenta PL da Semana do Patrimônio Histórico e Cultural Canedense"
+    },
+    {
+      "id": 439,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ações-de-assistência-social-e-cidadania-de-senador-cane-7aff73_f.jpg",
+      "title": "Ações de Assistência Social e Cidadania de Senador Canedo são destaque em programa na web"
+    },
+    {
+      "id": 440,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/projeto-em-tramitação-na-câmara-de-vereadores-sugere-no-7aff73_f.jpg",
+      "title": "Projeto em tramitação na Câmara de Vereadores sugere norma regulamentadora para uso de EPI"
+    },
+    {
+      "id": 441,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/sebrae-abre-inscrições-para-100-opções-de-cursos-online-7aff73_f.jpg",
+      "title": "Sebrae abre inscrições para 100 opções de cursos online gratuitos; Confira o link e se inscreva aqui"
+    },
+    {
+      "id": 442,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-diney-requer-reforma-da-praça-jd-canedo-i-e-me-7aff73_f.jpg",
+      "title": "Vereador Diney requer reforma da Praça Jd. Canedo I e melhor funcionamento nas Farmácias Municipais"
+    },
+    {
+      "id": 443,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/centro-de-reservação-de-água-é-inaugurado-em-senador-ca-7aff73_f.jpg",
+      "title": "Centro de Reservação de água é inaugurado em Senador Canedo"
+    },
+    {
+      "id": 444,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pestalozzi-de-senador-canedo-recebe-certificado-de-reco-7aff73_f.jpg",
+      "title": "Pestalozzi de Senador Canedo recebe certificado de reconhecimento"
+    },
+    {
+      "id": 445,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-retira-de-pauta-pl-que-previa-reposição-salarial-7aff73_f.jpg",
+      "title": "Câmara retira de pauta PL que previa reposição salarial a agentes políticos"
+    },
+    {
+      "id": 446,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-inaugurou-complexo-esportivo-em-parceria-7aff73_f.jpg",
+      "title": "Senador Canedo inaugurou complexo esportivo em parceria com o Governo Federal"
+    },
+    {
+      "id": 447,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-vereadores-de-senador-canedo-empossa-paulo-va-7aff73_f.jpg",
+      "title": "Câmara de Vereadores de Senador Canedo empossa Paulo Varelo da Silva como novo vereador da cidade"
+    },
+    {
+      "id": 448,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/depois-do-estudo-john-hopkins-reprovando-o-lockdown-gov-7aff73_f.jpg",
+      "title": "Depois do estudo John Hopkins reprovando o lockdown, governo Biden mente que nunca apoiou o lockdown"
+    },
+    {
+      "id": 449,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pietra-bertolazzi-desmascara-a-farsa-dos-argumentos-fem-7aff73_f.jpg",
+      "title": "Pietra Bertolazzi desmascara a farsa dos argumentos feministas em entrevista com mulheres feministas"
+    },
+    {
+      "id": 450,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conferência-realizada-em-senador-canedo-discute-igualda-7aff73_f.jpg",
+      "title": "Conferência realizada em Senador Canedo discute igualdade racial"
+    },
+    {
+      "id": 451,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/recado-do-presidente-da-câmara-carpegiane-silvestre-sob-7aff73_f.jpg",
+      "title": "Recado do presidente da Câmara, Carpegiane Silvestre sobre o retorno do período legislativo: ASSISTA"
+    },
+    {
+      "id": 452,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/países-da-europa-decretam-endemia-de-covid-a-fraudemia--7aff73_f.jpg",
+      "title": "Países da Europa decretam endemia de Covid: A fraudemia da Nova Ordem Comunista Mundial fracassou!"
+    },
+    {
+      "id": 453,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/secretaria-de-trabalho-e-empreendedorismo-promove-o-pri-7aff73_f.jpg",
+      "title": "Secretaria de Trabalho e Empreendedorismo promove o primeiro Feirão do MEI em Senador Canedo"
+    },
+    {
+      "id": 454,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-inicia-cadastramento-de-associações-comu-7aff73_f.jpg",
+      "title": "Senador Canedo inicia cadastramento de associações comunitárias"
+    },
+    {
+      "id": 455,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/as-sessões-legislativas-da-câmara-municipal-de-senador--7aff73_f.jpg",
+      "title": "As sessões legislativas da Câmara Municipal de Senador Canedo vão recomeçar em 15 de fevereiro"
+    },
+    {
+      "id": 456,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/seu-cãozinho-de-raça-de-4-mil-reais-nasce-assim-luisa-m-7aff73_f.jpg",
+      "title": "Seu cãozinho de raça de 4 mil reais nasce assim: Luisa Mell resgata 135 cães de maus-tratos: ASSISTA"
+    },
+    {
+      "id": 457,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/remédio-natural-gratuito-e-abundante-na-natureza-contra-7aff73_f.jpg",
+      "title": "Remédio natural, gratuito e abundante na natureza contra a inflamação crônica: ASSISTA"
+    },
+    {
+      "id": 458,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/deputado-federal-kim-kataguiri-e-monark-defendem-o-nazi-7aff73_f.jpg",
+      "title": "Deputado Federal Kim Kataguiri e Monark defendem o NAZISMO no Flow Podcast: ASSISTA"
+    },
+    {
+      "id": 459,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/entidades-se-unem-para-conter-crime-ambiental-em-senado-7aff73_f.jpg",
+      "title": "Entidades se unem para conter crime ambiental em Senador Canedo"
+    },
+    {
+      "id": 460,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/anule-a-proteína-tóxica-spike-das-vacinas-de-seu-organi-7aff73_f.jpg",
+      "title": "Anule a proteína tóxica Spike das vacinas de seu organismo com ervas e plantas medicinais naturais"
+    },
+    {
+      "id": 461,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/jovem-pan-news-cresce-supera-globo-news-e-alcança-cnn-b-7aff73_f.jpg",
+      "title": "Jovem Pan News cresce, supera Globo News e alcança CNN Brasil no Ibope"
+    },
+    {
+      "id": 462,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-mundo-espiritual-interfere-no-mundo-material-dynamo-a-7aff73_f.jpg",
+      "title": "O mundo espiritual interfere no mundo material? Dynamo anda sobre as águas em Londres: ASSISTA"
+    },
+    {
+      "id": 463,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-promove-campanha-de-segura-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo promove campanha de segurança de crianças no trânsito"
+    },
+    {
+      "id": 464,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-feminismo-é-uma-farsa-oportunista-assista-7aff73_f.jpg",
+      "title": "O feminismo é uma farsa oportunista: ASSISTA"
+    },
+    {
+      "id": 465,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/documentario-facção-pcc-a-história-da-maior-organização-7aff73_f.jpg",
+      "title": "DOCUMENTARIO: Facção PCC - A história da maior organização criminosa da América Latina. ASSISTA"
+    },
+    {
+      "id": 466,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/documentário-quem-mandou-matar-bolsonaro-a-verdadeira-h-7aff73_f.jpg",
+      "title": "DOCUMENTÁRIO - Quem mandou matar Bolsonaro? A Verdadeira História de Adélio Bispo de Oliveira: VEJA"
+    },
+    {
+      "id": 467,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/agenda-lgbt-little-baby-sorvetes-lança-publicidade-com--7aff73_f.jpg",
+      "title": "Agenda LGBT: Little Baby Sorvetes lança publicidade com homem ejaculando sorvete para crianças"
+    },
+    {
+      "id": 468,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-de-senador-canedo-disponibiliza-aparelhos-pa-7aff73_f.jpg",
+      "title": "Prefeitura de Senador Canedo disponibiliza aparelhos para exame de sangue de diagnóstico de dengue"
+    },
+    {
+      "id": 469,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/o-fim-dos-bancos-o-que-é-defi-e-como-isso-vai-revolucio-7aff73_f.jpg",
+      "title": "O FIM DOS BANCOS: O que é \"Defi\" e como isso vai revolucionar o sistema financeiro? ASSISTA"
+    },
+    {
+      "id": 470,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/exemplo-ao-brasil-governo-do-rio-de-janeiro-disponibili-7aff73_f.jpg",
+      "title": "Exemplo ao Brasil: governo do Rio de Janeiro disponibiliza arquitetos e engenheiros para pobres"
+    },
+    {
+      "id": 471,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vários-países-europeus-suspendem-as-restrições-contra-a-7aff73_f.jpg",
+      "title": "Vários países europeus suspendem as restrições contra a Covid, após reclassificar o risco do vírus"
+    },
+    {
+      "id": 472,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fundo-monetário-internacional-implora-a-el-salvador-que-7aff73_f.jpg",
+      "title": "Fundo Monetário Internacional implora a El Salvador que remova Bitcoin como moeda oficial do país"
+    },
+    {
+      "id": 473,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/assista-à-história-das-milícias-e-a-cumplicidade-de-ser-7aff73_f.jpg",
+      "title": "Assista à história das MILÍCIAS e a cumplicidade de servidores públicos com o crime organizado"
+    },
+    {
+      "id": 474,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/por-qual-motivo-63-mil-pessoas-desaparecem-por-ano-veja-7aff73_f.jpg",
+      "title": "Por qual motivo 63 mil pessoas desaparecem por ano? Veja o Anuário Brasileiro de Segurança Pública"
+    },
+    {
+      "id": 475,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/mulher-toca-fogo-no-namorado-e-mata-ele-queimado-por-el-7aff73_f.jpg",
+      "title": "Mulher toca fogo no namorado e mata ele queimado por ele preferir vídeos pornô adultos em vez dela"
+    },
+    {
+      "id": 476,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/colégio-tecnológico-de-goiás-oferece-18-mil-vagas-de-cu-7aff73_f.jpg",
+      "title": "Colégio Tecnológico de Goiás oferece 18 mil vagas de cursos profissionalizantes: ACESSE O COTEC AQUI"
+    },
+    {
+      "id": 477,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/horta-municipal-de-senador-canedo-inicia-instalação-de--7aff73_f.jpg",
+      "title": "Horta Municipal de Senador Canedo inicia instalação de cultivo hidropônico"
+    },
+    {
+      "id": 478,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/1880-militares-da-força-aérea-brasileira-assinaram-term-7aff73_f.jpg",
+      "title": "1880 militares da Força Aérea Brasileira assinaram termo recusando vacinas experimentais da Covid"
+    },
+    {
+      "id": 479,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/governo-do-pará-ameaça-ilegalmente-retirar-guarda-de-fi-7aff73_f.jpg",
+      "title": "Governo do Pará ameaça ilegalmente retirar guarda de filhos dos pais por uma vacina não obrigatória"
+    },
+    {
+      "id": 480,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/crianças-não-são-obrigadas-a-se-vacinar-e-pais-não-serã-7aff73_f.jpg",
+      "title": "Crianças não são obrigadas a se vacinar e pais não serão punidos por se recusar a envenenar filhos"
+    },
+    {
+      "id": 481,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/império-britânico-decreta-a-abolição-do-passaporte-sani-7aff73_f.jpg",
+      "title": "Império Britânico decreta a abolição do passaporte sanitário e fim do uso obrigatório de máscaras"
+    },
+    {
+      "id": 482,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fundação-bradesco-oferece-90-cursos-gratuitos-online-pa-7aff73_f.jpg",
+      "title": "Fundação Bradesco oferece 90 cursos gratuitos online para estudar em casa com direito a certificado"
+    },
+    {
+      "id": 483,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/obras-de-importante-reservatório-do-morada-do-morro-est-7aff73_f.jpg",
+      "title": "Obras de importante reservatório do Morada do Morro está em reta final"
+    },
+    {
+      "id": 484,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/iii-conferência-intermunicipal-de-promoção-da-igualdade-7aff73_f.jpg",
+      "title": "III Conferência Intermunicipal de Promoção da Igualdade Racial"
+    },
+    {
+      "id": 485,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-diney-em-parceria-com-a-prefeitura-promove-com-7aff73_f.jpg",
+      "title": "Vereador Diney, em parceria com a Prefeitura, promove combate à dengue e recolhimento de entulhos"
+    },
+    {
+      "id": 486,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/reforma-agrária-de-lula-deu-terras-para-37997-pessoas-m-7aff73_f.jpg",
+      "title": "Reforma agrária de Lula deu terras para 37.997 PESSOAS MORTAS além de 207.603 políticos e servidores"
+    },
+    {
+      "id": 487,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/rui-costa-pimenta-diz-que-stf-nem-deveria-existir-assis-7aff73_f.jpg",
+      "title": "Rui Costa Pimenta diz que STF nem deveria existir: ASSISTA"
+    },
+    {
+      "id": 488,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/direitos-trabalhistas-criam-desemprego-e-aumentam-traba-7aff73_f.jpg",
+      "title": "Direitos trabalhistas criam desemprego e aumentam trabalho informal: ASSISTA"
+    },
+    {
+      "id": 489,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/conheça-6-receitas-incríveis-com-gengibre-que-fortalece-7aff73_f.jpg",
+      "title": "Conheça 6 receitas incríveis com gengibre que fortalecem o corpo e aumentam a imunidade"
+    },
+    {
+      "id": 490,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/anáise-jurídica-dos-pontos-obscuros-e-criminosos-no-con-7aff73_f.jpg",
+      "title": "Anáise jurídica dos pontos obscuros e criminosos no contrato entre a Pfizer e o Ministério da Saúde"
+    },
+    {
+      "id": 491,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-promove-campanha-de-vacinação-antirrábica-na-7aff73_f.jpg",
+      "title": "Prefeitura promove campanha de vacinação antirrábica na Praça Criativa Central até sexta-feira"
+    },
+    {
+      "id": 492,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ela-se-livrou-de-mais-de-29-anos-de-dor-em-2-meses-apre-7aff73_f.jpg",
+      "title": "Ela se livrou de mais de 29 anos de DOR em 2 meses! Aprenda usar as plantas medicinais você também!"
+    },
+    {
+      "id": 493,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/parlamentares-não-são-obrigados-a-ter-passaporte-sanitá-7aff73_f.jpg",
+      "title": "Parlamentares não são obrigados a ter passaporte sanitário nem precisam se vacinar! Por que não?"
+    },
+    {
+      "id": 494,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/lockdown-climático-prefeito-de-cidade-em-minas-gerais-f-7aff73_f.jpg",
+      "title": "\"Lockdown climático\": Prefeito de cidade em Minas Gerais fecha atividades para “enfrentar as chuvas”"
+    },
+    {
+      "id": 495,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/plantas-medicinais-transforme-sua-saúde-dê-o-primeiro-p-7aff73_f.jpg",
+      "title": "Plantas Medicinais: transforme sua saúde, dê o primeiro passo hoje! ASSISTA"
+    },
+    {
+      "id": 496,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-inicia-nesta-terça-11-matrículas-para-no-7aff73_f.jpg",
+      "title": "Senador Canedo inicia nesta terça, 11, matrículas para novatos na rede municipal de ensino"
+    },
+    {
+      "id": 497,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/projeto-maria-e-joão-sem-violência-é-lançado-em-senador-7aff73_f.jpg",
+      "title": "Projeto Maria e João sem Violência é lançado em Senador Canedo"
+    },
+    {
+      "id": 498,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/veja-4-benefícios-do-chá-de-casca-de-laranja-anti-infla-7aff73_f.jpg",
+      "title": "Veja 4 benefícios do chá de casca de laranja, anti-inflamatório pra fortalecer o sistema imunológico"
+    },
+    {
+      "id": 499,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/passageiros-de-navio-cruzeiro-transatlântico-todos-com--7aff73_f.jpg",
+      "title": "Passageiros de navio Cruzeiro transatlântico, todos com passaporte vacinal, se infectam mutuamente"
+    },
+    {
+      "id": 500,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/após-80-de-vacinados-com-terapia-genética-experimental--7aff73_f.jpg",
+      "title": "Após 80% de \"vacinados\" com terapia genética experimental, Austrália vê disparo de casos de Covid"
+    },
+    {
+      "id": 501,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/jovens-de-16-anos-poderão-tirar-cnh-diz-projeto-de-lei--7aff73_f.jpg",
+      "title": "Jovens de 16 anos poderão tirar CNH, diz Projeto de Lei 3.777/2021"
+    },
+    {
+      "id": 502,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vereador-eliel-josé-reforça-a-importância-da-campanha-j-7aff73_f.jpg",
+      "title": "Vereador Eliel José reforça a importância da Campanha Janeiro Branco por meio de PL"
+    },
+    {
+      "id": 503,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-adota-medidas-para-conter-avanço-da-covi-7aff73_f.jpg",
+      "title": "Senador Canedo adota medidas para conter avanço da Covid, Gripe e Dengue"
+    },
+    {
+      "id": 504,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/apresentador-do-sbt-sofre-mal-súbito-e-cai-duro-ao-vivo-7aff73_f.jpg",
+      "title": "Apresentador do SBT sofre mal súbito e cai duro ao vivo após tomar a 3ª dose da \"vacina\": ASSISTA"
+    },
+    {
+      "id": 505,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/concurso-petrobrás-abre-inscrições-757-vagas-em-diversa-7aff73_f.jpg",
+      "title": "Concurso Petrobrás abre inscrições. 757 vagas em diversas áreas; Salário inicial de R$ 11 mil. VEJA"
+    },
+    {
+      "id": 506,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/alterações-climáticas-ou-manipulação-climática-conheça--7aff73_f.jpg",
+      "title": "Alterações climáticas ou manipulação climática? Conheça os aparelhos que alteram o clima mundial"
+    },
+    {
+      "id": 507,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/mais-de-36-mil-militares-das-forças-armadas-brasileiras-7aff73_f.jpg",
+      "title": "Mais de 36 mil militares das forças armadas brasileiras se recusaram a tomar a \"vacina\""
+    },
+    {
+      "id": 508,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/publicado-edital-do-concurso-da-polícia-civil-com-mais--7aff73_f.jpg",
+      "title": "Publicado Edital do Concurso da Polícia Civil com mais de 360 vagas e salário chega até R$ 20.449,05"
+    },
+    {
+      "id": 509,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/bolsonaro-passa-por-nova-cirurgia-no-hospital-israelita-7aff73_f.jpg",
+      "title": "Bolsonaro passa por nova cirurgia no Hospital Israelita Albert Einstein e se recupera bem."
+    },
+    {
+      "id": 510,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/veja-quem-os-candidatos-ao-governo-de-goiás-apoiam-para-7aff73_f.jpg",
+      "title": "Veja quem os candidatos ao governo de Goiás apoiam para a Presidência."
+    },
+    {
+      "id": 511,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/polícia-federal-faz-buscas-em-endereços-do-ex-governado-7aff73_f.jpg",
+      "title": "Polícia Federal faz buscas em endereços do ex-governador de Goiás Marconi Perillo."
+    },
+    {
+      "id": 512,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ibope-bolsonaro-tem-27-haddad-21-ciro-12-alckmin-8-e-ma-7aff73_f.jpg",
+      "title": "Ibope: Bolsonaro tem 27%; Haddad, 21%; Ciro, 12%; Alckmin, 8%; e Marina, 6%."
+    },
+    {
+      "id": 513,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/rafael-lyra-pede-compra-de-aparelho-de-ultrassonografia-7aff73_f.jpg",
+      "title": "Rafael Lyra pede compra de Aparelho de Ultrassonografia."
+    },
+    {
+      "id": 514,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ronaldo-da-feira-promove-moção-a-advogados-7aff73_f.jpg",
+      "title": "Ronaldo da Feira promove moção a Advogados."
+    },
+    {
+      "id": 515,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-senador-canedo-marcio-polo-requer-lei-de-horá-7aff73_f.jpg",
+      "title": "Câmara de Senador Canedo: Marcio Polo requer lei de horários especiais para PNE."
+    },
+    {
+      "id": 516,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/vanderlan-e-kajuru-são-eleitos-senadores-por-goiás-7aff73_f.jpg",
+      "title": "Vanderlan e Kajuru são eleitos senadores por Goiás."
+    },
+    {
+      "id": 517,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-técnicos-conhecem-iniciativa-de-produção-7aff73_f.jpg",
+      "title": "Senador Canedo: Técnicos conhecem iniciativa de produção de água em Rio Verde."
+    },
+    {
+      "id": 518,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/tenho-certeza-de-que-vamos-superar-tudo-isso-e-devolver-7aff73_f.jpg",
+      "title": "“Tenho certeza de que vamos superar tudo isso e devolver Goiás ao povo goiano”, afirma Caiado."
+    },
+    {
+      "id": 519,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/equipe-de-voleibol-de-senador-canedo-é-destaque-7aff73_f.jpg",
+      "title": "Equipe de voleibol de Senador Canedo é destaque"
+    },
+    {
+      "id": 520,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-senador-canedo-betim-requer-cmei-no-res-aragu-7aff73_f.jpg",
+      "title": "Câmara de Senador Canedo: Betim requer CMEI no Res. Araguaia"
+    },
+    {
+      "id": 521,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pesquisa-serpes-bolsonaro-lidera-com-folga-em-goiás-e-t-7aff73_f.jpg",
+      "title": "Pesquisa Serpes: Bolsonaro lidera com folga em Goiás e tem 26%"
+    },
+    {
+      "id": 522,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/candidatos-ao-senado-por-goiás-nas-eleições-2018-veja-a-7aff73_f.jpg",
+      "title": "Candidatos ao Senado por Goiás nas eleições 2018: veja a lista"
+    },
+    {
+      "id": 523,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/em-debate-eliton-comenta-operação-cash-delivery-e-alert-7aff73_f.jpg",
+      "title": "Em debate, Eliton comenta operação Cash Delivery e alerta para “presunção de inocência”."
+    },
+    {
+      "id": 524,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/precisamos-de-ajuda-ou-fechamos-de-vez-diz-diretor-do-m-7aff73_f.jpg",
+      "title": "“Precisamos de ajuda ou fechamos de vez”, diz diretor do Museu Nacional\""
+    },
+    {
+      "id": 525,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pesquisa-ibope-em-goiás-ronaldo-caiado-36-daniel-vilela-7aff73_f.jpg",
+      "title": "Pesquisa Ibope em Goiás: Ronaldo Caiado, 36%; Daniel Vilela, 10%; Zé Eliton, 10%"
+    },
+    {
+      "id": 526,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/em-goiás-30-cidades-têm-mais-eleitores-do-que-habitante-7aff73_f.jpg",
+      "title": "Em Goiás, 30 cidades têm mais eleitores do que habitantes. Veja lista."
+    },
+    {
+      "id": 527,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-culpa-é-do-povo-7aff73_f.jpg",
+      "title": "A culpa é do povo!"
+    },
+    {
+      "id": 528,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/candidatos-ao-governo-de-goiás-nas-eleições-de-2018-vej-7aff73_f.jpg",
+      "title": "Candidatos ao governo de Goiás nas eleições de 2018: veja quem são"
+    },
+    {
+      "id": 529,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/josé-eliton-apresenta-cinco-eixos-para-o-futuro-de-goiá-7aff73_f.jpg",
+      "title": "José Eliton apresenta cinco eixos para o futuro de Goiás"
+    },
+    {
+      "id": 530,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-utilidade-pública-7aff73_f.jpg",
+      "title": "Senador Canedo: utilidade pública"
+    },
+    {
+      "id": 531,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/no-giro-maguito-diz-ainda-acreditar-que-daniel-vai-pass-7aff73_f.jpg",
+      "title": "No Giro, Maguito diz ainda acreditar que Daniel vai passar para o 2º turno"
+    },
+    {
+      "id": 532,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/eleição-presidencial-terá-o-maior-número-de-candidatos--7aff73_f.jpg",
+      "title": "Eleição presidencial terá o maior número de candidatos em 29 anos"
+    },
+    {
+      "id": 533,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/urgente-justiça-no-dia-dos-pais-7aff73_f.jpg",
+      "title": "URGENTE: JUSTIÇA NO DIA DOS PAIS!"
+    },
+    {
+      "id": 534,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/filmes-independentes-reinam-absolutos-no-curta-canedo-2-7aff73_f.jpg",
+      "title": "Filmes independentes reinam absolutos no CURTA CANEDO 2018!"
+    },
+    {
+      "id": 535,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-de-senador-canedo-vereador-rafael-lyra-solicita--7aff73_f.jpg",
+      "title": "Câmara de Senador Canedo: vereador Rafael Lyra solicita reforma de Praça do Dona Lindú"
+    },
+    {
+      "id": 536,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-reunião-prevê-metas-para-construção-da-n-7aff73_f.jpg",
+      "title": "Senador Canedo: Reunião prevê metas para construção da nova Estação Tratamento de Água"
+    },
+    {
+      "id": 537,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/estilo-sempre-saudável-7aff73_f.jpg",
+      "title": "Estilo sempre saudável"
+    },
+    {
+      "id": 538,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/goianira-carlão-tenta-minimizar-desgaste-com-vídeos-ins-7aff73_f.jpg",
+      "title": "Goianira - Carlão tenta minimizar desgaste com vídeos institucionais"
+    },
+    {
+      "id": 539,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ronaldo-caiado-é-confirmado-candidato-a-governador-em-c-7aff73_f.jpg",
+      "title": "Ronaldo Caiado é confirmado candidato a governador em convenção com 13 partidos"
+    },
+    {
+      "id": 540,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/icms-ecológico-agm-trabalha-pela-sanção-da-nova-lei-7aff73_f.jpg",
+      "title": "ICMS Ecológico - AGM trabalha pela sanção da nova lei"
+    },
+    {
+      "id": 541,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/goiás-vai-avançar-mais-com-diálogo-participação-e-volta-7aff73_f.jpg",
+      "title": "“Goiás vai avançar mais com diálogo, participação e voltado para o futuro”, afirma José Eliton"
+    },
+    {
+      "id": 542,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/santana-gomes-contraria-cúpula-do-pdt-e-diz-que-mantém--7aff73_f.jpg",
+      "title": "Santana Gomes contraria cúpula do PDT e diz que mantém apoio à reeleição de José Eliton"
+    },
+    {
+      "id": 543,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ampliação-de-incentivos-vai-resultar-em-melhor-atendime-7aff73_f.jpg",
+      "title": "Ampliação de incentivos vai resultar em melhor atendimento em saúde"
+    },
+    {
+      "id": 544,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-municipal-em-ação-7aff73_f.jpg",
+      "title": "Câmara Municipal em ação"
+    },
+    {
+      "id": 545,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/partidos-confirmam-cinco-candidatos-à-presidência-7aff73_f.jpg",
+      "title": "Partidos confirmam cinco candidatos à Presidência"
+    },
+    {
+      "id": 546,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/mini-eta-jardim-das-oliveiras-passa-por-reforma-7aff73_f.jpg",
+      "title": "Mini ETA Jardim das Oliveiras passa por reforma"
+    },
+    {
+      "id": 547,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/câmara-municipal-de-senador-canedo-atenção-às-demandas--7aff73_f.jpg",
+      "title": "Câmara Municipal de Senador Canedo: atenção às demandas da população"
+    },
+    {
+      "id": 548,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/josé-eliton-comanda-extensa-agenda-administrativa-e-cul-7aff73_f.jpg",
+      "title": "José Eliton comanda extensa agenda administrativa e cultural na transferência da capital para a cida"
+    },
+    {
+      "id": 549,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/presidente-da-câmara-de-vereadores-ao-vivo-7aff73_f.jpg",
+      "title": "Presidente da Câmara de Vereadores ao vivo"
+    },
+    {
+      "id": 550,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-e-comunidade-em-ação-7aff73_f.jpg",
+      "title": "Prefeitura e Comunidade em Ação"
+    },
+    {
+      "id": 551,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prazos-tcm-gestores-fiquem-atentos-aos-compromissos-mun-7aff73_f.jpg",
+      "title": "Prazos TCM: Gestores fiquem atentos aos compromissos municipais"
+    },
+    {
+      "id": 552,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saia-da-rotina-cinco-dicas-para-deixar-as-preliminares--7aff73_f.jpg",
+      "title": "Saia da rotina! Cinco dicas para deixar as preliminares ainda mais quentes"
+    },
+    {
+      "id": 553,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/a-farsa-da-reencarnação-7aff73_f.jpg",
+      "title": "A farsa da reencarnação"
+    },
+    {
+      "id": 554,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/10-dicas-para-melhorar-o-sinal-da-sua-rede-wifi-7aff73_f.jpg",
+      "title": "10 dicas para melhorar o sinal da sua rede WiFi"
+    },
+    {
+      "id": 555,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/líder-do-governo-defende-demóstenes-e-diz-que-não-há-de-7aff73_f.jpg",
+      "title": "Líder do governo defende Demóstenes e diz que não há definição por Lúcia"
+    },
+    {
+      "id": 556,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/fgm-firma-acordo-com-asban-para-implementação-do-iss-in-7aff73_f.jpg",
+      "title": "FGM firma acordo com ASBAN para implementação do ISS intermunicipal"
+    },
+    {
+      "id": 557,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/agm-busca-uma-maior-aproximação-entre-os-prefeitos-e-mp-7aff73_f.jpg",
+      "title": "AGM busca uma maior aproximação entre os prefeitos e MP-GO"
+    },
+    {
+      "id": 558,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/ronaldo-caiado-e-wilder-morais-participam-de-cavalgada--7aff73_f.jpg",
+      "title": "Ronaldo Caiado e Wilder Morais participam de cavalgada em Uruaçu e reforçam apoio a agropecuária"
+    },
+    {
+      "id": 559,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/josé-eliton-entrega-25-tratores-a-pequenos-produtores-r-7aff73_f.jpg",
+      "title": "José Eliton entrega 25 tratores a pequenos produtores rurais e ressalta parceria na agricultura"
+    },
+    {
+      "id": 560,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/churrasco-turbinado-impressione-com-receitas-de-costeli-7aff73_f.jpg",
+      "title": "Churrasco turbinado: impressione com receitas de costelinha, contra-filé e fraldinha (com molhos)"
+    },
+    {
+      "id": 561,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/moda-retrospectiva-relembre-as-produções-mais-especiais-7aff73_f.jpg",
+      "title": "MODA / RETROSPECTIVA! RELEMBRE AS PRODUÇÕES MAIS ESPECIAIS USADAS POR ELIANA EM 2017"
+    },
+    {
+      "id": 562,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/helio-de-sousa-cumprimenta-autores-do-livro-sobre-coope-7aff73_f.jpg",
+      "title": "Helio de Sousa cumprimenta autores do livro sobre Cooperativismo de Crédito"
+    },
+    {
+      "id": 563,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/população-já-percebe-melhora-significativa-na-segurança-7aff73_f.jpg",
+      "title": "População já percebe melhora significativa na segurança nos terminais e ônibus da Grande Goiânia"
+    },
+    {
+      "id": 564,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/etapa-senador-canedo-de-fórmula-200-movimenta-o-domingo-7aff73_f.jpg",
+      "title": "Etapa Senador Canedo de Fórmula 200 movimenta o domingo"
+    },
+    {
+      "id": 565,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/carreira-finanças-quando-as-compras-viram-doença-conheç-7aff73_f.jpg",
+      "title": "CARREIRA & FINANÇAS / QUANDO AS COMPRAS VIRAM DOENÇA: CONHEÇA E PREVINA-SE DA ONIOMANIA"
+    },
+    {
+      "id": 566,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeito-de-senador-canedo-em-entrevista-ao-vivo-na-tel-7aff73_f.jpg",
+      "title": "Prefeito de Senador Canedo em entrevista ao vivo na Televisão"
+    },
+    {
+      "id": 567,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/professor-da-ufg-tem-artigo-publicado-na-revista-scienc-7aff73_f.jpg",
+      "title": "Professor da UFG tem artigo publicado na revista Science"
+    },
+    {
+      "id": 568,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/recorde-baldy-libera-r-12-bilhão-para-goiás-em-seis-mes-7aff73_f.jpg",
+      "title": "RECORDE: BALDY LIBERA R$ 1,2 BILHÃO PARA GOIÁS EM SEIS MESES"
+    },
+    {
+      "id": 569,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/senador-canedo-avança-cada-dia-mais-7aff73_f.jpg",
+      "title": "SENADOR CANEDO AVANÇA CADA DIA MAIS"
+    },
+    {
+      "id": 570,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/prefeitura-trabalhando-7aff73_f.jpg",
+      "title": "Prefeitura trabalhando"
+    },
+    {
+      "id": 571,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saneamento-a-todo-vapor-7aff73_f.jpg",
+      "title": "Saneamento a todo vapor"
+    },
+    {
+      "id": 572,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/utilidade-pública-7aff73_f.jpg",
+      "title": "Utilidade pública"
+    },
+    {
+      "id": 573,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/saúde-valorizada-7aff73_f.jpg",
+      "title": "Saúde Valorizada"
+    },
+    {
+      "id": 574,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/pesquisa-diagnósticodm-estímulo-para-continuarmos-traba-7aff73_f.jpg",
+      "title": "Pesquisa Diagnóstico/DM: “estímulo para continuarmos trabalhando por Goiás”, diz Caiado"
+    },
+    {
+      "id": 575,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/impacto-financeiro-dos-programas-federais-fere-autonomi-7aff73_f.jpg",
+      "title": "Impacto financeiro dos programas federais fere autonomia municipal"
+    },
+    {
+      "id": 576,
+      "source_url": "wp-content/themes/tiranossaurusrex/images/dia-das-crianças-é-comemorado-com-ações-especiais-7aff73_f.jpg",
+      "title": "Dia das Crianças é comemorado com ações especiais."
+    }
+  ]
+}

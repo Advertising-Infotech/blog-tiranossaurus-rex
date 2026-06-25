@@ -1,6 +1,16 @@
-<?php get_header(); ?>
+<?php
+$requested_id = isset($_GET['p']) ? (int)$_GET['p'] : 0;
+$post_data = $requested_id ? get_post_by_id($requested_id) : null;
 
-<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+if ($post_data) {
+    setup_postdata($post_data);
+    $GLOBALS['post'] = $post_data;
+}
+
+get_header();
+?>
+
+<?php if ($post_data) : ?>
     <article class="post-single">
         <header class="post-header">
             <h1 class="post-title"><span class="celestial-indicator"></span><?php the_title(); ?></h1>
@@ -27,6 +37,8 @@
             </div>
         </footer>
     </article>
-<?php endwhile; endif; ?>
+<?php else : ?>
+    <?php $const_path = locate_template('em-construcao.php'); if ($const_path) include $const_path; ?>
+<?php endif; ?>
 
 <?php get_footer(); ?>

@@ -37,14 +37,49 @@
     </header>
 
     <nav class="main-navigation">
+        <button class="hamburger-toggle" aria-label="Menu">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
         <ul class="menu">
             <li><a href="<?php echo esc_url(home_url('/')); ?>">Notícias</a></li>
             <li><a href="<?php echo esc_url(home_url('/sobre')); ?>">Contato</a></li>
             <li><a href="<?php echo esc_url(home_url('/interativo')); ?>">Interativo</a></li>
-            <li><a href="<?php echo esc_url(home_url('/members')); ?>">Members</a></li>
+            <li><a href="<?php echo esc_url(home_url('/members')); ?>">Membros</a></li>
             <li><a href="<?php echo esc_url(home_url('/admin')); ?>">Admin</a></li>
         </ul>
     </nav>
+
+    <!-- Banner rotativo 728x90 -->
+    <div class="banner-rotativo">
+        <div class="banner-track">
+            <div class="banner-slide">
+                <a href="#" target="_blank" rel="noopener">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Publicidade_cabeçalho.gif" alt="Publicidade">
+                </a>
+            </div>
+            <div class="banner-slide">
+                <a href="#" target="_blank" rel="noopener">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg" alt="Publicidade">
+                </a>
+            </div>
+            <div class="banner-slide">
+                <a href="https://advertisingpropaganda.yolasite.com" target="_blank" rel="noopener">
+                    <img src="<?php echo get_template_directory_uri(); ?>/images/banner-anuncio-728x90.jpg" alt="Anuncie Aqui" onerror="this.parentElement.innerHTML='<div class=banner-placeholder><span>ANUNCIE AQUI</span><small>728x90</small></div>'">
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Segundo espaço publicitário -->
+    <div class="ad-space-secondary">
+        <div class="ad-container">
+            <a href="https://advertisingpropaganda.yolasite.com" target="_blank" rel="noopener">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg" alt="Publicidade">
+            </a>
+        </div>
+    </div>
 
     <div class="site-content">
         <div class="content-area">

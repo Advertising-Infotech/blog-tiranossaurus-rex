@@ -41,6 +41,22 @@
         </div>
     </footer>
 </div>
+
+<!-- Status Bar -->
+<div class="api-status-bar">
+    <div class="status-section">
+        <span class="status-dot blink-red"></span>
+        <span class="status-text" id="status-text-red">API: Aguardando consulta</span>
+    </div>
+    <div class="status-section">
+        <span class="status-dot blink-green"></span>
+        <span class="status-text" id="status-text-green">Tiranossaurus Rex Engine</span>
+    </div>
+    <div class="status-section">
+        <span class="status-rotating" id="status-rotating-tech"></span>
+    </div>
+</div>
+
 <?php wp_footer(); ?>
 </body>
 </html>

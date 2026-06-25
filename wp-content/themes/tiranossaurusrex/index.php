@@ -2,8 +2,14 @@
 
 <div class="posts-container" data-total="<?php echo (int)($GLOBALS['wp_total_posts'] ?? 0); ?>">
     <?php if (have_posts()) : ?>
+        <?php
+        $ad_counter = 0;
+        $ad_client = ''; // User sets this in admin: ca-pub-XXXXXXXXX
+        $ad_slot   = ''; // User sets this in admin: XXXXXXXXXX
+        ?>
         <?php while (have_posts()) : the_post(); ?>
             <article class="post-card">
+                <a href="<?php the_permalink(); ?>" style="text-decoration:none;color:inherit;display:contents;">
                 <div class="post-card-image">
                     <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail('large'); ?>
@@ -13,7 +19,7 @@
                 </div>
                 <div class="post-card-body">
                     <h2 class="post-card-title">
-                        <a href="<?php the_permalink(); ?>"><?php the_title(); ?></a>
+                        <?php the_title(); ?>
                     </h2>
                     <div class="post-card-meta">
                         <span><?php echo get_the_date('j M. Y'); ?></span>
@@ -22,9 +28,26 @@
                     <div class="post-card-excerpt">
                         <?php echo wp_trim_words(get_the_content(), 18); ?>
                     </div>
-                    <a href="<?php the_permalink(); ?>" class="post-card-read-more">Ler mais →</a>
+                    <span class="post-card-read-more">Ler mais →</span>
+                </div>
+                </a>
+            </article>
+            <?php
+            $ad_counter++;
+            if ($ad_counter % 6 === 0) :
+            ?>
+            <article class="post-card ad-card" data-ad>
+                <div class="ad-content">
+                    <div class="ad-label">Publicidade</div>
+                    <div class="ad-placeholder">
+                        Google AdSense<br>
+                        <small style="font-size:0.7rem;opacity:0.5;">
+                            Configure seu Publisher ID no Admin
+                        </small>
+                    </div>
                 </div>
             </article>
+            <?php endif; ?>
         <?php endwhile; ?>
     <?php endif; ?>
 </div>

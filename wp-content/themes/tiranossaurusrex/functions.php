@@ -20,6 +20,7 @@ add_action('after_setup_theme', 'tiranossaurusrex_theme_setup');
 function tiranossaurusrex_enqueue_scripts() {
     wp_enqueue_style('tiranossaurusrex-style', get_template_directory_uri() . '/style.css');
     wp_enqueue_script('tiranossaurusrex-main', get_template_directory_uri() . '/js/main.js', array('jquery'), '1.0.0', true);
+    wp_enqueue_script('tiranossaurusrex-api', get_template_directory_uri() . '/js/api-fallback.js', array(), '1.0.0', true);
 }
 
 add_action('wp_enqueue_scripts', 'tiranossaurusrex_enqueue_scripts');
@@ -44,22 +45,3 @@ function tiranossaurusrex_custom_excerpt_length($length) {
 
 add_filter('excerpt_length', 'tiranossaurusrex_custom_excerpt_length');
 
-function tiranossaurusrex_pagination() {
-    global $wp_query;
-    $big = 999999999;
-    echo paginate_links(array(
-        'base' => str_replace($big, '%#%', get_pagenum_link($big)),
-        'format' => '?paged=%#%',
-        'current' => max(1, get_query_var('paged')),
-        'total' => $wp_query->max_num_pages,
-        'prev_text' => __('« Anterior'),
-        'next_text' => __('Próximo »'),
-    ));
-}
-
-function tiranossaurusrex_get_reading_time() {
-    $content = apply_filters('the_content', get_the_content());
-    $word_count = str_word_count(strip_tags($content));
-    $reading_time = ceil($word_count / 200);
-    return $reading_time;
-}
