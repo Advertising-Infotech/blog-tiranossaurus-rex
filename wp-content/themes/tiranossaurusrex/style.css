@@ -105,7 +105,7 @@ a:hover {
 .profile-photo {
     width: 90px;
     height: 90px;
-    border-radius: 12px;
+    border-radius: 12px !important;
     object-fit: cover;
     border: 4px solid rgba(0,227,253,0.6);
     box-shadow: 0 0 25px rgba(0,227,253,0.35), inset 0 0 15px rgba(0,227,253,0.1);
@@ -274,6 +274,12 @@ a:hover {
 .main-navigation.nav-hidden {
     transform: translateY(-100%);
     opacity: 0;
+}
+
+.site-header.header-hidden {
+    transform: translateY(-100%);
+    opacity: 0;
+    transition: transform 0.3s ease, opacity 0.3s ease;
 }
 
 .main-navigation .menu {
@@ -531,6 +537,7 @@ a:hover {
 
 .post-card.glow-active {
     border-color: #00e3fd !important;
+    border-width: 1px !important;
     box-shadow: 0 0 15px rgba(0,227,253,0.4), 0 0 30px rgba(0,227,253,0.2), 0 8px 30px rgba(0,227,253,0.15);
 }
 
@@ -538,10 +545,10 @@ a:hover {
     padding: 18px;
 }
 
-/* Card hover glow border */
+/* Card hover glow border: 1px solid blue glowing */
 .post-card.card-hover-glow {
-    border: 1px solid rgba(0,227,253,0.5);
-    box-shadow: 0 0 12px rgba(0,227,253,0.3), 0 0 25px rgba(0,227,253,0.15);
+    border: 1px solid #00e3fd !important;
+    box-shadow: 0 0 8px rgba(0,227,253,0.5), 0 0 20px rgba(0,227,253,0.25);
 }
 
 .post-card-image {
@@ -1457,15 +1464,23 @@ a:hover {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 6px;
+        gap: 4px;
         padding: 15px 5px 30px;
     }
 
     .pagination-area .pagination-btn {
         margin: 0;
-        padding: 8px 14px;
-        font-size: 0.8rem;
+        padding: 6px 10px;
+        font-size: 0.75rem;
         flex-shrink: 0;
+        min-width: 32px;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .pagination-area .pagination-btn:last-child {
+        margin-left: auto;
+        margin-right: auto;
     }
 
     /* Banner full width */

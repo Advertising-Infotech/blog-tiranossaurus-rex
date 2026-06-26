@@ -34,15 +34,38 @@
         var slides = track.querySelectorAll('.banner-slide');
         if (slides.length < 2) return;
         var current = 0;
-        var slideWidth = 100; // 100%
-        var staticTime = 15000; // 15s static
-        var animDuration = 800; // 0.8s transition
+        var slideWidth = 100;
+        var staticTime = 15000;
+        var animDuration = 800;
+        var paused = false;
 
         track.style.transition = 'transform ' + (animDuration / 1000) + 's ease-in-out';
 
         function showSlide(index) {
             track.style.transform = 'translateX(-' + (index * slideWidth) + '%)';
         }
+
+        function nextSlide() {
+            if (paused) {
+                window._bannerTimer = setTimeout(nextSlide, 500);
+                return;
+            }
+            current = (current + 1) % slides.length;
+            showSlide(current);
+            clearTimeout(window._bannerTimer);
+            window._bannerTimer = setTimeout(nextSlide, staticTime + animDuration);
+        }
+
+        // Hover pause
+        var banner = document.querySelector('.banner-rotativo');
+        if (banner) {
+            banner.addEventListener('mouseenter', function() { paused = true; });
+            banner.addEventListener('mouseleave', function() { paused = false; });
+        }
+
+        showSlide(0);
+        window._bannerTimer = setTimeout(nextSlide, staticTime);
+    }
 
         function nextSlide() {
             current = (current + 1) % slides.length;
@@ -135,15 +158,18 @@
 
         var lastScroll = 0;
         var ticking = false;
+        var scrollThreshold = 80;
 
         window.addEventListener('scroll', function() {
             lastScroll = window.scrollY;
             if (!ticking) {
                 window.requestAnimationFrame(function() {
-                    if (lastScroll > 60) {
+                    if (lastScroll > scrollThreshold) {
                         nav.classList.add('nav-hidden');
+                        if (header) header.classList.add('header-hidden');
                     } else {
                         nav.classList.remove('nav-hidden');
+                        if (header) header.classList.remove('header-hidden');
                     }
                     ticking = false;
                 });

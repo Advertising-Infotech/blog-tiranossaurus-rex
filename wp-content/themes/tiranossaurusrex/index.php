@@ -34,7 +34,7 @@
             </article>
             <?php
             $ad_counter++;
-            if ($ad_counter % 6 === 0) :
+            if ($ad_counter % 5 === 0) :
             ?>
             <article class="post-card ad-card" data-ad>
                 <div class="ad-content">
