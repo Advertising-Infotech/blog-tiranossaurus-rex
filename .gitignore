@@ -11,6 +11,9 @@ restart.bat
 # Helper scripts
 _expand_posts.py
 
+# Environment
+.env
+
 # IDE
 .vscode/
 .idea/
