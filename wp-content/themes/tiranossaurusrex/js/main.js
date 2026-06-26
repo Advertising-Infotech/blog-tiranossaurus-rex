@@ -67,42 +67,45 @@
         window._bannerTimer = setTimeout(nextSlide, staticTime);
     }
 
-        function nextSlide() {
-            current = (current + 1) % slides.length;
-            showSlide(current);
-            // After animation, wait staticTime then advance
-            clearTimeout(window._bannerTimer);
-            window._bannerTimer = setTimeout(nextSlide, staticTime + animDuration);
-        }
-
-        // Start: show first slide, wait 15s, then start cycling
-        showSlide(0);
-        window._bannerTimer = setTimeout(nextSlide, staticTime);
-    }
-
     /* ===== CARD GLOW ON HOVER — stronger, always random ===== */
     function initCardGlow() {
         if (GRADIENTS.length === 0) return;
-        var targets = document.querySelectorAll('.post-card, .post-card-image, .pagination-btn, .load-more-btn, .btn-home, .footer-card, .widget, .sidebar-ad-square');
-        targets.forEach(function(target) {
-            var lastIndex = -1;
-            target.addEventListener('mouseenter', function() {
-                var idx;
-                do {
-                    idx = Math.floor(Math.random() * GRADIENTS.length);
-                } while (idx === lastIndex && GRADIENTS.length > 1);
-                lastIndex = idx;
-                var g = GRADIENTS[idx];
-                target.style.setProperty('--glow-start', g.start);
-                target.style.setProperty('--glow-end', g.end);
-                target.style.setProperty('--glow-dir', g.direction || '135deg');
-                target.classList.add('glow-active');
-                target.classList.add('card-hover-glow');
-            });
-            target.addEventListener('mouseleave', function() {
-                target.classList.remove('glow-active');
-                target.classList.remove('card-hover-glow');
-            });
+
+        // Shared glow state per element
+        var glowState = new WeakMap();
+
+        function getGlowIndex(el) {
+            var state = glowState.get(el);
+            if (!state) {
+                state = { lastIndex: -1 };
+                glowState.set(el, state);
+            }
+            var idx;
+            do {
+                idx = Math.floor(Math.random() * GRADIENTS.length);
+            } while (idx === state.lastIndex && GRADIENTS.length > 1);
+            state.lastIndex = idx;
+            return idx;
+        }
+
+        // Event delegation on document for all hover-glow elements
+        var glowSelector = '.post-card, .post-card-image, .pagination-btn, .load-more-btn, .btn-home, .footer-card, .widget, .sidebar-ad-square';
+
+        document.addEventListener('mouseover', function(e) {
+            var target = e.target.closest(glowSelector);
+            if (!target) return;
+            var idx = getGlowIndex(target);
+            var g = GRADIENTS[idx];
+            target.style.setProperty('--glow-start', g.start);
+            target.style.setProperty('--glow-end', g.end);
+            target.style.setProperty('--glow-dir', g.direction || '135deg');
+            target.classList.add('glow-active', 'card-hover-glow');
+        });
+
+        document.addEventListener('mouseout', function(e) {
+            var target = e.target.closest(glowSelector);
+            if (!target) return;
+            target.classList.remove('glow-active', 'card-hover-glow');
         });
     }
 
@@ -183,10 +186,14 @@
         var container = document.querySelector('.posts-container');
         var loadMore = document.querySelector('.load-more-btn');
         if (!container || !loadMore) return;
-        var items = container.querySelectorAll('.post-card');
+        var items = Array.from(container.querySelectorAll('.post-card'));
         var itemsPerLoad = 9;
         var totalItems = parseInt(container.getAttribute('data-total') || items.length, 10);
         var hiddenItems = [];
+        var currentApiPage = 2;
+        var isLoading = false;
+        var allLoaded = false;
+        var templateDir = container.getAttribute('data-theme') || '';
 
         items.forEach(function(item, idx) {
             if (idx >= itemsPerLoad) {
@@ -195,18 +202,97 @@
             }
         });
 
-        if (hiddenItems.length === 0) {
+        if (hiddenItems.length === 0 && items.length >= totalItems) {
             loadMore.style.display = 'none';
             return;
         }
 
-        loadMore.addEventListener('click', function() {
-            var toShow = hiddenItems.splice(0, itemsPerLoad);
-            toShow.forEach(function(item) { item.style.display = ''; });
-            if (hiddenItems.length === 0) {
-                loadMore.textContent = 'Todas as notícias carregadas';
-                loadMore.disabled = true;
+        function createPostCard(post) {
+            var dateStr = '';
+            if (post.date) {
+                var d = new Date(post.date);
+                var months = ['Jan','Fev','Mar','Abr','Mai','Jun','Jul','Ago','Set','Out','Nov','Dez'];
+                dateStr = d.getDate() + ' ' + months[d.getMonth()] + '. ' + d.getFullYear();
             }
+            var readingTime = post.reading_time || Math.max(1, Math.ceil((post.content.rendered || '').split(' ').length / 200));
+            var imgUrl = post.featured_image_url || (templateDir + '/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg');
+            var excerpt = post.excerpt || post.content.rendered.replace(/<[^>]+>/g, '').split(' ').slice(0, 18).join(' ') + '...';
+
+            var article = document.createElement('article');
+            article.className = 'post-card';
+            article.innerHTML =
+                '<a href="/?p=' + post.id + '" style="text-decoration:none;color:inherit;display:contents;">' +
+                '<div class="post-card-image">' +
+                '<img src="' + imgUrl + '" alt="' + post.title.rendered.replace(/"/g, '&quot;') + '">' +
+                '</div>' +
+                '<div class="post-card-body">' +
+                '<h2 class="post-card-title">' + post.title.rendered + '</h2>' +
+                '<div class="post-card-meta">' +
+                '<span>' + dateStr + '</span>' +
+                '<span>' + readingTime + ' min</span>' +
+                '</div>' +
+                '<div class="post-card-excerpt">' + excerpt + '</div>' +
+                '<span class="post-card-read-more">Ler mais &rarr;</span>' +
+                '</div>' +
+                '</a>';
+            return article;
+        }
+
+        function fetchApiPage() {
+            if (isLoading || allLoaded) return;
+            isLoading = true;
+            loadMore.textContent = 'Carregando...';
+            loadMore.disabled = true;
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', '/api/v1/posts?page=' + currentApiPage + '&per_page=' + itemsPerLoad, true);
+            xhr.onload = function() {
+                if (xhr.status === 200) {
+                    try {
+                        var data = JSON.parse(xhr.responseText);
+                        if (data.posts && data.posts.length > 0) {
+                            data.posts.forEach(function(post) {
+                                container.appendChild(createPostCard(post));
+                            });
+                            currentApiPage++;
+                            if (currentApiPage > data.total_pages) {
+                                allLoaded = true;
+                                loadMore.textContent = 'Todas as not\u00edcias carregadas';
+                                loadMore.disabled = true;
+                            } else {
+                                loadMore.textContent = 'Carregar mais not\u00edcias \u2193';
+                                loadMore.disabled = false;
+                            }
+                        } else {
+                            allLoaded = true;
+                            loadMore.textContent = 'Todas as not\u00edcias carregadas';
+                            loadMore.disabled = true;
+                        }
+                    } catch(e) {
+                        loadMore.textContent = 'Erro ao carregar';
+                        loadMore.disabled = false;
+                    }
+                } else {
+                    loadMore.textContent = 'Erro ao carregar';
+                    loadMore.disabled = false;
+                }
+                isLoading = false;
+            };
+            xhr.onerror = function() {
+                loadMore.textContent = 'Erro ao carregar';
+                loadMore.disabled = false;
+                isLoading = false;
+            };
+            xhr.send();
+        }
+
+        loadMore.addEventListener('click', function() {
+            if (hiddenItems.length > 0) {
+                var toShow = hiddenItems.splice(0, itemsPerLoad);
+                toShow.forEach(function(item) { item.style.display = ''; });
+                return;
+            }
+            fetchApiPage();
         });
     }
 
