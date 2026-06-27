@@ -115,10 +115,11 @@
         setInterval(function() {
             var g = shuffled[i % shuffled.length];
             var css = 'linear-gradient(' + (g.direction || '135deg') + ', ' + g.start + ', ' + g.end + ')';
-            document.querySelectorAll('.post-card, .footer-card, .widget').forEach(function(el) {
-                el.style.borderImage = css + ' 1';
-                el.style.borderStyle = 'solid';
-            });
+            var els = document.querySelectorAll('.post-card, .footer-card, .widget');
+            for (var e = 0; e < els.length; e++) {
+                els[e].style.borderImage = css + ' 1';
+                els[e].borderStyle = 'solid';
+            }
             i++;
         }, 4000);
     }
@@ -135,12 +136,13 @@
         });
 
         // Close menu on link click
-        menu.querySelectorAll('a').forEach(function(link) {
-            link.addEventListener('click', function() {
+        var links = menu.querySelectorAll('a');
+        for (var l = 0; l < links.length; l++) {
+            links[l].addEventListener('click', function() {
                 toggle.classList.remove('active');
                 menu.classList.remove('menu-open');
             });
-        });
+        }
     }
 
     /* ===== HEADER/NAV HIDE ON SCROLL DOWN ===== */
@@ -177,7 +179,7 @@
         var loadMore = document.querySelector('.load-more-btn');
         if (!container || !loadMore) return;
         var items = Array.from(container.querySelectorAll('.post-card'));
-        var itemsPerLoad = 9;
+        var itemsPerLoad = 12;
         var totalItems = parseInt(container.getAttribute('data-total') || items.length, 10);
         var hiddenItems = [];
         var currentApiPage = 2;

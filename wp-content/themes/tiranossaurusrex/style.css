@@ -195,44 +195,6 @@ a:hover {
     opacity: 0;
 }
 
-/* ===== HEADER SOCIAL ICONS ===== */
-.header-social {
-    display: flex;
-    gap: 8px;
-    margin-left: 12px;
-}
-
-.header-social a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 32px;
-    height: 32px;
-    background: rgba(255,255,255,0.06);
-    border: 1px solid rgba(0,227,253,0.2);
-    border-radius: 50%;
-    transition: all 0.3s;
-}
-
-.header-social a:hover {
-    background: rgba(0,227,253,0.15);
-    border-color: #00e3fd;
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(0,227,253,0.2);
-}
-
-.header-social img {
-    width: 16px;
-    height: 16px;
-    display: block;
-    filter: brightness(0) invert(1);
-    opacity: 0.7;
-}
-
-.header-social a:hover img {
-    opacity: 1;
-}
-
 /* ===== CELESTIAL INDICATOR ===== */
 .celestial-indicator {
     display: inline-block;
