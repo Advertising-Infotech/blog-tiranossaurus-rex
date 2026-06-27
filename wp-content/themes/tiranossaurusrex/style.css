@@ -125,7 +125,7 @@ a:hover {
 }
 
 .header-text-block h1 {
-    font-size: clamp(1.2rem, 3.5vw, 2.5rem);
+    font-size: clamp(1.56rem, 4.55vw, 3.25rem);
     font-weight: 700;
     background: linear-gradient(135deg, #fff6df, #FFD700, #fff6df);
     background-size: 200% 200%;
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .header-text-block .tagline {
-    font-size: 0.85rem;
+    font-size: 1.3rem;
     color: rgba(255,246,223,0.6);
     margin-top: 2px;
     letter-spacing: 0.5px;
@@ -172,16 +172,16 @@ a:hover {
 
 .logo-rotation {
     position: relative;
-    width: 90px;
-    height: 90px;
+    width: 135px;
+    height: 135px;
 }
 
 .logo-rotation img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 90px;
-    height: 90px;
+    width: 135px;
+    height: 135px;
     object-fit: contain;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
@@ -1437,24 +1437,24 @@ a:hover {
     }
 
     .logo-rotation {
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
     }
 
     .logo-rotation img {
-        width: 50px;
-        height: 50px;
+        width: 75px;
+        height: 75px;
     }
 
     .header-text-block h1 {
-        font-size: clamp(1rem, 4.5vw, 1.4rem);
+        font-size: clamp(1.3rem, 5.85vw, 1.82rem);
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
     }
 
     .header-text-block .tagline {
-        font-size: 0.65rem;
+        font-size: 1rem;
         white-space: nowrap;
         overflow: hidden;
         text-overflow: ellipsis;
@@ -1585,21 +1585,21 @@ a:hover {
     }
 
     .logo-rotation {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     .logo-rotation img {
-        width: 40px;
-        height: 40px;
+        width: 60px;
+        height: 60px;
     }
 
     .header-text-block h1 {
-        font-size: 0.9rem;
+        font-size: 1.2rem;
     }
 
     .header-text-block .tagline {
-        font-size: 0.55rem;
+        font-size: 0.8rem;
     }
 
     .api-status-bar .status-text {
