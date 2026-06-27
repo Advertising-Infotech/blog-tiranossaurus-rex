@@ -6,15 +6,30 @@
         <div class="footer-cards">
             <div class="footer-card blue">
                 <h3>Informação</h3>
-                <p>Conhecimento é poder, que no coração cria sabedoria, luz, paz, amor e consciência, ligando a criatura ao seu Criador, Yahwah.</p>
+                <ul class="footer-list">
+                    <li>Conhecimento é poder, que no coração cria sabedoria, luz, paz, amor e consciência</li>
+                    <li>Ligando a criatura ao seu Criador, Yahwah, em busca da verdade eterna</li>
+                    <li>A informação correta liberta o ser humano das amarras da ignorância</li>
+                    <li>Busque sempre o conhecimento com discernimento e responsabilidade</li>
+                </ul>
             </div>
             <div class="footer-card red">
                 <h3>Destaque</h3>
-                <p>Fique por dentro das últimas notícias e atualizações de Senador Canedo e região.</p>
+                <ul class="footer-list">
+                    <li>Fique por dentro das últimas notícias e atualizações de Senador Canedo e região</li>
+                    <li>Acompanhe os eventos, as sessões da câmara e as decisões políticas locais</li>
+                    <li>Participe ativamente da vida comunitária e exerça sua cidadania</li>
+                    <li>Senador Canedo em primeiro lugar, com informação de qualidade</li>
+                </ul>
             </div>
             <div class="footer-card white">
                 <h3>Contato</h3>
-                <p>Entre em contato através das nossas redes sociais ou envie sua sugestão de pauta.</p>
+                <ul class="footer-list">
+                    <li>Entre em contato através das nossas redes sociais ou envie sua sugestão de pauta</li>
+                    <li>Siga-nos no Facebook, Instagram, Twitter e Google+ para ficar atualizado</li>
+                    <li>Compartilhe suas ideias e contribua com o jornalismo independente</li>
+                    <li>Juntos podemos fazer a diferença na informação da nossa cidade</li>
+                </ul>
             </div>
         </div>
 

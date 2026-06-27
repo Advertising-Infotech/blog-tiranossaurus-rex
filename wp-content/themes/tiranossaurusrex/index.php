@@ -7,12 +7,16 @@
         $ad_client = ''; // User sets this in admin: ca-pub-XXXXXXXXX
         $ad_slot   = ''; // User sets this in admin: XXXXXXXXXX
         ?>
-        <?php while (have_posts()) : the_post(); ?>
+        <?php 
+        $post_index = 0;
+        while (have_posts()) : the_post(); $post_index++; ?>
             <article class="post-card">
                 <a href="<?php the_permalink(); ?>" style="text-decoration:none;color:inherit;display:contents;">
                 <div class="post-card-image">
                     <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail('large'); ?>
+                    <?php elseif ($post_index === 1) : ?>
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/vice-presidente-da-AMMA-Senador-Canedo-é-finalista-do-Prêmio-Espírito-Público-2025.jpg" alt="Vice-presidente da AMMA">
                     <?php else : ?>
                         <img src="<?php echo get_template_directory_uri(); ?>/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg" alt="Tiranossaurus Rex">
                     <?php endif; ?>
@@ -55,23 +59,5 @@
 <div class="load-more-container">
     <button class="load-more-btn">Carregar mais notícias ↓</button>
 </div>
-
-<?php
-$total_pages = $GLOBALS['wp_total_pages'] ?? 1;
-$current_page = $GLOBALS['wp_current_page'] ?? 1;
-if ($total_pages > 1) :
-?>
-<div class="pagination-area">
-    <?php if ($current_page > 1) : ?>
-        <a href="<?php echo home_url('/inicio/page/' . ($current_page - 1)); ?>" class="pagination-btn">← Anterior</a>
-    <?php endif; ?>
-    <?php for ($i = 1; $i <= $total_pages; $i++) : ?>
-        <a href="<?php echo home_url('/inicio/page/' . $i); ?>" class="pagination-btn"><?php echo $i; ?></a>
-    <?php endfor; ?>
-    <?php if ($current_page < $total_pages) : ?>
-        <a href="<?php echo home_url('/inicio/page/' . ($current_page + 1)); ?>" class="pagination-btn">Próximo →</a>
-    <?php endif; ?>
-</div>
-<?php endif; ?>
 
 <?php get_footer(); ?>

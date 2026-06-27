@@ -67,11 +67,10 @@
         window._bannerTimer = setTimeout(nextSlide, staticTime);
     }
 
-    /* ===== CARD GLOW ON HOVER — stronger, always random ===== */
+    /* ===== CARD GLOW ON HOVER — stronger, always random from gradients.json ===== */
     function initCardGlow() {
         if (GRADIENTS.length === 0) return;
 
-        // Shared glow state per element
         var glowState = new WeakMap();
 
         function getGlowIndex(el) {
@@ -88,7 +87,6 @@
             return idx;
         }
 
-        // Event delegation on document for all hover-glow elements
         var glowSelector = '.post-card, .post-card-image, .pagination-btn, .load-more-btn, .btn-home, .footer-card, .widget, .sidebar-ad-square';
 
         document.addEventListener('mouseover', function(e) {
@@ -109,28 +107,20 @@
         });
     }
 
-    /* ===== COLOR CYCLING ON TITLES ===== */
+    /* ===== GRADIENT BORDER CYCLING on all cards – 4s cycle from gradients.json ===== */
     function initColorCycling() {
         if (GRADIENTS.length === 0) return;
         var shuffled = GRADIENTS.slice().sort(function() { return Math.random() - 0.5; });
-        var titles = document.querySelectorAll('h1, h2, h3');
-        var cards = document.querySelectorAll('.post-card, .footer-card, .widget');
         var i = 0;
         setInterval(function() {
             var g = shuffled[i % shuffled.length];
             var css = 'linear-gradient(' + (g.direction || '135deg') + ', ' + g.start + ', ' + g.end + ')';
-            titles.forEach(function(el) {
-                el.style.backgroundImage = css;
-                el.style.webkitBackgroundClip = 'text';
-                el.style.webkitTextFillColor = 'transparent';
-                el.style.backgroundClip = 'text';
-            });
-            cards.forEach(function(el) {
+            document.querySelectorAll('.post-card, .footer-card, .widget').forEach(function(el) {
                 el.style.borderImage = css + ' 1';
                 el.style.borderStyle = 'solid';
             });
             i++;
-        }, 5000);
+        }, 4000);
     }
 
     /* ===== HAMBURGER MENU TOGGLE ===== */

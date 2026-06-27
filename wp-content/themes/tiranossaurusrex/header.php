@@ -28,10 +28,16 @@
         </div>
         <div class="header-right">
             <div class="logo-rotation">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/Logotipo%201.png" alt="Logotipo 1">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/Logotipo%202.png" alt="Logotipo 2">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/Logotipo%203.png" alt="Logotipo 3">
-                <img src="<?php echo get_template_directory_uri(); ?>/images/Logotipo%204.png" alt="Logotipo 4">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo-1.png" alt="Logotipo 1">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo-2.png" alt="Logotipo 2">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo-3.png" alt="Logotipo 3">
+                <img src="<?php echo get_template_directory_uri(); ?>/images/logo-4.png" alt="Logotipo 4">
+            </div>
+            <div class="header-social">
+                <a href="https://www.facebook.com/t.rex.hacker" target="_blank" rel="noopener" title="Facebook"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png" alt="Facebook"></a>
+                <a href="https://www.instagram.com/tiranossaurusrex/" target="_blank" rel="noopener" title="Instagram"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.png" alt="Instagram"></a>
+                <a href="https://twitter.com/Tiranossaurus" target="_blank" rel="noopener" title="Twitter"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.png" alt="Twitter"></a>
+                <a href="https://plus.google.com/u/0/107066103711645706548" target="_blank" rel="noopener" title="Google+"><img src="<?php echo get_template_directory_uri(); ?>/images/googleplus-icon.png" alt="Google+"></a>
             </div>
         </div>
     </header>
