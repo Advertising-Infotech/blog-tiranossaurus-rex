@@ -14,7 +14,7 @@
                 <a href="<?php the_permalink(); ?>" style="text-decoration:none;color:inherit;display:contents;">
                 <div class="post-card-image">
                     <?php if ($post_index === 1) : ?>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/vice-presidente-da-AMMA-Senador-Canedo-é-finalista-do-Prêmio-Espírito-Público-2025.jpg" alt="Vice-presidente da AMMA">
+                        <img src="<?php echo get_template_directory_uri(); ?>/images/vice-presidente-amma-2025.jpg" alt="Vice-presidente da AMMA">
                     <?php elseif (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail('large'); ?>
                     <?php else : ?>
