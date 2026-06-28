@@ -106,6 +106,7 @@ a:hover {
     display: flex;
     align-items: center;
     gap: 18px;
+    padding-left: 6px;
 }
 
 .profile-photo {
