@@ -1428,6 +1428,10 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .header-wrapper {
+        padding: 0;
+    }
+
     .site-content {
         flex-direction: column;
         padding: 15px;
