@@ -1437,6 +1437,15 @@ a:hover {
         gap: 15px;
     }
 
+    #sidebar {
+        width: 100%;
+    }
+
+    .sidebar-ad-square {
+        aspect-ratio: auto;
+        height: 120px;
+    }
+
     .site-header {
         flex-direction: row;
         padding: 12px;
@@ -1540,6 +1549,15 @@ a:hover {
 @media (max-width: 480px) {
     .site-content {
         padding: 10px;
+    }
+
+    #sidebar {
+        width: 100%;
+    }
+
+    .sidebar-ad-square {
+        aspect-ratio: auto;
+        height: 100px;
     }
 
     .site-header {
