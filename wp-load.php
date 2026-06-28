@@ -155,7 +155,7 @@ function have_posts() {
             if (!isset($wp_query_posts)) {
                 $all_posts = $query['posts'];
                 $wp_total_posts = count($all_posts);
-                $wp_query_posts = array_slice($all_posts, 0, 27);
+                $wp_query_posts = array_slice($all_posts, 0, 12);
                 $wp_current_post = 0;
                 $wp_total_pages = $query['total_pages'] ?? 1;
                 $wp_current_page = $query['page'] ?? 1;

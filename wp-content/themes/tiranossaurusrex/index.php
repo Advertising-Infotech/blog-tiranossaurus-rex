@@ -1,6 +1,10 @@
-<?php get_header(); ?>
+<?php 
+get_header(); 
+have_posts(); 
+$total_posts = $GLOBALS['wp_total_posts'] ?? 0;
+?>
 
-<div class="posts-container" data-total="<?php echo (int)($GLOBALS['wp_total_posts'] ?? 0); ?>" data-theme="<?php echo get_template_directory_uri(); ?>">
+<div class="posts-container" data-total="<?php echo (int)$total_posts; ?>" data-theme="<?php echo get_template_directory_uri(); ?>">
     <?php if (have_posts()) : ?>
         <?php
         $ad_counter = 0;
