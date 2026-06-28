@@ -18,7 +18,8 @@ function tiranossaurusrex_theme_setup() {
 add_action('after_setup_theme', 'tiranossaurusrex_theme_setup');
 
 function tiranossaurusrex_enqueue_scripts() {
-    wp_enqueue_style('tiranossaurusrex-style', get_template_directory_uri() . '/style-v2.css', array(), '6.0.0');
+    $css_ver = filemtime(get_template_directory() . '/style-v2.css');
+    wp_enqueue_style('tiranossaurusrex-style', get_template_directory_uri() . '/style-v2.css', array(), $css_ver);
     wp_enqueue_script('tiranossaurusrex-main', get_template_directory_uri() . '/js/main-v2.js', array('jquery'), '2.0.1', true);
     wp_enqueue_script('tiranossaurusrex-api', get_template_directory_uri() . '/js/api-fallback.js', array(), '1.0.0', true);
 }
