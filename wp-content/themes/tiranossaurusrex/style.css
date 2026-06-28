@@ -1446,6 +1446,21 @@ a:hover {
         height: 120px;
     }
 
+    .hamburger-toggle {
+        display: flex;
+    }
+
+    .main-navigation .menu {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        padding: 0 15px;
+    }
+
+    .main-navigation .menu.menu-open {
+        display: flex;
+    }
+
     .site-header {
         flex-direction: row;
         padding: 12px;
