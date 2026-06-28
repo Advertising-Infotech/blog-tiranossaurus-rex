@@ -89,6 +89,8 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     padding: 15px 30px;
+    max-width: 1140px;
+    margin: 0 auto;
     background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 80%, transparent 100%);
     position: relative;
     z-index: 10;
