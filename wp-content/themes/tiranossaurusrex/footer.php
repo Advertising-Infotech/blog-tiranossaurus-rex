@@ -42,11 +42,11 @@
             <p class="footer-desc">Social media influencer</p>
 
             <div class="footer-social">
-                <a href="http://advertisingpropaganda.yolasite.com" target="_blank" rel="noopener" title="Advertising"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png" alt="Advertising"></a>
                 <a href="https://www.facebook.com/t.rex.hacker" target="_blank" rel="noopener" title="Facebook"><img src="<?php echo get_template_directory_uri(); ?>/images/facebook-icon.png" alt="Facebook"></a>
                 <a href="https://www.instagram.com/tiranossaurusrex/" target="_blank" rel="noopener" title="Instagram"><img src="<?php echo get_template_directory_uri(); ?>/images/instagram-icon.png" alt="Instagram"></a>
-                <a href="https://twitter.com/Tiranossaurus" target="_blank" rel="noopener" title="Twitter"><img src="<?php echo get_template_directory_uri(); ?>/images/twitter-icon.png" alt="Twitter"></a>
-                <a href="https://plus.google.com/u/0/107066103711645706548" target="_blank" rel="noopener" title="Google+"><img src="<?php echo get_template_directory_uri(); ?>/images/googleplus-icon.png" alt="Google+"></a>
+                <a href="https://tiktok.com/@tiranossaurus_rex" target="_blank" rel="noopener" title="TikTok"><img src="<?php echo get_template_directory_uri(); ?>/images/tiktok-icon.svg" alt="TikTok"></a>
+                <a href="mailto:advertisingpropaganda@gmail.com" title="E-mail"><img src="<?php echo get_template_directory_uri(); ?>/images/email-icon.svg" alt="E-mail"></a>
+                <a href="https://www.linkedin.com/in/advertising-propaganda-162220185?utm_source=share_via&utm_content=profile&utm_medium=member_android" target="_blank" rel="noopener" title="LinkedIn"><img src="<?php echo get_template_directory_uri(); ?>/images/linkedin-icon.svg" alt="LinkedIn"></a>
             </div>
 
             <div class="site-info">

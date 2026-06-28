@@ -125,7 +125,7 @@ a:hover {
 }
 
 .header-text-block h1 {
-    font-size: clamp(1.56rem, 4.55vw, 3.25rem);
+    font-size: clamp(1.75rem, 5.1vw, 3.64rem);
     font-weight: 700;
     background: linear-gradient(135deg, #fff6df, #FFD700, #fff6df);
     background-size: 200% 200%;
@@ -155,7 +155,7 @@ a:hover {
 }
 
 .header-text-block .tagline {
-    font-size: 1.3rem;
+    font-size: 1.45rem;
     color: rgba(255,246,223,0.6);
     margin-top: 2px;
     letter-spacing: 0.5px;
@@ -172,16 +172,16 @@ a:hover {
 
 .logo-rotation {
     position: relative;
-    width: 135px;
-    height: 135px;
+    width: 151px;
+    height: 151px;
 }
 
 .logo-rotation img {
     position: absolute;
     top: 0;
     left: 0;
-    width: 135px;
-    height: 135px;
+    width: 151px;
+    height: 151px;
     object-fit: contain;
     opacity: 0;
     transition: opacity 0.8s ease-in-out;
@@ -371,6 +371,7 @@ a:hover {
     border: 1px solid rgba(0,227,253,0.15);
     background: rgba(0,0,0,0.4);
     position: relative;
+    box-sizing: border-box;
 }
 
 .banner-track {
@@ -1437,69 +1438,13 @@ a:hover {
     }
 
     .logo-rotation {
-        width: 75px;
-        height: 75px;
+        width: 84px;
+        height: 84px;
     }
 
     .logo-rotation img {
-        width: 75px;
-        height: 75px;
-    }
-
-    .header-text-block h1 {
-        font-size: clamp(1.3rem, 5.85vw, 1.82rem);
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .header-text-block .tagline {
-        font-size: 1rem;
-        white-space: nowrap;
-        overflow: hidden;
-        text-overflow: ellipsis;
-    }
-
-    .site-content {
-        flex-direction: column;
-        padding: 12px;
-    }
-
-    #sidebar {
-        width: 100%;
-    }
-
-    .posts-container {
-        grid-template-columns: 1fr;
-        gap: 14px;
-    }
-
-    .footer-cards {
-        grid-template-columns: 1fr;
-    }
-
-    /* Hamburger */
-    .hamburger-toggle {
-        display: flex;
-    }
-
-    .main-navigation .menu {
-        flex-direction: column;
-        padding: 0;
-        display: none;
-    }
-
-    .main-navigation .menu.menu-open {
-        display: flex;
-    }
-
-    .main-navigation .menu li a {
-        padding: 10px 15px;
-        border-bottom: 1px solid rgba(0,227,253,0.06);
-    }
-
-    .main-navigation .menu li:last-child a {
-        border-bottom: none;
+        width: 84px;
+        height: 84px;
     }
 
     /* Pagination mobile fix */
@@ -1585,21 +1530,21 @@ a:hover {
     }
 
     .logo-rotation {
-        width: 60px;
-        height: 60px;
+        width: 67px;
+        height: 67px;
     }
 
     .logo-rotation img {
-        width: 60px;
-        height: 60px;
+        width: 67px;
+        height: 67px;
     }
 
     .header-text-block h1 {
-        font-size: 1.2rem;
+        font-size: 1.34rem;
     }
 
     .header-text-block .tagline {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 
     .api-status-bar .status-text {
