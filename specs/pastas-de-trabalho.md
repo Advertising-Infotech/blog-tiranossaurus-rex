@@ -62,7 +62,7 @@ C:\PHP
 
 **Comando de inicialização do servidor:**
 ```
-C:\PHP\php.exe -S localhost:8088 -t C:\trex
+C:\PHP\php.exe -S localhost:54549 -t C:\trex
 ```
 
 ---
