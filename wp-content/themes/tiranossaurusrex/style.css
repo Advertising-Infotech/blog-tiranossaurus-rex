@@ -1421,6 +1421,22 @@ a:hover {
 }
 
 @media (max-width: 768px) {
+    .site-content {
+        flex-direction: column;
+        padding: 15px;
+        gap: 20px;
+    }
+
+    .posts-container {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
+    .footer-cards {
+        grid-template-columns: 1fr;
+        gap: 15px;
+    }
+
     .site-header {
         flex-direction: row;
         padding: 12px;
@@ -1522,6 +1538,10 @@ a:hover {
 }
 
 @media (max-width: 480px) {
+    .site-content {
+        padding: 10px;
+    }
+
     .site-header {
         padding: 8px;
     }
