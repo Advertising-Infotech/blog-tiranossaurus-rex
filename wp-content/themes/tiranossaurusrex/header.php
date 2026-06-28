@@ -18,7 +18,7 @@
 </head>
 <body <?php body_class(); ?>>
 <div class="site">
-    <header class="site-header">
+    <header class="site-header" style="max-width:1140px;width:calc(100% - 60px);margin:0 auto;box-sizing:border-box;">
         <div class="header-left">
             <img src="<?php echo get_template_directory_uri(); ?>/images/Facebook_Capa_14_de_julho_de_2018.jpg" alt="Tiranossaurus Rex" class="profile-photo">
             <div class="header-text-block">
