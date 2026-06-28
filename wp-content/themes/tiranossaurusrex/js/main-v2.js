@@ -356,13 +356,5 @@
         initScrollHide();
         initInfiniteScroll();
         initFooterStatus();
-
-        var header = document.querySelector('.site-header');
-        if (header) {
-            header.style.maxWidth = '1140px';
-            header.style.width = 'calc(100% - 60px)';
-            header.style.margin = '0 auto';
-            header.style.boxSizing = 'border-box';
-        }
     });
 })();

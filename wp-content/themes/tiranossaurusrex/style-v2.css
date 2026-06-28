@@ -84,20 +84,20 @@ a:hover {
 }
 
 /* ===== HEADER ===== */
-.site-header {
+.header-wrapper {
+    padding: 0 30px;
+}
+
+.header-wrapper .site-header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 15px 30px;
-    width: calc(100% - 60px);
-    max-width: 1140px;
-    margin: 0 auto;
+    padding: 15px 0;
     background: linear-gradient(180deg, rgba(0,0,0,0.95) 0%, rgba(0,0,0,0.8) 80%, transparent 100%);
     position: relative;
     z-index: 10;
     flex-wrap: wrap;
     gap: 15px;
-    box-sizing: border-box;
 }
 
 .header-left {
