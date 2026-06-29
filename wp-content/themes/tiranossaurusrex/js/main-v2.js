@@ -178,23 +178,15 @@
         var container = document.querySelector('.posts-container');
         var loadMore = document.querySelector('.load-more-btn');
         if (!container || !loadMore) return;
-        var items = Array.from(container.querySelectorAll('.post-card'));
         var itemsPerLoad = 12;
-        var totalItems = parseInt(container.getAttribute('data-total') || items.length, 10);
-        var hiddenItems = [];
-        var currentApiPage = 2;
+        var totalItems = parseInt(container.getAttribute('data-total'), 10) || 0;
+        var initialPosts = container.querySelectorAll('.post-card:not([data-ad])').length;
+        var currentApiPage = Math.floor(initialPosts / itemsPerLoad) + 1;
         var isLoading = false;
         var allLoaded = false;
         var templateDir = container.getAttribute('data-theme') || '';
 
-        items.forEach(function(item, idx) {
-            if (idx >= itemsPerLoad) {
-                item.style.display = 'none';
-                hiddenItems.push(item);
-            }
-        });
-
-        if (hiddenItems.length === 0 && items.length >= totalItems) {
+        if (totalItems === 0) {
             loadMore.style.display = 'none';
             return;
         }
@@ -279,11 +271,6 @@
         }
 
         loadMore.addEventListener('click', function() {
-            if (hiddenItems.length > 0) {
-                var toShow = hiddenItems.splice(0, itemsPerLoad);
-                toShow.forEach(function(item) { item.style.display = ''; });
-                return;
-            }
             fetchApiPage();
         });
     }
