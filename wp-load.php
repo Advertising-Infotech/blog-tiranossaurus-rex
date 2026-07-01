@@ -140,7 +140,13 @@ function get_post_by_id($post_id) {
     $query = json_decode(file_get_contents($query_file), true);
     if (!empty($query['posts'])) {
         foreach ($query['posts'] as $p) {
-            if ($p['id'] == $post_id) return $p;
+            if ($p['id'] == $post_id) {
+                $wix_url = get_wix_image_url($p['id']);
+                if ($wix_url) {
+                    $p['featured_image_url'] = $wix_url;
+                }
+                return $p;
+            }
         }
     }
     return null;
@@ -248,7 +254,7 @@ function get_the_date($format = '') {
 
 function has_post_thumbnail() {
     global $post;
-    return !empty($post['featured_image_url']) || !empty($post['featured_media']);
+    return !empty($post['featured_image_url']);
 }
 
 function the_post_thumbnail($size = 'large') {
@@ -256,35 +262,7 @@ function the_post_thumbnail($size = 'large') {
     if (!has_post_thumbnail()) {
         return;
     }
-    if (!empty($post['featured_image_url'])) {
-        echo '<img src="' . $post['featured_image_url'] . '" alt="' . get_the_title() . '" style="width:100%;height:250px;object-fit:cover;">';
-        return;
-    }
-    $image_id = $post['featured_media'];
-    $image_src = get_media_embedded_url($image_id);
-    if ($size === 'large') {
-        $width = '100%';
-        $height = '250px';
-    }
-    echo '<img src="' . $image_src . '" alt="' . get_the_title() . '" width="' . $width . '" height="' . $height . '">';
-}
-
-function get_media_embedded_url($attachment_id) {
-    $attachments_file = ABSPATH . 'wp-attachments.json';
-    if (file_exists($attachments_file)) {
-        $data = json_decode(file_get_contents($attachments_file), true);
-        $attachments = isset($data['attachments']) ? $data['attachments'] : $data;
-        foreach ($attachments as $attachment) {
-            if ($attachment['id'] == $attachment_id) {
-                $url = $attachment['source_url'];
-                if (strpos($url, 'http') !== 0) {
-                    $url = WP_HOME . '/' . ltrim($url, '/');
-                }
-                return $url;
-            }
-        }
-    }
-    return '';
+    echo '<img src="' . $post['featured_image_url'] . '" alt="' . get_the_title() . '" style="width:100%;height:250px;object-fit:cover;">';
 }
 
 function tiranossaurusrex_get_reading_time() {
@@ -591,13 +569,9 @@ function trex_get_posts_json($page = 1, $per_page = 10) {
     $total = count($posts);
     $offset = ($page - 1) * $per_page;
     $page_posts = array_slice($posts, $offset, $per_page);
-    $default_img = WP_CONTENT_URL . '/themes/tiranossaurusrex/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg';
     foreach ($page_posts as &$p) {
         $img = get_wix_image_url($p['id']);
-        if (!$img && !empty($p['featured_media'])) {
-            $img = get_media_embedded_url($p['featured_media']);
-        }
-        $p['featured_image_url'] = $img ?: $default_img;
+        $p['featured_image_url'] = $img ?: '';
         $p['excerpt'] = wp_trim_words(strip_tags($p['content']['rendered'] ?? ''), 18);
     }
     unset($p);

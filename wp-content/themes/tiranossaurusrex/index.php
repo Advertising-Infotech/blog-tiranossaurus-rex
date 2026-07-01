@@ -19,8 +19,6 @@ $total_posts = $GLOBALS['wp_total_posts'] ?? 0;
                 <div class="post-card-image">
                     <?php if (has_post_thumbnail()) : ?>
                         <?php the_post_thumbnail('large'); ?>
-                    <?php else : ?>
-                        <img src="<?php echo get_template_directory_uri(); ?>/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg" alt="Tiranossaurus Rex">
                     <?php endif; ?>
                 </div>
                 <div class="post-card-body">
