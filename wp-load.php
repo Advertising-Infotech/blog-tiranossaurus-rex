@@ -146,6 +146,21 @@ function get_post_by_id($post_id) {
     return null;
 }
 
+function get_wix_image_url($post_id) {
+    static $image_map = null, $file_map = null;
+    if ($image_map === null) {
+        $map_file = ABSPATH . '_image_mapping.json';
+        $image_map = file_exists($map_file) ? json_decode(file_get_contents($map_file), true) : [];
+        $files_file = ABSPATH . '_wix_files.json';
+        $file_map = file_exists($files_file) ? json_decode(file_get_contents($files_file), true) : [];
+    }
+    if (isset($image_map[$post_id]) && isset($file_map[$image_map[$post_id]])) {
+        $filename = $file_map[$image_map[$post_id]];
+        return WP_CONTENT_URL . '/themes/tiranossaurusrex/images/' . $filename;
+    }
+    return '';
+}
+
 function have_posts() {
     $query_file = ABSPATH . 'wp-query.json';
     if (file_exists($query_file)) {
@@ -156,6 +171,13 @@ function have_posts() {
                 $all_posts = $query['posts'];
                 $wp_total_posts = count($all_posts);
                 $wp_query_posts = array_slice($all_posts, 0, 12);
+                foreach ($wp_query_posts as &$p) {
+                    $wix_url = get_wix_image_url($p['id']);
+                    if ($wix_url) {
+                        $p['featured_image_url'] = $wix_url;
+                    }
+                }
+                unset($p);
                 $wp_current_post = 0;
                 $wp_total_pages = $query['total_pages'] ?? 1;
                 $wp_current_page = $query['page'] ?? 1;
@@ -180,6 +202,12 @@ function the_post() {
 }
 
 function setup_postdata($post) {
+    if (!empty($post['id']) && empty($post['featured_image_url'])) {
+        $wix_url = get_wix_image_url($post['id']);
+        if ($wix_url) {
+            $post['featured_image_url'] = $wix_url;
+        }
+    }
     $GLOBALS['post'] = $post;
 }
 
@@ -220,12 +248,16 @@ function get_the_date($format = '') {
 
 function has_post_thumbnail() {
     global $post;
-    return !empty($post['featured_media']);
+    return !empty($post['featured_image_url']) || !empty($post['featured_media']);
 }
 
 function the_post_thumbnail($size = 'large') {
     global $post;
     if (!has_post_thumbnail()) {
+        return;
+    }
+    if (!empty($post['featured_image_url'])) {
+        echo '<img src="' . $post['featured_image_url'] . '" alt="' . get_the_title() . '" style="width:100%;height:250px;object-fit:cover;">';
         return;
     }
     $image_id = $post['featured_media'];
@@ -561,8 +593,8 @@ function trex_get_posts_json($page = 1, $per_page = 10) {
     $page_posts = array_slice($posts, $offset, $per_page);
     $default_img = WP_CONTENT_URL . '/themes/tiranossaurusrex/images/Banner_para_o_Blog_Tiranossaurus_Rex.jpg';
     foreach ($page_posts as &$p) {
-        $img = '';
-        if (!empty($p['featured_media'])) {
+        $img = get_wix_image_url($p['id']);
+        if (!$img && !empty($p['featured_media'])) {
             $img = get_media_embedded_url($p['featured_media']);
         }
         $p['featured_image_url'] = $img ?: $default_img;

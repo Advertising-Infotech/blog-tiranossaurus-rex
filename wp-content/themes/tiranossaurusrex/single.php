@@ -4,7 +4,6 @@ $post_data = $requested_id ? get_post_by_id($requested_id) : null;
 
 if ($post_data) {
     setup_postdata($post_data);
-    $GLOBALS['post'] = $post_data;
 }
 
 get_header();
