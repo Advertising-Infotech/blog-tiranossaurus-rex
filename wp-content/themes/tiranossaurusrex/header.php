@@ -20,7 +20,6 @@
         $post_title = $post['title']['rendered'] ?? '';
         $post_content = $post['content']['rendered'] ?? '';
         $post_excerpt = strip_tags($post_content);
-        $post_excerpt = mb_strlen($post_excerpt) > 350 ? mb_substr($post_excerpt, 0, 347) . '...' : $post_excerpt;
 
         if ($post_title) {
             $og_title = $post_title;
@@ -32,10 +31,28 @@
             $og_image = $post['featured_image_url'];
         }
     }
+    $og_image_width = '';
+    $og_image_height = '';
+    $og_image_mime = '';
+    if ($og_image) {
+        $dims = trex_get_image_dimensions($og_image);
+        if ($dims) {
+            $og_image_width = $dims[0];
+            $og_image_height = $dims[1];
+            $og_image_mime = $dims[2];
+        }
+    }
     ?>
     <meta property="og:title" content="<?php echo htmlspecialchars($og_title, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:description" content="<?php echo htmlspecialchars($og_description, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:image" content="<?php echo htmlspecialchars($og_image, ENT_QUOTES, 'UTF-8'); ?>">
+    <?php if ($og_image_width && $og_image_height): ?>
+    <meta property="og:image:width" content="<?php echo $og_image_width; ?>">
+    <meta property="og:image:height" content="<?php echo $og_image_height; ?>">
+    <?php endif; ?>
+    <?php if ($og_image_mime): ?>
+    <meta property="og:image:type" content="<?php echo $og_image_mime; ?>">
+    <?php endif; ?>
     <meta property="og:url" content="<?php echo htmlspecialchars($og_url, ENT_QUOTES, 'UTF-8'); ?>">
     <meta property="og:type" content="<?php echo $og_type; ?>">
     <meta property="og:site_name" content="Tiranossaurus Rex">

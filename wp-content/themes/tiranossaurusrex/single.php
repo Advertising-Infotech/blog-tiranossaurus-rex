@@ -34,6 +34,11 @@ get_header();
             <div class="post-categories">
                 <?php the_category(' '); ?>
             </div>
+            <div class="whatsapp-share">
+                <a href="https://wa.me/?text=<?php echo urlencode(html_entity_decode($post['title']['rendered'] ?? '') . ' — ' . get_permalink($post['id'])); ?>" target="_blank" rel="noopener" class="whatsapp-share-btn">
+                    Compartilhar no WhatsApp
+                </a>
+            </div>
         </footer>
     </article>
 <?php else : ?>

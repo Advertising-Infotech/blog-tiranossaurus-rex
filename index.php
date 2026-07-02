@@ -72,6 +72,9 @@ if (preg_match('#^/api/v1/#', $uri_path)) {
             try { $share_result = trex_share_to_all($id); } catch (Exception $e) {
                 $share_result = ['error' => $e->getMessage()];
             }
+            // Auto-refresh Facebook/WhatsApp cache for the new post
+            sleep(2);
+            trex_refresh_facebook_cache(get_permalink($id));
         }
         http_response_code(201);
         echo json_encode([
@@ -96,6 +99,23 @@ if (preg_match('#^/api/v1/#', $uri_path)) {
     if (preg_match('#^/api/v1/share/(\d+)$#', $uri_path, $m) && $method === 'GET') {
         header('Content-Type: application/json');
         $result = trex_share_to_all((int)$m[1]);
+        echo json_encode($result);
+        ob_end_flush();
+        exit;
+    }
+
+    // GET /api/v1/refresh-cache/{id} — force Facebook/WhatsApp cache refresh
+    if (preg_match('#^/api/v1/refresh-cache/(\d+)$#', $uri_path, $m) && $method === 'GET') {
+        header('Content-Type: application/json');
+        $post = get_post_by_id((int)$m[1]);
+        if (!$post) {
+            http_response_code(404);
+            echo json_encode(['error' => 'Post not found']);
+            ob_end_flush();
+            exit;
+        }
+        $url = get_permalink((int)$m[1]);
+        $result = trex_refresh_facebook_cache($url);
         echo json_encode($result);
         ob_end_flush();
         exit;
@@ -149,6 +169,21 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $uri_path === '/admin') {
     if (isset($_POST['trex_api_key_generate']) && $_POST['trex_api_key_generate'] === '1') {
         $new_key = trex_generate_api_key();
         trex_register_api_key($new_key, 'Generated from Admin');
+    }
+    if (isset($_POST['whatsapp_refresh_cache']) && $_POST['whatsapp_refresh_cache'] === '1') {
+        $post_id = (int)($_POST['whatsapp_cache_post_id'] ?? 0);
+        if ($post_id > 0) {
+            $url = get_permalink($post_id);
+            $result = trex_refresh_facebook_cache($url);
+            if ($result['success']) {
+                header('Location: ' . home_url('/admin') . '?cache_refreshed=1');
+                exit;
+            } else {
+                $err = urlencode('HTTP ' . $result['http_code'] . ': ' . ($result['response'] ?? 'unknown'));
+                header('Location: ' . home_url('/admin') . '?cache_error=' . $err);
+                exit;
+            }
+        }
     }
     header('Location: ' . home_url('/admin') . '?saved=1');
     exit;

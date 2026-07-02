@@ -981,3 +981,42 @@ function trex_handle_rest_request() {
 }
 
 // REST handler now lives in index.php for proper ob_start() interop
+
+function trex_get_image_dimensions($url) {
+    $parsed = parse_url($url);
+    if (!$parsed || !isset($parsed['path'])) return null;
+    $local_path = ABSPATH . ltrim($parsed['path'], '/');
+    if (file_exists($local_path)) {
+        $info = getimagesize($local_path);
+        if ($info) {
+            return [$info[0], $info[1], $info['mime']];
+        }
+    }
+    $fallback_path = ABSPATH . 'wp-content/themes/tiranossaurusrex/images/' . basename($url);
+    if (file_exists($fallback_path)) {
+        $info = getimagesize($fallback_path);
+        if ($info) return [$info[0], $info[1], $info['mime']];
+    }
+    return null;
+}
+
+function trex_refresh_facebook_cache($url) {
+    $api_url = 'https://graph.facebook.com/v19.0/?id=' . urlencode($url) . '&scrape=true';
+    $token = get_option('facebook_page_token', '');
+    if ($token) {
+        $api_url .= '&access_token=' . urlencode($token);
+    }
+    $ch = curl_init();
+    curl_setopt($ch, CURLOPT_URL, $api_url);
+    curl_setopt($ch, CURLOPT_POST, 1);
+    curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+    curl_setopt($ch, CURLOPT_TIMEOUT, 15);
+    $result = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    return [
+        'success' => $http_code === 200,
+        'http_code' => $http_code,
+        'response' => $http_code === 200 ? json_decode($result, true) : $result
+    ];
+}

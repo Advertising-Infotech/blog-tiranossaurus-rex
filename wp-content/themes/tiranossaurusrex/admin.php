@@ -108,6 +108,26 @@
     </div>
 
     <div style="margin-top:30px;padding-top:20px;border-top:1px solid rgba(0,227,253,0.15);">
+        <h3 style="color:#00e3fd;font-size:0.95rem;margin-bottom:12px;">WhatsApp — Forçar Atualização do Cache</h3>
+        <p style="font-size:0.78rem;color:rgba(255,246,223,0.5);margin-bottom:12px;">
+            O WhatsApp (e Facebook) armazenam em cache o preview dos links. Use esta ferramenta para forçar uma re-varredura após alterar um post. Funciona também para Facebook, Messenger e Instagram.
+        </p>
+        <form method="post" action="<?php echo home_url('/admin'); ?>" style="display:flex;gap:10px;align-items:end;flex-wrap:wrap;">
+            <div class="form-group" style="flex:1;min-width:200px;margin-bottom:0;">
+                <label>ID do Post</label>
+                <input type="number" name="whatsapp_cache_post_id" placeholder="Ex: 123" min="1">
+            </div>
+            <button type="submit" name="whatsapp_refresh_cache" value="1" class="btn-save" style="white-space:nowrap;">Atualizar Cache</button>
+        </form>
+        <?php if (isset($_GET['cache_refreshed'])): ?>
+            <div class="success-msg" style="margin-top:10px;">Cache atualizado com sucesso! O WhatsApp agora deve mostrar o preview correto.</div>
+        <?php endif; ?>
+        <?php if (isset($_GET['cache_error'])): ?>
+            <div class="error-msg" style="margin-top:10px;color:#ff6b6b;">Erro: <?php echo htmlspecialchars($_GET['cache_error']); ?></div>
+        <?php endif; ?>
+    </div>
+
+    <div style="margin-top:30px;padding-top:20px;border-top:1px solid rgba(0,227,253,0.15);">
         <h3 style="color:#00e3fd;font-size:0.95rem;margin-bottom:12px;">REST API — Documentação</h3>
         <div style="font-size:0.78rem;color:rgba(255,246,223,0.6);line-height:1.8;">
             <p><strong style="color:#00e3fd;">GET /api/v1/posts</strong> — Listar posts (paginação: ?page=1&amp;per_page=10)</p>
@@ -115,6 +135,7 @@
             <p><strong style="color:#00e3fd;">POST /api/v1/posts</strong> — Criar post com compartilhamento automático</p>
             <p><strong style="color:#00e3fd;">DELETE /api/v1/posts/{id}</strong> — Remover post</p>
             <p><strong style="color:#00e3fd;">GET /api/v1/share/{id}</strong> — Compartilhar post nas redes sociais</p>
+            <p><strong style="color:#00e3fd;">GET /api/v1/refresh-cache/{id}</strong> — Forçar atualização do cache do WhatsApp/Facebook para o post</p>
             <p><strong style="color:#00e3fd;">GET /api/v1/options</strong> — Verificar configurações das redes</p>
             <p><strong style="color:#00e3fd;">GET /api/v1/categories</strong> — Listar categorias</p>
         </div>
