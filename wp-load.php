@@ -35,6 +35,10 @@ function trex_get_credential($key) {
         'instagram_token' => 'INSTAGRAM_TOKEN',
         'instagram_id' => 'INSTAGRAM_ID',
         'tiktok_token' => 'TIKTOK_TOKEN',
+        'meta_app_id' => 'META_APP_ID',
+        'meta_app_secret' => 'META_APP_SECRET',
+        'threads_app_id' => 'THREADS_APP_ID',
+        'threads_app_secret' => 'THREADS_APP_SECRET',
     ];
     if (isset($map[$key]) && defined($map[$key])) {
         $val = constant($map[$key]);
@@ -739,36 +743,39 @@ function trex_share_to_telegram($post) {
     $caption = $info['title'] . "\n\n" . $info['lead'] . "\n\n" . $info['url'];
 
     if ($info['image']) {
-        $url = "https://api.telegram.org/bot{$token}/sendPhoto?chat_id={$chat_id}";
+        $local_file = trex_url_to_local_path($info['image']);
         $ch = curl_init();
         curl_setopt_array($ch, [
-            CURLOPT_URL => $url,
+            CURLOPT_URL => "https://api.telegram.org/bot{$token}/sendPhoto",
             CURLOPT_POST => true,
             CURLOPT_POSTFIELDS => [
-                'photo' => $info['image'],
+                'chat_id' => $chat_id,
+                'photo' => $local_file && file_exists($local_file)
+                    ? new CURLFile($local_file)
+                    : $info['image'],
                 'caption' => mb_substr($caption, 0, 1024),
                 'parse_mode' => 'HTML'
             ],
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_TIMEOUT => 15,
+            CURLOPT_TIMEOUT => 20,
             CURLOPT_SSL_VERIFYPEER => false
         ]);
         $result = curl_exec($ch);
         $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
         curl_close($ch);
     } else {
-        $url = "https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}";
         $ch = curl_init();
         curl_setopt_array($ch, [
-            CURLOPT_URL => $url,
+            CURLOPT_URL => "https://api.telegram.org/bot{$token}/sendMessage",
             CURLOPT_POST => true,
             CURLOPT_POSTFIELDS => [
+                'chat_id' => $chat_id,
                 'text' => mb_substr($caption, 0, 4096),
                 'parse_mode' => 'HTML',
                 'disable_web_page_preview' => false
             ],
             CURLOPT_RETURNTRANSFER => true,
-            CURLOPT_TIMEOUT => 15,
+            CURLOPT_TIMEOUT => 20,
             CURLOPT_SSL_VERIFYPEER => false
         ]);
         $result = curl_exec($ch);
@@ -776,6 +783,16 @@ function trex_share_to_telegram($post) {
         curl_close($ch);
     }
     return ['success' => $http_code === 200, 'http_code' => $http_code, 'response' => $result];
+}
+
+function trex_url_to_local_path($url) {
+    $parsed = parse_url($url);
+    if (!$parsed || !isset($parsed['path'])) return null;
+    $local = ABSPATH . ltrim($parsed['path'], '/');
+    if (file_exists($local)) return $local;
+    $local2 = ABSPATH . 'wp-content/themes/tiranossaurusrex/images/' . basename($url);
+    if (file_exists($local2)) return $local2;
+    return null;
 }
 
 function trex_share_to_facebook($post) {
