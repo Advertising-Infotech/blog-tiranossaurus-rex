@@ -583,7 +583,7 @@ function trex_get_posts_json($page = 1, $per_page = 10) {
     ]);
 }
 
-function trex_add_post($title, $content, $categories = [], $featured_media = 0) {
+function trex_add_post($title, $content, $categories = [], $featured_media = 0, $extra = []) {
     $query_file = ABSPATH . 'wp-query.json';
     $data = file_exists($query_file) ? json_decode(file_get_contents($query_file), true) : ['posts' => []];
     $max_id = 0;
@@ -591,7 +591,7 @@ function trex_add_post($title, $content, $categories = [], $featured_media = 0) 
         if ($p['id'] > $max_id) $max_id = $p['id'];
     }
     $new_id = $max_id + 1;
-    $data['posts'][] = [
+    $post = [
         'id' => $new_id,
         'title' => ['rendered' => $title],
         'content' => ['rendered' => $content],
@@ -599,8 +599,14 @@ function trex_add_post($title, $content, $categories = [], $featured_media = 0) 
         'featured_media' => $featured_media,
         'categories' => $categories,
         'author' => 'Tiranossaurus Rex',
-        'reading_time' => max(1, ceil(str_word_count(strip_tags($content)) / 200))
+        'reading_time' => max(1, ceil(str_word_count(strip_tags($content)) / 200)),
+        'post_type' => $extra['post_type'] ?? 'article',
+        'youtube_url' => $extra['youtube_url'] ?? '',
+        'audio_url' => $extra['audio_url'] ?? '',
+        'gallery' => $extra['gallery'] ?? [],
+        'social_shared' => []
     ];
+    $data['posts'][] = $post;
     file_put_contents($query_file, json_encode($data, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     return $new_id;
 }
@@ -614,6 +620,10 @@ function trex_update_post($id, $data) {
             foreach ($data as $k => $v) {
                 if ($k === 'title') $p['title']['rendered'] = $v;
                 elseif ($k === 'content') $p['content']['rendered'] = $v;
+                elseif ($k === 'youtube_url') $p['youtube_url'] = $v;
+                elseif ($k === 'audio_url') $p['audio_url'] = $v;
+                elseif ($k === 'gallery') $p['gallery'] = $v;
+                elseif ($k === 'post_type') $p['post_type'] = $v;
                 else $p[$k] = $v;
             }
             file_put_contents($query_file, json_encode($all, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
@@ -668,12 +678,215 @@ function sanitize_title($title) {
     return trim($title, '-');
 }
 
+// ─── Social Media Sharing Engine ─────────────────────────────────────────────
+
+function trex_get_share_text($post) {
+    $title = $post['title']['rendered'] ?? '';
+    $excerpt = strip_tags($post['content']['rendered'] ?? '');
+    $excerpt = mb_strlen($excerpt) > 300 ? mb_substr($excerpt, 0, 297) . '...' : $excerpt;
+    $url = get_permalink($post['id']);
+    $lead = mb_strlen($excerpt) > 150 ? mb_substr($excerpt, 0, 147) . '...' : $excerpt;
+    return [
+        'title' => $title,
+        'excerpt' => $excerpt,
+        'lead' => $lead,
+        'url' => $url,
+        'image' => $post['featured_image_url'] ?? ''
+    ];
+}
+
+function trex_share_to_telegram($post) {
+    $token = get_option('telegram_bot_token', '');
+    $chat_id = get_option('telegram_chat_id', '');
+    if (!$token || !$chat_id) return ['success' => false, 'error' => 'Telegram not configured'];
+
+    $info = trex_get_share_text($post);
+    $caption = $info['title'] . "\n\n" . $info['lead'] . "\n\n" . $info['url'];
+
+    if ($info['image']) {
+        $url = "https://api.telegram.org/bot{$token}/sendPhoto?chat_id={$chat_id}";
+        $ch = curl_init();
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $url,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => [
+                'photo' => $info['image'],
+                'caption' => mb_substr($caption, 0, 1024),
+                'parse_mode' => 'HTML'
+            ],
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 15,
+            CURLOPT_SSL_VERIFYPEER => false
+        ]);
+        $result = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+    } else {
+        $url = "https://api.telegram.org/bot{$token}/sendMessage?chat_id={$chat_id}";
+        $ch = curl_init();
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $url,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => [
+                'text' => mb_substr($caption, 0, 4096),
+                'parse_mode' => 'HTML',
+                'disable_web_page_preview' => false
+            ],
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 15,
+            CURLOPT_SSL_VERIFYPEER => false
+        ]);
+        $result = curl_exec($ch);
+        $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+        curl_close($ch);
+    }
+    return ['success' => $http_code === 200, 'http_code' => $http_code, 'response' => $result];
+}
+
+function trex_share_to_facebook($post) {
+    $page_token = get_option('facebook_page_token', '');
+    if (!$page_token) return ['success' => false, 'error' => 'Facebook not configured'];
+
+    $info = trex_get_share_text($post);
+    $message = $info['title'] . "\n\n" . $info['lead'];
+
+    $url = "https://graph.facebook.com/v19.0/me/feed";
+    $ch = curl_init();
+    curl_setopt_array($ch, [
+        CURLOPT_URL => $url,
+        CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => [
+            'message' => $message,
+            'link' => $info['url'],
+            'access_token' => $page_token
+        ],
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT => 15,
+        CURLOPT_SSL_VERIFYPEER => false
+    ]);
+    $result = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    return ['success' => $http_code === 200, 'http_code' => $http_code, 'response' => $result];
+}
+
+function trex_share_to_instagram($post) {
+    $ig_token = get_option('instagram_token', '');
+    $ig_id = get_option('instagram_id', '');
+    if (!$ig_token || !$ig_id) return ['success' => false, 'error' => 'Instagram not configured'];
+
+    $info = trex_get_share_text($post);
+    $caption = $info['title'] . "\n\n" . $info['lead'] . "\n\n" . $info['url'];
+
+    if ($info['image']) {
+        $url = "https://graph.facebook.com/v19.0/{$ig_id}/media";
+        $ch = curl_init();
+        curl_setopt_array($ch, [
+            CURLOPT_URL => $url,
+            CURLOPT_POST => true,
+            CURLOPT_POSTFIELDS => [
+                'image_url' => $info['image'],
+                'caption' => mb_substr($caption, 0, 2200),
+                'access_token' => $ig_token
+            ],
+            CURLOPT_RETURNTRANSFER => true,
+            CURLOPT_TIMEOUT => 15,
+            CURLOPT_SSL_VERIFYPEER => false
+        ]);
+        $result = curl_exec($ch);
+        curl_close($ch);
+        $media = json_decode($result, true);
+        if (!empty($media['id'])) {
+            sleep(5);
+            $publish_url = "https://graph.facebook.com/v19.0/{$ig_id}/media_publish";
+            $ch = curl_init();
+            curl_setopt_array($ch, [
+                CURLOPT_URL => $publish_url,
+                CURLOPT_POST => true,
+                CURLOPT_POSTFIELDS => [
+                    'creation_id' => $media['id'],
+                    'access_token' => $ig_token
+                ],
+                CURLOPT_RETURNTRANSFER => true,
+                CURLOPT_TIMEOUT => 15,
+                CURLOPT_SSL_VERIFYPEER => false
+            ]);
+            $result = curl_exec($ch);
+            $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+            curl_close($ch);
+            return ['success' => $http_code === 200, 'http_code' => $http_code, 'response' => $result];
+        }
+        return ['success' => false, 'error' => 'Media creation failed', 'response' => $result];
+    }
+    return ['success' => false, 'error' => 'Instagram requires an image'];
+}
+
+function trex_share_to_tiktok($post) {
+    $tt_token = get_option('tiktok_token', '');
+    if (!$tt_token) return ['success' => false, 'error' => 'TikTok not configured'];
+
+    $info = trex_get_share_text($post);
+    $url = "https://open-api.tiktok.com/share/video/upload/";
+    $ch = curl_init();
+    curl_setopt_array($ch, [
+        CURLOPT_URL => $url,
+        CURLOPT_POST => true,
+        CURLOPT_POSTFIELDS => json_encode([
+            'access_token' => $tt_token,
+            'post_info' => [
+                'title' => $info['title'],
+                'description' => $info['lead'],
+                'source_url' => $info['url']
+            ]
+        ]),
+        CURLOPT_HTTPHEADER => ['Content-Type: application/json'],
+        CURLOPT_RETURNTRANSFER => true,
+        CURLOPT_TIMEOUT => 15,
+        CURLOPT_SSL_VERIFYPEER => false
+    ]);
+    $result = curl_exec($ch);
+    $http_code = curl_getinfo($ch, CURLINFO_HTTP_CODE);
+    curl_close($ch);
+    return ['success' => $http_code === 200, 'http_code' => $http_code, 'response' => $result];
+}
+
+function trex_share_to_all($post_id) {
+    $post = get_post_by_id($post_id);
+    if (!$post) return ['error' => 'Post not found'];
+
+    $results = [];
+    $post['social_shared'] = $post['social_shared'] ?? [];
+
+    $platforms = [
+        'telegram' => 'trex_share_to_telegram',
+        'facebook' => 'trex_share_to_facebook',
+        'instagram' => 'trex_share_to_instagram',
+        'tiktok' => 'trex_share_to_tiktok'
+    ];
+
+    foreach ($platforms as $name => $func) {
+        if (empty($post['social_shared'][$name]) || $post['social_shared'][$name] !== 'ok') {
+            $result = $func($post);
+            $results[$name] = $result;
+            if ($result['success']) {
+                $post['social_shared'][$name] = 'ok';
+            } else {
+                $post['social_shared'][$name] = 'failed';
+            }
+        } else {
+            $results[$name] = ['success' => true, 'message' => 'Already shared'];
+        }
+    }
+
+    trex_update_post($post_id, ['social_shared' => $post['social_shared']]);
+    return $results;
+}
+
 function trex_handle_rest_request() {
     $method = $_SERVER['REQUEST_METHOD'];
     $uri = $_SERVER['REQUEST_URI'];
     $path = parse_url($uri, PHP_URL_PATH);
 
-    // Simple REST router
     if (preg_match('#^/api/v1/posts/?$#', $path)) {
         if ($method === 'GET') {
             $page = isset($_GET['page']) ? max(1, (int)$_GET['page']) : 1;
@@ -682,22 +895,86 @@ function trex_handle_rest_request() {
             echo trex_get_posts_json($page, $per_page);
             exit;
         }
+        if ($method === 'POST') {
+            $input = json_decode(file_get_contents('php://input'), true);
+            if (!$input || empty($input['title'])) {
+                http_response_code(400);
+                header('Content-Type: application/json');
+                echo json_encode(['error' => 'title is required']);
+                exit;
+            }
+            $id = trex_add_post(
+                $input['title'],
+                $input['content'] ?? '',
+                $input['categories'] ?? [],
+                $input['featured_media'] ?? 0,
+                [
+                    'post_type' => $input['post_type'] ?? 'article',
+                    'youtube_url' => $input['youtube_url'] ?? '',
+                    'audio_url' => $input['audio_url'] ?? '',
+                    'gallery' => $input['gallery'] ?? []
+                ]
+            );
+            $share_result = null;
+            if (!empty($input['share']) && $input['share'] !== 'none') {
+                try { $share_result = trex_share_to_all($id); } catch (Exception $e) {
+                    $share_result = ['error' => $e->getMessage()];
+                }
+            }
+            http_response_code(201);
+            header('Content-Type: application/json');
+            echo json_encode([
+                'id' => $id,
+                'message' => 'Post created',
+                'shared' => $share_result
+            ]);
+            exit;
+        }
     }
 
     if (preg_match('#^/api/v1/posts/(\d+)$#', $path, $m)) {
         $id = (int)$m[1];
-        header('Content-Type: application/json');
         if ($method === 'GET') {
+            header('Content-Type: application/json');
             $post = get_post_by_id($id);
             echo json_encode($post ?: ['error' => 'Post not found']);
             exit;
         }
+        if ($method === 'DELETE') {
+            header('Content-Type: application/json');
+            $result = trex_delete_post($id);
+            echo json_encode(['success' => $result]);
+            exit;
+        }
+    }
+
+    if (preg_match('#^/api/v1/share/(\d+)$#', $path, $m)) {
+        $id = (int)$m[1];
+        header('Content-Type: application/json');
+        $result = trex_share_to_all($id);
+        echo json_encode($result);
+        exit;
     }
 
     if (preg_match('#^/api/v1/categories/?$#', $path)) {
         if ($method === 'GET') {
             header('Content-Type: application/json');
             echo trex_get_categories_json();
+            exit;
+        }
+    }
+
+    if (preg_match('#^/api/v1/options/?$#', $path)) {
+        if ($method === 'GET') {
+            header('Content-Type: application/json');
+            echo json_encode([
+                'telegram_bot_token' => get_option('telegram_bot_token', ''),
+                'telegram_chat_id' => get_option('telegram_chat_id', ''),
+                'facebook_page_token' => get_option('facebook_page_token', ''),
+                'instagram_token' => get_option('instagram_token', ''),
+                'instagram_id' => get_option('instagram_id', ''),
+                'tiktok_token' => get_option('tiktok_token', '')
+            ]);
             exit;
         }
     }

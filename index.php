@@ -45,24 +45,40 @@ if (preg_match('#^/api/v1/#', $uri_path)) {
         exit;
     }
 
-    // POST /api/v1/posts — create (with API key validation)
+    // POST /api/v1/posts — create with auto-sharing
     if ($uri_path === '/api/v1/posts' && $method === 'POST') {
         header('Content-Type: application/json');
         $input = json_decode(file_get_contents('php://input'), true);
-        if (!$input || empty($input['title']) || empty($input['content'])) {
+        if (!$input || empty($input['title'])) {
             http_response_code(400);
-            echo json_encode(['error' => 'title and content required']);
+            echo json_encode(['error' => 'title is required']);
             ob_end_flush();
             exit;
         }
         $id = trex_add_post(
             $input['title'],
-            $input['content'],
+            $input['content'] ?? '',
             $input['categories'] ?? [],
-            $input['featured_media'] ?? 0
+            $input['featured_media'] ?? 0,
+            [
+                'post_type' => $input['post_type'] ?? 'article',
+                'youtube_url' => $input['youtube_url'] ?? '',
+                'audio_url' => $input['audio_url'] ?? '',
+                'gallery' => $input['gallery'] ?? []
+            ]
         );
+        $share_result = null;
+        if (!empty($input['share']) && $input['share'] !== 'none') {
+            try { $share_result = trex_share_to_all($id); } catch (Exception $e) {
+                $share_result = ['error' => $e->getMessage()];
+            }
+        }
         http_response_code(201);
-        echo json_encode(['id' => $id, 'message' => 'Post created']);
+        echo json_encode([
+            'id' => $id,
+            'message' => 'Post created',
+            'shared' => $share_result
+        ]);
         ob_end_flush();
         exit;
     }
@@ -72,6 +88,30 @@ if (preg_match('#^/api/v1/#', $uri_path)) {
         header('Content-Type: application/json');
         $result = trex_delete_post((int)$m[1]);
         echo json_encode(['success' => $result]);
+        ob_end_flush();
+        exit;
+    }
+
+    // GET /api/v1/share/{id} — trigger sharing manually
+    if (preg_match('#^/api/v1/share/(\d+)$#', $uri_path, $m) && $method === 'GET') {
+        header('Content-Type: application/json');
+        $result = trex_share_to_all((int)$m[1]);
+        echo json_encode($result);
+        ob_end_flush();
+        exit;
+    }
+
+    // GET /api/v1/options — check social config
+    if ($uri_path === '/api/v1/options' && $method === 'GET') {
+        header('Content-Type: application/json');
+        echo json_encode([
+            'telegram_bot_token' => get_option('telegram_bot_token', ''),
+            'telegram_chat_id' => get_option('telegram_chat_id', ''),
+            'facebook_page_token' => get_option('facebook_page_token', ''),
+            'instagram_token' => get_option('instagram_token', ''),
+            'instagram_id' => get_option('instagram_id', ''),
+            'tiktok_token' => get_option('tiktok_token', '')
+        ]);
         ob_end_flush();
         exit;
     }
@@ -87,6 +127,24 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && $uri_path === '/admin') {
     }
     if (isset($_POST['api_keys'])) {
         update_option('api_keys', $_POST['api_keys']);
+    }
+    if (isset($_POST['telegram_bot_token'])) {
+        update_option('telegram_bot_token', $_POST['telegram_bot_token']);
+    }
+    if (isset($_POST['telegram_chat_id'])) {
+        update_option('telegram_chat_id', $_POST['telegram_chat_id']);
+    }
+    if (isset($_POST['facebook_page_token'])) {
+        update_option('facebook_page_token', $_POST['facebook_page_token']);
+    }
+    if (isset($_POST['instagram_token'])) {
+        update_option('instagram_token', $_POST['instagram_token']);
+    }
+    if (isset($_POST['instagram_id'])) {
+        update_option('instagram_id', $_POST['instagram_id']);
+    }
+    if (isset($_POST['tiktok_token'])) {
+        update_option('tiktok_token', $_POST['tiktok_token']);
     }
     if (isset($_POST['trex_api_key_generate']) && $_POST['trex_api_key_generate'] === '1') {
         $new_key = trex_generate_api_key();

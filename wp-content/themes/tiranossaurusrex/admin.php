@@ -50,16 +50,72 @@
             <?php endif; ?>
         </div>
 
+        <div style="margin-top:25px;padding-top:20px;border-top:1px solid rgba(0,227,253,0.15);">
+            <h3 style="color:#00e3fd;font-size:0.95rem;margin-bottom:12px;">Redes Sociais — Compartilhamento Automático</h3>
+
+            <div class="form-group">
+                <label>Telegram — Bot Token</label>
+                <input type="text" name="telegram_bot_token" placeholder="123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" value="<?php echo htmlspecialchars(get_option('telegram_bot_token', '')); ?>">
+            </div>
+            <div class="form-group">
+                <label>Telegram — Chat ID (pode ser negativo para grupos)</label>
+                <input type="text" name="telegram_chat_id" placeholder="-1001234567890" value="<?php echo htmlspecialchars(get_option('telegram_chat_id', '')); ?>">
+            </div>
+
+            <div class="form-group">
+                <label>Facebook — Page Access Token</label>
+                <input type="text" name="facebook_page_token" placeholder="EAAx..." value="<?php echo htmlspecialchars(get_option('facebook_page_token', '')); ?>">
+            </div>
+
+            <div class="form-group">
+                <label>Instagram — Access Token</label>
+                <input type="text" name="instagram_token" placeholder="IGQVJ..." value="<?php echo htmlspecialchars(get_option('instagram_token', '')); ?>">
+            </div>
+            <div class="form-group">
+                <label>Instagram — Business/Creator ID</label>
+                <input type="text" name="instagram_id" placeholder="178414..." value="<?php echo htmlspecialchars(get_option('instagram_id', '')); ?>">
+            </div>
+
+            <div class="form-group">
+                <label>TikTok — Access Token</label>
+                <input type="text" name="tiktok_token" placeholder="ttb..." value="<?php echo htmlspecialchars(get_option('tiktok_token', '')); ?>">
+            </div>
+        </div>
+
         <button type="submit" class="btn-save">Salvar Configurações</button>
     </form>
+
+    <div style="margin-top:30px;padding-top:20px;border-top:1px solid rgba(0,227,253,0.15);">
+        <h3 style="color:#00e3fd;font-size:0.95rem;margin-bottom:12px;">API — Criar Post com Compartilhamento Automático</h3>
+        <div style="font-size:0.78rem;color:rgba(255,246,223,0.6);line-height:1.8;">
+            <p><strong style="color:#00e3fd;">POST /api/v1/posts</strong> — Cria post e compartilha nas redes automaticamente</p>
+            <pre style="background:rgba(0,0,0,0.3);padding:10px;border-radius:4px;font-size:0.7rem;color:#00e3fd;overflow-x:auto;">
+{
+  "title": "Título da notícia",
+  "content": "Conteúdo completo aqui...",
+  "categories": [1, 2],
+  "post_type": "article",
+  "youtube_url": "https://youtube.com/watch?v=...",
+  "audio_url": "https://...mp3",
+  "gallery": ["https://...foto1.jpg", "https://...foto2.jpg"],
+  "share": "auto"
+}
+            </pre>
+            <p><strong style="color:#00e3fd;">GET /api/v1/share/{id}</strong> — Disparar compartilhamento manual de um post existente</p>
+            <p><strong style="color:#00e3fd;">GET /api/v1/options</strong> — Verificar status das configurações de redes sociais</p>
+            <p><small style="color:rgba(255,246,223,0.3);">Após configurar os tokens acima, faça um POST /api/v1/posts com <code style="color:#00e3fd;">"share":"auto"</code> para testar.</small></p>
+        </div>
+    </div>
 
     <div style="margin-top:30px;padding-top:20px;border-top:1px solid rgba(0,227,253,0.15);">
         <h3 style="color:#00e3fd;font-size:0.95rem;margin-bottom:12px;">REST API — Documentação</h3>
         <div style="font-size:0.78rem;color:rgba(255,246,223,0.6);line-height:1.8;">
             <p><strong style="color:#00e3fd;">GET /api/v1/posts</strong> — Listar posts (paginação: ?page=1&amp;per_page=10)</p>
             <p><strong style="color:#00e3fd;">GET /api/v1/posts/{id}</strong> — Obter post por ID</p>
-            <p><strong style="color:#00e3fd;">POST /api/v1/posts</strong> — Criar post (Body JSON: title, content, categories[], featured_media)</p>
+            <p><strong style="color:#00e3fd;">POST /api/v1/posts</strong> — Criar post com compartilhamento automático</p>
             <p><strong style="color:#00e3fd;">DELETE /api/v1/posts/{id}</strong> — Remover post</p>
+            <p><strong style="color:#00e3fd;">GET /api/v1/share/{id}</strong> — Compartilhar post nas redes sociais</p>
+            <p><strong style="color:#00e3fd;">GET /api/v1/options</strong> — Verificar configurações das redes</p>
             <p><strong style="color:#00e3fd;">GET /api/v1/categories</strong> — Listar categorias</p>
         </div>
     </div>

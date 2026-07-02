@@ -8,6 +8,42 @@
     <link rel="profile" href="https://gmpg.org/xfn/11">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link href="https://fonts.googleapis.com/css2?family=Segoe+UI:wght@400;600;700&display=swap" rel="stylesheet">
+    <?php
+    global $post;
+    $og_title = 'Tiranossaurus Rex - O Blog mais perigoso do Brasil';
+    $og_description = 'Informação, política, economia e entretenimento sem filtros. O blog que a mídia não quer que você leia.';
+    $og_image = get_template_directory_uri() . '/images/Facebook_Capa_14_de_julho_de_2018.jpg';
+    $og_url = WP_HOME;
+    $og_type = 'website';
+
+    if (!empty($post) && !empty($post['id'])) {
+        $post_title = $post['title']['rendered'] ?? '';
+        $post_content = $post['content']['rendered'] ?? '';
+        $post_excerpt = strip_tags($post_content);
+        $post_excerpt = mb_strlen($post_excerpt) > 350 ? mb_substr($post_excerpt, 0, 347) . '...' : $post_excerpt;
+
+        if ($post_title) {
+            $og_title = $post_title;
+            $og_description = $post_excerpt ?: $og_description;
+            $og_type = 'article';
+            $og_url = get_permalink($post['id']);
+        }
+        if (!empty($post['featured_image_url'])) {
+            $og_image = $post['featured_image_url'];
+        }
+    }
+    ?>
+    <meta property="og:title" content="<?php echo htmlspecialchars($og_title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:description" content="<?php echo htmlspecialchars($og_description, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:image" content="<?php echo htmlspecialchars($og_image, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:url" content="<?php echo htmlspecialchars($og_url, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta property="og:type" content="<?php echo $og_type; ?>">
+    <meta property="og:site_name" content="Tiranossaurus Rex">
+    <meta property="og:locale" content="pt_BR">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="<?php echo htmlspecialchars($og_title, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:description" content="<?php echo htmlspecialchars($og_description, ENT_QUOTES, 'UTF-8'); ?>">
+    <meta name="twitter:image" content="<?php echo htmlspecialchars($og_image, ENT_QUOTES, 'UTF-8'); ?>">
     <?php wp_head(); ?>
     <style>
         <?php
