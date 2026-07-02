@@ -8,6 +8,41 @@ if (!defined('ABSPATH')) {
     define('ABSPATH', dirname(__FILE__) . '/');
 }
 
+// Load .env credentials
+function load_env() {
+    $env_file = ABSPATH . '.env';
+    if (!file_exists($env_file)) return;
+    $lines = file($env_file, FILE_IGNORE_NEW_LINES | FILE_SKIP_EMPTY_LINES);
+    foreach ($lines as $line) {
+        $line = trim($line);
+        if ($line === '' || strpos($line, '#') === 0) continue;
+        if (strpos($line, '=') === false) continue;
+        list($key, $value) = explode('=', $line, 2);
+        $key = trim($key);
+        $value = trim($value);
+        if (!defined($key)) {
+            define($key, $value);
+        }
+    }
+}
+load_env();
+
+function trex_get_credential($key) {
+    $map = [
+        'telegram_bot_token' => 'TELEGRAM_BOT_TOKEN',
+        'telegram_chat_id' => 'TELEGRAM_CHAT_ID',
+        'facebook_page_token' => 'FACEBOOK_PAGE_TOKEN',
+        'instagram_token' => 'INSTAGRAM_TOKEN',
+        'instagram_id' => 'INSTAGRAM_ID',
+        'tiktok_token' => 'TIKTOK_TOKEN',
+    ];
+    if (isset($map[$key]) && defined($map[$key])) {
+        $val = constant($map[$key]);
+        if ($val !== '') return $val;
+    }
+    return get_option($key, '');
+}
+
 // Simple WordPress configuration — auto-detect host
 $detected_host = 'localhost';
 $detected_port = '54549';
@@ -696,8 +731,8 @@ function trex_get_share_text($post) {
 }
 
 function trex_share_to_telegram($post) {
-    $token = get_option('telegram_bot_token', '');
-    $chat_id = get_option('telegram_chat_id', '');
+    $token = trex_get_credential('telegram_bot_token');
+    $chat_id = trex_get_credential('telegram_chat_id');
     if (!$token || !$chat_id) return ['success' => false, 'error' => 'Telegram not configured'];
 
     $info = trex_get_share_text($post);
@@ -744,7 +779,7 @@ function trex_share_to_telegram($post) {
 }
 
 function trex_share_to_facebook($post) {
-    $page_token = get_option('facebook_page_token', '');
+    $page_token = trex_get_credential('facebook_page_token');
     if (!$page_token) return ['success' => false, 'error' => 'Facebook not configured'];
 
     $info = trex_get_share_text($post);
@@ -771,8 +806,8 @@ function trex_share_to_facebook($post) {
 }
 
 function trex_share_to_instagram($post) {
-    $ig_token = get_option('instagram_token', '');
-    $ig_id = get_option('instagram_id', '');
+    $ig_token = trex_get_credential('instagram_token');
+    $ig_id = trex_get_credential('instagram_id');
     if (!$ig_token || !$ig_id) return ['success' => false, 'error' => 'Instagram not configured'];
 
     $info = trex_get_share_text($post);
@@ -822,7 +857,7 @@ function trex_share_to_instagram($post) {
 }
 
 function trex_share_to_tiktok($post) {
-    $tt_token = get_option('tiktok_token', '');
+    $tt_token = trex_get_credential('tiktok_token');
     if (!$tt_token) return ['success' => false, 'error' => 'TikTok not configured'];
 
     $info = trex_get_share_text($post);
@@ -968,12 +1003,12 @@ function trex_handle_rest_request() {
         if ($method === 'GET') {
             header('Content-Type: application/json');
             echo json_encode([
-                'telegram_bot_token' => get_option('telegram_bot_token', ''),
-                'telegram_chat_id' => get_option('telegram_chat_id', ''),
-                'facebook_page_token' => get_option('facebook_page_token', ''),
-                'instagram_token' => get_option('instagram_token', ''),
-                'instagram_id' => get_option('instagram_id', ''),
-                'tiktok_token' => get_option('tiktok_token', '')
+                'telegram_bot_token' => trex_get_credential('telegram_bot_token') ? '***configured***' : '',
+                'telegram_chat_id' => trex_get_credential('telegram_chat_id') ? '***configured***' : '',
+                'facebook_page_token' => trex_get_credential('facebook_page_token') ? '***configured***' : '',
+                'instagram_token' => trex_get_credential('instagram_token') ? '***configured***' : '',
+                'instagram_id' => trex_get_credential('instagram_id') ? '***configured***' : '',
+                'tiktok_token' => trex_get_credential('tiktok_token') ? '***configured***' : ''
             ]);
             exit;
         }
@@ -1002,7 +1037,7 @@ function trex_get_image_dimensions($url) {
 
 function trex_refresh_facebook_cache($url) {
     $api_url = 'https://graph.facebook.com/v19.0/?id=' . urlencode($url) . '&scrape=true';
-    $token = get_option('facebook_page_token', '');
+    $token = trex_get_credential('facebook_page_token');
     if ($token) {
         $api_url .= '&access_token=' . urlencode($token);
     }

@@ -52,9 +52,19 @@
 
         <div style="margin-top:25px;padding-top:20px;border-top:1px solid rgba(0,227,253,0.15);">
             <h3 style="color:#00e3fd;font-size:0.95rem;margin-bottom:12px;">Redes Sociais — Compartilhamento Automático</h3>
+            <p style="font-size:0.72rem;color:rgba(255,246,223,0.4);margin-bottom:12px;">
+                As credenciais são lidas do arquivo <code>.env</code> (prioritário) ou do banco de opções. 
+                Configure no <code>.env</code> para persistência entre deploys. Os campos abaixo são fallback.
+            </p>
+            <?php
+            $fb_env = defined('FACEBOOK_PAGE_TOKEN') && constant('FACEBOOK_PAGE_TOKEN') !== '';
+            $ig_env = defined('INSTAGRAM_TOKEN') && constant('INSTAGRAM_TOKEN') !== '';
+            $tt_env = defined('TIKTOK_TOKEN') && constant('TIKTOK_TOKEN') !== '';
+            $tg_env = defined('TELEGRAM_BOT_TOKEN') && constant('TELEGRAM_BOT_TOKEN') !== '';
+            ?>
 
             <div class="form-group">
-                <label>Telegram — Bot Token</label>
+                <label>Telegram — Bot Token <?php if ($tg_env) echo '<span style="color:#25D366;font-size:0.7rem;">✓ .env</span>'; ?></label>
                 <input type="text" name="telegram_bot_token" placeholder="123456:ABC-DEF1234ghIkl-zyx57W2v1u123ew11" value="<?php echo htmlspecialchars(get_option('telegram_bot_token', '')); ?>">
             </div>
             <div class="form-group">
@@ -63,12 +73,12 @@
             </div>
 
             <div class="form-group">
-                <label>Facebook — Page Access Token</label>
+                <label>Facebook — Page Access Token <?php if ($fb_env) echo '<span style="color:#25D366;font-size:0.7rem;">✓ .env</span>'; ?></label>
                 <input type="text" name="facebook_page_token" placeholder="EAAx..." value="<?php echo htmlspecialchars(get_option('facebook_page_token', '')); ?>">
             </div>
 
             <div class="form-group">
-                <label>Instagram — Access Token</label>
+                <label>Instagram — Access Token <?php if ($ig_env) echo '<span style="color:#25D366;font-size:0.7rem;">✓ .env</span>'; ?></label>
                 <input type="text" name="instagram_token" placeholder="IGQVJ..." value="<?php echo htmlspecialchars(get_option('instagram_token', '')); ?>">
             </div>
             <div class="form-group">
@@ -77,7 +87,7 @@
             </div>
 
             <div class="form-group">
-                <label>TikTok — Access Token</label>
+                <label>TikTok — Access Token <?php if ($tt_env) echo '<span style="color:#25D366;font-size:0.7rem;">✓ .env</span>'; ?></label>
                 <input type="text" name="tiktok_token" placeholder="ttb..." value="<?php echo htmlspecialchars(get_option('tiktok_token', '')); ?>">
             </div>
         </div>

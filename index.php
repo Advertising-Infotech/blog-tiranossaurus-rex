@@ -125,12 +125,12 @@ if (preg_match('#^/api/v1/#', $uri_path)) {
     if ($uri_path === '/api/v1/options' && $method === 'GET') {
         header('Content-Type: application/json');
         echo json_encode([
-            'telegram_bot_token' => get_option('telegram_bot_token', ''),
-            'telegram_chat_id' => get_option('telegram_chat_id', ''),
-            'facebook_page_token' => get_option('facebook_page_token', ''),
-            'instagram_token' => get_option('instagram_token', ''),
-            'instagram_id' => get_option('instagram_id', ''),
-            'tiktok_token' => get_option('tiktok_token', '')
+            'telegram_bot_token' => trex_get_credential('telegram_bot_token') ? '***configured***' : '',
+            'telegram_chat_id' => trex_get_credential('telegram_chat_id') ? '***configured***' : '',
+            'facebook_page_token' => trex_get_credential('facebook_page_token') ? '***configured***' : '',
+            'instagram_token' => trex_get_credential('instagram_token') ? '***configured***' : '',
+            'instagram_id' => trex_get_credential('instagram_id') ? '***configured***' : '',
+            'tiktok_token' => trex_get_credential('tiktok_token') ? '***configured***' : ''
         ]);
         ob_end_flush();
         exit;
